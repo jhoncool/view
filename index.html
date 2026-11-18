@@ -98,6 +98,7 @@ body{padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-ri
 .sheet-group .sheet-card{display:flex;flex-direction:column;justify-content:flex-start}
 .binding-layout .sheet-scroll{max-height:72svh}
 .scan-canvas{position:relative}.scan-canvas.measuring img{cursor:crosshair;user-select:none}.dialog-content .scan-canvas img{display:block;margin:6px 0 0;border:0}.scan-tools{display:flex;align-items:end;flex-wrap:wrap;gap:8px;font-size:12px}.scan-tools label{display:grid;gap:4px}.scan-tools [hidden]{display:none}.scan-tools select,.scan-tools input{margin:0;width:auto;font-size:12px}.scan-tools input{max-width:145px}.scan-tools output{flex-basis:100%}
+.ruler-overlay .scan-wall-guide{pointer-events:none;fill:none;stroke:#ab661d;stroke-width:1.7;stroke-dasharray:5 3}
 </style></head>
 <body>
 <header class="topbar"><a href="#model" class="brand" aria-label="Дом по слоям, главная"><span class="brand-icon"><svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><path d="M4 12 16 5l12 7-12 7zM4 18l12 7 12-7M4 24l12 7 12-7" fill="none" stroke="currentColor" stroke-width="1.7"/></svg></span><span><b>ДОМ ПО СЛОЯМ</b><small>62–47AFL / единая модель</small></span></a><div class="top-meta"><span class="dot"></span> Локальный проект <span class="divider">/</span> 18 ноября 2026</div><button data-print-foundation title="Скачать план фундамента для печати на А3">↓ Комплект Фм 1 · PDF</button><button id="export-data" class="quiet">↓ Данные</button></header>
@@ -140,10 +141,10 @@ class RulerHandles {
    el.onlostpointercapture=el.onpointercancel=()=>{pointer=null;el.classList.remove('moving');};
   }
  }
- draw(points){
+ draw(points,angleIndex=-1){
   const groups=this.svg.querySelectorAll('g'),line=this.svg.firstElementChild;
   groups.forEach((el,i)=>{const q=points[i];el.style.display=q?'':'none';
-   if(q){el.setAttribute('transform',`translate(${q[0]} ${q[1]})`);line.setAttribute('x'+(i+1),q[0]);line.setAttribute('y'+(i+1),q[1]);}});
+   if(q){el.querySelector('text').textContent=(i?'Б':'А')+(i===angleIndex?' · 90°':'');el.setAttribute('transform',`translate(${q[0]} ${q[1]})`);line.setAttribute('x'+(i+1),q[0]);line.setAttribute('y'+(i+1),q[1]);}});
   line.style.display=points[0]&&points[1]?'':'none';
  }
 }
@@ -151,8 +152,53 @@ function rulerFraction(x,y,a,b){
  const dx=b[0]-a[0],dy=b[1]-a[1],length=dx*dx+dy*dy;
  return length?Math.max(0,Math.min(1,((x-a[0])*dx+(y-a[1])*dy)/length)):0;
 }
+// Operate in model coordinates. Screen coordinates only decide which edge the
+// pointer indicates. A perpendicular to the extension of an edge is invalid.
+function rulerPerpendicular(anchor,a,b){
+ const direction=b.map((v,i)=>v-a[i]);
+ const length2=direction.reduce((sum,v)=>sum+v*v,0);
+ if(length2<1e-12)return null;
+ const t=direction.reduce((sum,v,i)=>sum+(anchor[i]-a[i])*v,0)/length2;
+ if(t<0||t>1)return null;
+ const foot=a.map((v,i)=>v+t*direction[i]);
+ return Math.hypot(...foot.map((v,i)=>v-anchor[i]))>1e-6?foot:null;
+}
+// The foundation model splits long straight walls at grid intersections.
+// Keep the original vertices for ordinary snapping, but use the continuous
+// portion of an axis-aligned edge as the support for a perpendicular.
+function rulerStraightRuns(edges){
+ const groups=new Map(),runs=new Map();
+ for(const edge of edges){
+  const [a,b]=edge,axes=a.map((v,i)=>v!==b[i]?i:-1).filter(i=>i>=0);
+  if(axes.length!==1)continue;
+  const axis=axes[0],key=axis+':'+a.filter((_,i)=>i!==axis).join(',');
+  if(!groups.has(key))groups.set(key,{axis,intervals:[]});
+  groups.get(key).intervals.push(a[axis]<b[axis]?{lo:a,hi:b,edge}:{lo:b,hi:a,edge});
+ }
+ for(const {axis,intervals} of groups.values()){
+  intervals.sort((a,b)=>a.lo[axis]-b.lo[axis]);
+  for(let i=0;i<intervals.length;){
+   const start=i++,lo=intervals[start].lo;let hi=intervals[start].hi;
+   while(i<intervals.length&&intervals[i].lo[axis]<=hi[axis]){
+    if(intervals[i].hi[axis]>hi[axis])hi=intervals[i].hi;
+    i++;
+   }
+   if(i-start>1){const run=[lo,hi];for(let j=start;j<i;j++)runs.set(intervals[j].edge,run);}
+  }
+ }
+ return runs;
+}
+function rulerAngleIndex(points){
+ if(points.length!==2)return -1;
+ return points.findIndex((point,i)=>{
+  if(!point.perpendicularEdge)return false;
+  const foot=rulerPerpendicular(points[1-i].p,...point.perpendicularEdge);
+  return foot&&Math.hypot(...foot.map((v,k)=>v-point.p[k]))<1e-5;
+ });
+}
+const rulerAutoPerpendicularPx=16;
 function rulerControls(){
- return '<button type="button" class="ruler-toggle" aria-pressed="false">Линейка</button><select hidden class="ruler-mode" aria-label="Режим линейки"><option value="free">Свободная</option><option value="snap">Привязка к краям</option></select><button type="button" class="ruler-reset" hidden>Сбросить</button><output hidden aria-live="polite"></output>';
+ return '<button type="button" class="ruler-toggle" aria-pressed="false">Линейка</button><select hidden class="ruler-mode" aria-label="Режим линейки"><option value="free">Свободная</option><option value="snap">Привязка к краям</option><option value="perpendicular">Перпендикуляр к краю · 90°</option></select><button type="button" class="ruler-reset" hidden>Сбросить</button><output hidden aria-live="polite"></output>';
 }
 class SceneRuler {
  constructor(g){
@@ -162,13 +208,22 @@ class SceneRuler {
   this.handles=new RulerHandles(host,(i,e)=>this.pick(e.clientX,e.clientY,i));host.append(this.panel);
   this.button=this.panel.querySelector('.ruler-toggle');this.mode=this.panel.querySelector('select');this.reset=this.panel.querySelector('.ruler-reset');this.output=this.panel.querySelector('output');
   this.button.onclick=()=>this.enable(!this.active);this.reset.onclick=()=>this.enable(true);
+  this.mode.onchange=()=>{
+   if(this.mode.value==='perpendicular'&&this.points.length===2&&rulerAngleIndex(this.points)<0){
+    const b=this.points.pop(),[x,y]=g.project(b.p,b.layer.actualOffset);
+    if(this.available(b.layer)&&Number.isFinite(x+y)){
+     const hit=this.hit(x,y,this.points[0]);if(hit)this.points.push(hit);
+    }
+   }
+   this.describe();this.draw();
+  };
   this.enable(false);
  }
  enable(active){
   this.active=active;this.points=[];this.button.setAttribute('aria-pressed',String(active));
   this.output.hidden=this.reset.hidden=this.mode.hidden=!active;
   this.g.canvas.parentElement.classList.toggle('measuring',active);
-  this.output.textContent='Укажите точки А и Б. Концы отрезка можно перетаскивать.';
+  this.describe();
   this.draw();
  }
  dispose(){this.panel.remove();this.handles.svg.remove();}
@@ -226,7 +281,7 @@ class SceneRuler {
    }
    for(const {a,b,boundary} of shared.values())if(boundary)segments.push([a,b]);
   }
-  layer.featureSegments=segments;return segments;
+  layer.featureSegments=segments;layer.rulerRuns=null;return segments;
  }
  candidate(x,y,layer,a,b,snap){
   const g=this.g,clip=g.clipZ;
@@ -243,48 +298,89 @@ class SceneRuler {
    const f=g.walkBasis().forward,dist=end=>end.reduce((sum,v,i)=>sum+(v+(off?.[i]||0)*1000-g.walk.position[i])*f[i],0);
    const da=dist(a),db=dist(b);t=t*da/((1-t)*db+t*da);
   }
-  return {layer,p:a.map((v,i)=>v+t*(b[i]-v)),kind,miss,depth,sx,sy};
+  return {layer,p:a.map((v,i)=>v+t*(b[i]-v)),kind,miss,depth,sx,sy,edge:[a,b],edgePixels:Math.hypot(p[0]-q[0],p[1]-q[1])};
  }
- hit(x,y){
-  const g=this.g,face=this.surface(x,y),snap=this.mode.value==='snap',candidates=[];
+ visibleHit(hit){
+  const cover=this.surface(hit.sx,hit.sy);
+  return !cover||cover.layer.opacity<.3||hit.depth<=this.g.project(cover.p,cover.layer.actualOffset)[2]+1e-5;
+ }
+ hit(x,y,anchor){
+  const g=this.g,face=this.surface(x,y),snap=this.mode.value!=='free',strict=this.mode.value==='perpendicular'&&anchor,candidates=[];
   const layers=new Set();
   if(snap){
    if(face)layers.add(face.layer);
    for(const [dx,dy] of [[-8,0],[8,0],[0,-8],[0,8]]){const nearby=this.surface(x+dx,y+dy);if(nearby)layers.add(nearby.layer);}
-   for(const layer of layers)for(const [a,b] of this.segments(layer)){
-    const candidate=this.candidate(x,y,layer,a,b,true);if(candidate)candidates.push(candidate);
+   for(const layer of layers)for(const edge of this.segments(layer)){
+    const candidate=this.candidate(x,y,layer,...edge,true);
+    if(candidate){
+     if(anchor){layer.rulerRuns??=rulerStraightRuns(layer.featureSegments);candidate.edge=layer.rulerRuns.get(edge)||candidate.edge;}
+     candidates.push(candidate);
+    }
    }
   }
   for(const {a,b,layer:id} of g.hitSegments){
    const layer=g.layers.get(id);if(!this.available(layer))continue;
    const candidate=this.candidate(x,y,layer,a,b,snap);if(candidate)candidates.push(candidate);
   }
-  candidates.sort((a,b)=>Number(b.kind==='вершина')-Number(a.kind==='вершина')||a.miss-b.miss||a.depth-b.depth);
-  for(const candidate of candidates){
-   const cover=this.surface(candidate.sx,candidate.sy);
-   if(!cover||cover.layer.opacity<.3||candidate.depth<=g.project(cover.p,cover.layer.actualOffset)[2]+1e-5)return candidate;
+  // Top and bottom edges in the plan view can project a fraction of a pixel
+  // apart. Resolve these screen-space ties in favour of the visible front edge.
+  const pixelBand=distance=>Math.round(distance*2);
+  candidates.sort((a,b)=>Number(b.kind==='вершина')-Number(a.kind==='вершина')||pixelBand(a.miss)-pixelBand(b.miss)||a.depth-b.depth||a.miss-b.miss);
+  if(anchor&&snap){
+   const projected=[];
+   for(const hit of candidates){
+    if(hit.edgePixels<1)continue;
+    const foot=rulerPerpendicular(anchor.p,...hit.edge);
+    if(!foot||foot[2]>g.clipZ+.002)continue;
+    const [sx,sy,depth]=g.project(foot,hit.layer.actualOffset),distance=Math.hypot(sx-x,sy-y);
+    if(!Number.isFinite(distance)||!strict&&distance>rulerAutoPerpendicularPx)continue;
+    projected.push({hit,foot,sx,sy,depth,distance});
+   }
+   // At a corner several edges share the same pointer hit. Prefer the foot
+   // nearest to the indicated position and test visibility at both locations.
+   projected.sort((a,b)=>pixelBand(a.hit.miss)-pixelBand(b.hit.miss)||pixelBand(a.distance)-pixelBand(b.distance)||a.depth-b.depth||a.distance-b.distance);
+   for(const p of projected){
+    const result={layer:p.hit.layer,p:p.foot,kind:'край',perpendicularEdge:p.hit.edge,sx:p.sx,sy:p.sy,depth:p.depth};
+    if(this.visibleHit(p.hit)&&this.visibleHit(result))return result;
+   }
+   if(strict)return null;
   }
+  for(const candidate of candidates)if(this.visibleHit(candidate))return candidate;
   if(face)face.kind='поверхность';
   return face;
  }
  pick(clientX,clientY,index){
   if(!this.active||index===undefined&&this.points.length===2)return;
-  const box=this.g.canvas.getBoundingClientRect(),hit=this.hit(clientX-box.left,clientY-box.top);
-  if(!hit){if(index===undefined)this.output.textContent='Укажите видимую поверхность или стержень.';return;}
-  this.points[index??this.points.length]=hit;
-  if(this.points.length===1)this.output.textContent=`А · ${hit.kind}. Укажите точку Б.`;
+  const i=index??this.points.length,other=this.points[1-i],box=this.g.canvas.getBoundingClientRect();
+  const slide=this.mode.value!=='free'&&rulerAngleIndex(this.points)===1-i;
+  const hit=this.hit(clientX-box.left,clientY-box.top,slide?null:other);
+  if(!hit){if(this.mode.value==='perpendicular'&&other)this.output.textContent='Укажите край, на который попадает перпендикуляр.';else if(index===undefined)this.output.textContent='Укажите видимую поверхность или стержень.';return;}
+  if(slide){
+   const p=rulerPerpendicular(hit.p,...other.perpendicularEdge);
+   if(p&&this.available(other.layer)&&p[2]<=this.g.clipZ+.002){
+    const [sx,sy,depth]=this.g.project(p,other.layer.actualOffset);
+    if(Number.isFinite(sx+sy)&&this.visibleHit({sx,sy,depth})){other.p=p;}
+    else if(this.mode.value==='perpendicular')return;
+   }else if(this.mode.value==='perpendicular')return;
+  }
+  this.points[i]=hit;this.describe();this.draw();
+ }
+ describe(){
+  const strict=this.mode.value==='perpendicular';
+  if(!this.points.length)this.output.textContent=strict?'Укажите точку А, затем край стены.':'Укажите точки А и Б. Концы отрезка можно перетаскивать.';
+  else if(this.points.length===1)this.output.textContent=`А · ${this.points[0].kind}. ${strict?'Выберите край для перпендикуляра.':'Укажите точку Б.'}`;
   else{
    const [a,b]=this.points,delta=b.p.map((v,i)=>v-a.p[i]),format=v=>Math.round(v).toLocaleString('ru-RU');
-   this.output.textContent=`По модели ≈ ${format(Math.hypot(...delta))} мм · в плане ${format(Math.hypot(...delta.slice(0,2)))} мм · ${delta.map((v,i)=>'Δ'+'XYZ'[i]+' '+format(v)).join(' / ')} мм · А: ${a.kind}, Б: ${b.kind}`;
+   const angle=rulerAngleIndex(this.points);
+   this.output.textContent=`По модели ≈ ${format(Math.hypot(...delta))} мм${angle>=0?' · 90°':''} · в плане ${format(Math.hypot(...delta.slice(0,2)))} мм · ${delta.map((v,i)=>'Δ'+'XYZ'[i]+' '+format(v)).join(' / ')} мм · А: ${a.kind}, Б: ${b.kind}`;
   }
-  this.draw();
  }
  available(l){const g=this.g;return l?.visible&&l.opacity>.001&&(!l.dependsOn||g.layers.get(l.dependsOn)?.visible&&g.layers.get(l.dependsOn).opacity>.001);}
  draw(){
   this.handles.draw(this.points.map(({layer,p})=>{
    if(!this.available(layer)||p[2]>this.g.clipZ+.002)return null;
    const q=this.g.project(p,layer.actualOffset);return Number.isFinite(q[0])?q:null;
-  }));
+  }),rulerAngleIndex(this.points));
  }
 }
 
@@ -317,6 +413,7 @@ class SheetRuler {
   }else this.segments.push(...MODEL.foundation.plinth.boundary_edges_mm.map(edge=>edge.map(p=>p.map(Number))));
   this.bounds=key==='house_2:10'?[11800,2450,15200,16200]:[-800,-950,15400,16500];
   if(key==='house_2:10')this.segments=this.segments.filter(([a,b])=>a[0]>=11800&&b[0]>=11800);
+  this.runs=rulerStraightRuns(this.segments);
   const left=(width-1600)/2;
   const regions={'house_1:4':[280,55,990,970],'house_1:6':[200,130,1100,920],'house_2:7':[102,67,855,825],'house_2:10':[900,105,615,690],'embeds:1':[96,85,863,820]};
   const [x,y,w,h]=regions[key];this.crop=[left+x,58+y,w,h];this.full=full;
@@ -331,7 +428,13 @@ class SheetRuler {
   this.level=1;this.plus=bar.querySelector('.zoom-plus');this.minus=bar.querySelector('.zoom-minus');this.plus.onclick=()=>this.magnify(1.5);this.minus.onclick=()=>this.magnify(1/1.5);
   this.zoom=bar.querySelector('.sheet-zoom');this.zoom.onclick=()=>this.frame(!this.cropped);
   this.toggle.onclick=()=>this.enable(!this.active);this.reset.onclick=()=>{this.points=[];this.refresh();};
-  this.mode.onchange=()=>this.refresh();
+  this.mode.onchange=()=>{
+   if(this.mode.value==='perpendicular'&&this.points.length===2&&rulerAngleIndex(this.points)<0){
+    const [clientX,clientY]=this.screen(this.points.pop().p);
+    this.pick({clientX,clientY},1);
+   }
+   this.refresh();
+  };
   this.svg.onpointerdown=e=>{this.down=[e.clientX,e.clientY];};
   this.svg.onpointercancel=()=>{this.down=null;};
   this.svg.onpointerup=e=>{if(this.active&&this.down&&Math.hypot(e.clientX-this.down[0],e.clientY-this.down[1])<5&&this.points.length<2)this.pick(e,this.points.length);this.down=null;};
@@ -360,31 +463,53 @@ class SheetRuler {
   const pixel=new DOMPoint(e.clientX,e.clientY).matrixTransform(this.svg.getScreenCTM().inverse()).matrixTransform(this.inverse);
   const [x,y,u,v]=this.bounds;if(pixel.x<x||pixel.x>u||pixel.y<y||pixel.y>v){this.out.textContent='Укажите точку внутри области плана.';return;}
   let point={p:[pixel.x,pixel.y],kind:'свободно'};
-  if(this.mode.value==='snap'){
-   let best=null;
+  const other=this.points[1-index];
+  if(this.mode.value!=='free'){
+   const slide=rulerAngleIndex(this.points)===1-index;
+   const anchor=slide?null:other,strict=this.mode.value==='perpendicular'&&anchor;
+   let best=null,normal=null;
    const consider=(p,kind,rank,radius,site)=>{
     const q=this.screen(p),dist=Math.hypot(e.clientX-q[0],e.clientY-q[1]);
     if(dist<=radius&&(!best||rank<best.rank||rank===best.rank&&dist<best.dist))best={p,kind,rank,dist,site};
    };
    for(const site of this.sites)consider([+site.x_mm,+site.y_mm],site.label,0,11,site);
-   for(const [a,b] of this.segments){
+   for(const edge of this.segments){
+    const [a,b]=edge;
     consider(a,'вершина',1,7);consider(b,'вершина',1,7);
     const t=rulerFraction(e.clientX,e.clientY,this.screen(a),this.screen(b));
-    consider(a.map((n,i)=>n+t*(b[i]-n)),'край',2,11);
+    const near=a.map((n,i)=>n+t*(b[i]-n));
+    consider(near,'край',2,11);
+    if(!anchor)continue;
+    const q=this.screen(near),miss=Math.hypot(q[0]-e.clientX,q[1]-e.clientY);
+    if(miss>11)continue;
+    const support=this.runs.get(edge)||edge,foot=rulerPerpendicular(anchor.p,...support);
+    if(!foot)continue;
+    const f=this.screen(foot),distance=Math.hypot(f[0]-e.clientX,f[1]-e.clientY);
+    if(!strict&&distance>rulerAutoPerpendicularPx)continue;
+    if(!normal||miss<normal.miss||miss===normal.miss&&distance<normal.distance)
+     normal={p:foot,kind:'край',perpendicularEdge:support,miss,distance};
    }
-   if(best)point=best;
+   if(strict&&!normal){this.out.textContent='Укажите край, на который попадает перпендикуляр.';return;}
+   if(normal&&(strict||!best?.site))point=normal;
+   else if(best)point=best;
+   if(slide){
+    const foot=rulerPerpendicular(point.p,...other.perpendicularEdge);
+    if(foot)other.p=foot;
+    else if(this.mode.value==='perpendicular')return;
+   }
   }
   this.points[index]=point;this.refresh();
  }
  refresh(){
   const [a,b]=this.points;
-  this.out.textContent=a&&b?`А–Б ≈ ${fmt(Math.hypot(...a.p.map((n,i)=>n-b.p[i])),0)} мм · А: ${a.kind}, Б: ${b.kind}`:a?'Укажите точку Б.':'Укажите точки А и Б на плане.';
+  const strict=this.mode.value==='perpendicular',angle=rulerAngleIndex(this.points);
+  this.out.textContent=a&&b?`А–Б ≈ ${fmt(Math.hypot(...a.p.map((n,i)=>n-b.p[i])),0)} мм${angle>=0?' · 90°':''} · А: ${a.kind}, Б: ${b.kind}`:a?(strict?'Выберите край для перпендикуляра.':'Укажите точку Б.'):(strict?'Укажите точку А, затем край стены.':'Укажите точки А и Б на плане.');
   this.draw();if(this.onChange)this.onChange(this.points);
  }
  draw(){
   if(!this.handles)return;
   const box=this.host.getBoundingClientRect();
-  this.handles.draw(this.active?this.points.map(({p})=>{const [x,y]=this.screen(p);return [x-box.left,y-box.top];}):[]);
+  this.handles.draw(this.active?this.points.map(({p})=>{const [x,y]=this.screen(p);return [x-box.left,y-box.top];}):[],rulerAngleIndex(this.points));
  }
  markSites(){
   const group=this.svg.querySelector('.plan-sites');
@@ -399,18 +524,22 @@ class SheetRuler {
 // calibrates on a printed dimension within the view they intend to measure.
 class ScanRuler {
  constructor(host,bar,img){
-  this.host=host;this.img=img;this.bar=bar;this.points=[];this.scale=0;this.closed=false;
+  this.host=host;this.img=img;this.bar=bar;this.points=[];this.scale=0;this.closed=false;this.wall=[];
   host.classList.add('measuring');
   this.handles=new RulerHandles(host,(i,e)=>this.pick(i,e));this.handles.draw([]);
-  bar.innerHTML='<label>Режим <select class="scan-mode"><option value="free">Свободная</option><option value="snap">Привязка к штрихам</option></select></label><label class="scan-length">Подписанный размер, мм <input type="number" min="0.001" step="any" inputmode="decimal"></label><button class="scan-apply" disabled>Применить масштаб</button><button class="scan-reset">Сбросить точки</button><button class="scan-calibrate" hidden>Задать масштаб заново</button><output aria-live="polite"></output>';
+  this.guide=document.createElementNS('http://www.w3.org/2000/svg','path');this.guide.setAttribute('class','scan-wall-guide');this.handles.svg.append(this.guide);
+  bar.innerHTML='<label>Режим <select class="scan-mode"><option value="free">Свободная</option><option value="snap">Привязка к штрихам</option><option disabled value="perpendicular">Перпендикуляр к стене · 90°</option></select></label><label class="scan-length">Подписанный размер, мм <input type="number" min="0.001" step="any" inputmode="decimal"></label><button class="scan-apply" disabled>Применить масштаб</button><button class="scan-reset">Сбросить точки</button><button class="scan-wall-reset" hidden>Выбрать другую стену</button><button class="scan-calibrate" hidden>Задать масштаб заново</button><output aria-live="polite"></output>';
   this.mode=bar.querySelector('select');this.input=bar.querySelector('input');this.out=bar.querySelector('output');this.apply=bar.querySelector('.scan-apply');
   const calibrate=bar.querySelector('.scan-calibrate');
+  const normal=this.mode.querySelector('[value=perpendicular]'),wallReset=bar.querySelector('.scan-wall-reset');
+  this.mode.onchange=()=>{if(this.wall.length||this.mode.value==='perpendicular')this.points=[];this.wall=[];wallReset.hidden=this.mode.value!=='perpendicular';this.refresh();};
+  wallReset.onclick=()=>{this.wall=[];this.points=[];this.refresh();};
   this.apply.onclick=()=>{
    const size=this.input.valueAsNumber,ref=this.distance();
    if(!(size>0&&Number.isFinite(size)&&ref>0))return;
-   this.scale=size/ref;this.points=[];this.input.closest('label').hidden=this.apply.hidden=true;calibrate.hidden=false;this.refresh();
+   this.scale=size/ref;normal.disabled=false;this.points=[];this.input.closest('label').hidden=this.apply.hidden=true;calibrate.hidden=false;this.refresh();
   };
-  calibrate.onclick=()=>{this.scale=0;this.points=[];this.input.value='';this.input.closest('label').hidden=this.apply.hidden=false;calibrate.hidden=true;this.refresh();};
+  calibrate.onclick=()=>{this.mode.value='free';normal.disabled=true;this.wall=[];wallReset.hidden=true;this.scale=0;this.points=[];this.input.value='';this.input.closest('label').hidden=this.apply.hidden=false;calibrate.hidden=true;this.refresh();};
   bar.querySelector('.scan-reset').onclick=()=>{this.points=[];this.refresh();};
   this.input.oninput=()=>this.refresh();
   img.onpointerdown=e=>{this.down=[e.clientX,e.clientY];};
@@ -437,16 +566,37 @@ class ScanRuler {
     const d=(px-ox)**2+(py-oy)**2;if(d<best&&this.ink[(py*w+px)*4]<135){best=d;x=px;y=py;}
    }
   }
-  this.points[i]=[x,y];this.refresh();
+  if(this.mode.value==='perpendicular'){
+   if(this.wall.length<2){
+    if(!this.wall.length||Math.hypot(x-this.wall[0][0],y-this.wall[0][1])>=5*factor)this.wall.push([x,y]);
+   }else if(i===0){
+    const foot=rulerPerpendicular([x,y],...this.wall);
+    if(!foot){this.out.textContent='Перпендикуляр выходит за выбранный участок стены.';return;}
+    this.points=[[x,y],foot];
+   }else{
+    const [a,b]=this.wall,t=rulerFraction(x,y,a,b),foot=a.map((v,k)=>v+t*(b[k]-v));
+    const shifted=this.points[0].map((v,k)=>v+foot[k]-this.points[1][k]);
+    if(shifted[0]<0||shifted[0]>img.naturalWidth||shifted[1]<0||shifted[1]>img.naturalHeight)return;
+    this.points=[shifted,foot];
+   }
+  }else this.points[i]=[x,y];
+  this.refresh();
  }
  draw(){
   const img=this.img,box=this.host.getBoundingClientRect(),r=img.getBoundingClientRect(),factor=r.width/img.naturalWidth;
-  this.handles.draw(this.points.map(([x,y])=>[r.left-box.left+x*factor,r.top-box.top+y*factor]));
+  const screen=([x,y])=>[r.left-box.left+x*factor,r.top-box.top+y*factor];
+  const wall=this.wall.map(screen),marks=wall.map(([x,y])=>`M${x-4} ${y}h8 M${x} ${y-4}v8`).join(' ');
+  this.guide.setAttribute('d',marks+(wall.length===2?` M${wall[0]} L${wall[1]}`:''));
+  this.handles.draw(this.points.map(screen),wall.length===2?1:-1);
  }
  refresh(){
   this.apply.disabled=!(this.input.valueAsNumber>0&&this.distance()>0);
   const measured=this.distance()*this.scale;
   this.out.textContent=this.scale?(this.points.length===2?`А–Б ≈ ${fmt(measured,0)} мм по скану. Концы можно перетаскивать.`:'Укажите две точки в той же проекции.'):'Укажите оба конца известного размера и введите число с листа.';
+  if(this.mode.value==='perpendicular'){
+   const steps=['Отметьте начало прямого участка стены.','Отметьте конец этого участка.','Укажите точку А, от которой измерять до стены.'];
+   this.out.textContent=this.points.length===2?`А–Б ≈ ${fmt(measured,0)} мм по скану · 90°. Точка Б сдвигает мерку вдоль стены.`:steps[this.wall.length];
+  }
   this.draw();
  }
 }
