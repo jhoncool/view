@@ -71,7 +71,17 @@ body{padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-ri
 .ruler-overlay text{font:bold 14px sans-serif;fill:#164e43;stroke:white;stroke-width:3;paint-order:stroke}
 .viewport.measuring canvas{cursor:crosshair}
 .viewport.measuring .world-label{pointer-events:none}
-.viewport.is-walking .ruler-panel{bottom:95px}
+/* Walk controls occupy the lower left. Keep both ruler states in the
+   right-hand column, just above the door interaction button. */
+.viewport.is-walking .ruler-panel{left:auto;right:max(14px,env(safe-area-inset-right));bottom:calc(max(35px,env(safe-area-inset-bottom)) + 56px);max-width:min(211px,calc(100% - 180px));display:grid;grid-template-columns:auto auto;justify-content:end;gap:3px}
+.viewport.is-walking .ruler-panel .ruler-toggle{grid-column:1;grid-row:1}
+.viewport.is-walking .ruler-panel .ruler-reset{grid-column:2;grid-row:1}
+.viewport.is-walking .ruler-panel select,.viewport.is-walking .ruler-panel output{grid-column:1/-1;justify-self:stretch;min-width:0}
+.viewport.is-walking .ruler-panel button,.viewport.is-walking .ruler-panel select{min-height:34px;padding:4px 8px}
+.viewport.is-walking .ruler-panel output{line-height:1.25;padding:4px 6px}
+.viewport.is-walking.measuring .walk-look-hint{display:none}
+@media(pointer:coarse){.viewport.is-walking .ruler-panel button,.viewport.is-walking .ruler-panel select{min-height:44px}}
+@media(max-height:550px) and (orientation:landscape){.viewport.is-walking .ruler-panel{bottom:calc(max(20px,env(safe-area-inset-bottom)) + 54px)}}
 .block-note{display:block;color:var(--muted)}
 #foundation-study{display:flex;gap:5px;flex-wrap:wrap;margin:0 0 9px}#foundation-study[hidden]{display:none}
 #foundation-study button{padding:5px 10px;font-size:12px}#foundation-study [aria-pressed=true]{background:#315947;color:white}
@@ -379,11 +389,20 @@ class SceneRuler {
  }
  describe(){
   const strict=this.mode.value==='perpendicular';
+  this.output.removeAttribute('title');
+  if(this.g.walk&&this.points.length<2){
+   this.output.textContent=this.points.length?(strict?'Выберите край стены':'Укажите точку Б'):'Укажите точку А';
+   return;
+  }
   if(!this.points.length)this.output.textContent=strict?'Укажите точку А, затем край стены.':'Укажите точки А и Б. Концы отрезка можно перетаскивать.';
   else if(this.points.length===1)this.output.textContent=`А · ${this.points[0].kind}. ${strict?'Выберите край для перпендикуляра.':'Укажите точку Б.'}`;
   else{
    const [a,b]=this.points,delta=b.p.map((v,i)=>v-a.p[i]),format=v=>Math.round(v).toLocaleString('ru-RU');
    const angle=rulerAngleIndex(this.points);
+   if(this.g.walk){
+    this.output.textContent=`≈ ${format(Math.hypot(...delta))} мм${angle>=0?' · 90°':''} · в плане ${format(Math.hypot(...delta.slice(0,2)))} мм`;
+    this.output.title=delta.map((v,i)=>'Δ'+'XYZ'[i]+' '+format(v)+' мм').join(' / ');return;
+   }
    this.output.textContent=`По модели ≈ ${format(Math.hypot(...delta))} мм${angle>=0?' · 90°':''} · в плане ${format(Math.hypot(...delta.slice(0,2)))} мм · ${delta.map((v,i)=>'Δ'+'XYZ'[i]+' '+format(v)).join(' / ')} мм · А: ${a.kind}, Б: ${b.kind}`;
   }
  }
@@ -634,10 +653,10 @@ class HouseGL {
   if(!this.gl)throw new Error('WebGL недоступен. Откройте страницу в браузере с включённым аппаратным ускорением.');
   const gl=this.gl;
   const vs=`attribute vec3 position;attribute vec3 normal;uniform mat4 vp;uniform vec3 offset;varying vec3 n;varying float h;void main(){vec3 p=position+offset;n=normal;h=position.z;gl_Position=vp*vec4(p,1.0);}`;
-  const fs=`precision highp float;varying vec3 n;varying float h;uniform vec4 color;uniform float clipZ;uniform float lit;void main(){if(h>clipZ)discard;vec3 nn=normalize(n);float light=mix(1.0,0.60+0.28*abs(dot(nn,normalize(vec3(-0.3,-0.6,1.0))))+0.12*abs(nn.z),lit);gl_FragColor=vec4(color.rgb*light,color.a);}`;
+  const fs=`precision highp float;varying vec3 n;varying float h;uniform vec4 color;uniform vec3 undersideColor;uniform float clipZ;uniform float lit;void main(){if(h>clipZ)discard;vec3 nn=normalize(n);float light=mix(1.0,0.60+0.28*abs(dot(nn,normalize(vec3(-0.3,-0.6,1.0))))+0.12*abs(nn.z),lit);vec3 material=nn.z< -0.01?undersideColor:color.rgb;gl_FragColor=vec4(material*light,color.a);}`;
   const shader=(type,src)=>{const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s;};
   this.program=gl.createProgram();gl.attachShader(this.program,shader(gl.VERTEX_SHADER,vs));gl.attachShader(this.program,shader(gl.FRAGMENT_SHADER,fs));gl.linkProgram(this.program);if(!gl.getProgramParameter(this.program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(this.program));gl.useProgram(this.program);
-  this.u={};for(const name of ['vp','offset','color','clipZ','lit'])this.u[name]=gl.getUniformLocation(this.program,name);
+  this.u={};for(const name of ['vp','offset','color','undersideColor','clipZ','lit'])this.u[name]=gl.getUniformLocation(this.program,name);
   this.a={position:gl.getAttribLocation(this.program,'position'),normal:gl.getAttribLocation(this.program,'normal')};
   gl.enable(gl.DEPTH_TEST);gl.depthFunc(gl.LEQUAL);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.clearColor(.941,.949,.925,1);
   this.yaw=-.66;this.pitch=.82;this.span=23500;this.target=[6800,7600,400];this.pan=[0,0];this.clipZ=Infinity;this.explode=0;this.frameCount=0;this.lastFrames=[];this.visibleLabels=true;this.pending=false;this.contextLost=false;this.walk=null;this.keys=new Set();
@@ -692,7 +711,7 @@ class HouseGL {
  project(p,offset=[0,0,0]){const m=this.vp,q=p.map((x,i)=>x/1000+(offset[i]||0));const cw=m[3]*q[0]+m[7]*q[1]+m[11]*q[2]+m[15];if(cw<=0)return [Infinity,Infinity,Infinity];return [((m[0]*q[0]+m[4]*q[1]+m[8]*q[2]+m[12])/cw+1)*this.canvas.clientWidth/2,(1-(m[1]*q[0]+m[5]*q[1]+m[9]*q[2]+m[13])/cw)*this.canvas.clientHeight/2,(m[2]*q[0]+m[6]*q[1]+m[10]*q[2]+m[14])/cw];}
  draw(){if(this.contextLost)return;this.stepWalk();const start=performance.now(),gl=this.gl,c=this.canvas,dpr=Math.min(window.devicePixelRatio||1,2),w=Math.max(1,Math.round(c.clientWidth*dpr)),h=Math.max(1,Math.round(c.clientHeight*dpr));if(c.width!==w||c.height!==h){c.width=w;c.height=h;}gl.viewport(0,0,w,h);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(this.program);this.vp=this.matrix();gl.uniformMatrix4fv(this.u.vp,false,this.vp);gl.uniform1f(this.u.clipZ,Number.isFinite(this.clipZ)?this.clipZ/1000:1000);let calls=0,triangles=0;
   const bind=b=>{gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.enableVertexAttribArray(this.a.position);gl.vertexAttribPointer(this.a.position,3,gl.FLOAT,false,24,0);gl.enableVertexAttribArray(this.a.normal);gl.vertexAttribPointer(this.a.normal,3,gl.FLOAT,false,24,12);};
-  const layers=[...this.layers.values()].filter(l=>l.visible&&l.opacity>.001&&(!l.dependsOn||(this.layers.get(l.dependsOn)?.visible&&this.layers.get(l.dependsOn)?.opacity>.001)));const drawLayer=(l,edges=false)=>{const b=edges?l.edgesBuffer:l.buffer;if(!b)return;bind(b);if(l.depthPriority){gl.enable(gl.POLYGON_OFFSET_FILL);gl.polygonOffset(0,-l.depthPriority);}else if(l.depthBias){gl.enable(gl.POLYGON_OFFSET_FILL);const bias=typeof l.depthBias==='number'?l.depthBias:1;gl.polygonOffset(-bias,-bias);}else gl.disable(gl.POLYGON_OFFSET_FILL);const offset=l.offset.map((v,i)=>v/1000+(i===2?(l.explodeOrder||0)*this.explode/1000:0));l.actualOffset=offset;gl.uniform3fv(this.u.offset,offset);let rgb=l.color;gl.uniform4fv(this.u.color,[...(edges?rgb.map(x=>x*.6):rgb),edges?Math.min(l.edgeAlpha??.55,l.opacity):l.opacity]);gl.uniform1f(this.u.lit,edges?0:1);gl.drawArrays(edges?gl.LINES:gl.TRIANGLES,0,edges?l.edgeCount:l.count);calls++;if(!edges)triangles+=l.count/3;};
+  const layers=[...this.layers.values()].filter(l=>l.visible&&l.opacity>.001&&(!l.dependsOn||(this.layers.get(l.dependsOn)?.visible&&this.layers.get(l.dependsOn)?.opacity>.001)));const drawLayer=(l,edges=false)=>{const b=edges?l.edgesBuffer:l.buffer;if(!b)return;bind(b);if(l.depthPriority){gl.enable(gl.POLYGON_OFFSET_FILL);gl.polygonOffset(0,-l.depthPriority);}else if(l.depthBias){gl.enable(gl.POLYGON_OFFSET_FILL);const bias=typeof l.depthBias==='number'?l.depthBias:1;gl.polygonOffset(-bias,-bias);}else gl.disable(gl.POLYGON_OFFSET_FILL);const offset=l.offset.map((v,i)=>v/1000+(i===2?(l.explodeOrder||0)*this.explode/1000:0));l.actualOffset=offset;gl.uniform3fv(this.u.offset,offset);const rgb=edges?l.color.map(x=>x*.6):l.color;gl.uniform3fv(this.u.undersideColor,(!edges&&l.undersideColor)||rgb);gl.uniform4fv(this.u.color,[...rgb,edges?Math.min(l.edgeAlpha??.55,l.opacity):l.opacity]);gl.uniform1f(this.u.lit,edges?0:1);gl.drawArrays(edges?gl.LINES:gl.TRIANGLES,0,edges?l.edgeCount:l.count);calls++;if(!edges)triangles+=l.count/3;};
   gl.depthMask(true);for(const l of layers.filter(l=>l.opacity>=.999))drawLayer(l);
   gl.depthMask(false);const transparent=layers.filter(l=>l.opacity<.999).sort((a,b)=>(a.order||0)-(b.order||0));for(const l of transparent)drawLayer(l);
   for(const l of layers)if(l.showEdges!==false)drawLayer(l,true);gl.depthMask(true);
@@ -1082,13 +1101,16 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-roof-detai
  * its vertical closure is never a bow-tie polygon or an overlapping fan. */
 function splitRoofReturn(p){
  const [a,b,c,d]=p,da=a[2]-d[2],db=b[2]-c[2];
- const interval=(aa,bb,cc,dd)=>aa[2]>=dd[2]?[aa,bb,cc,dd]:[dd,cc,bb,aa];
- if(da*db<-1e-10){const t=da/(da-db),q=a.map((v,i)=>v+(b[i]-v)*t);return [interval(a,q,q,d),interval(q,b,c,q)];}
+ // At a valley tip the endpoints coincide. Use the open end to determine
+ // which edge is above, independent of rounding or vertex order.
+ const interval=(aa,bb,cc,dd)=>aa[2]-dd[2]+bb[2]-cc[2]>=0?[aa,bb,cc,dd]:[dd,cc,bb,aa];
+ if(Math.min(da,db)<-1e-6&&Math.max(da,db)>1e-6){const t=da/(da-db),q=a.map((v,i)=>v+(b[i]-v)*t);return [interval(a,q,q,d),interval(q,b,c,q)];}
  return [interval(a,b,c,d)];
 }
 'use strict';
 function drawDimensionedRoof(g,l,visible){
  const model=MODEL.roof_geometry,returns=addLayer(g,'roofReturns',{visible:false,opacity:.3,order:16,explodeOrder:4,depthBias:2,showEdges:false});
+ l.undersideColor=[.82,.74,.61]; // Exposed OSB under the roof covering.
  const below=(p,drop)=>[p[0],p[1],p[2]-drop];
  const skin=(polygon,plane,id)=>{
   const [a,b]=plane,drop=roofDeckDrop(plane);
@@ -1413,7 +1435,7 @@ function frameDisplaySolids(member){
 }
 function emitFrameMember(g,l,m){for(const solid of frameDisplaySolids(m))for(const face of solid.faces){g.face(l,face,null,'frame-member:'+m.id);g.polyline(l,face,true);}}
 function drawWindowFrameScenario(g,visible){
- const layer=g.addLayer('frame-window-headers',[.79,.56,.30],{visible,order:17,explodeOrder:4});LAYER_META['frame-window-headers']=['Обрамления окон · условный вариант',layer.color];g.frameWindowScenario=[];
+ const layer=g.addLayer('frame-window-headers',[.79,.56,.30],{visible,showEdges:mode!=='house',order:17,explodeOrder:4});LAYER_META['frame-window-headers']=['Обрамления окон · условный вариант',layer.color];g.frameWindowScenario=[];
  for(const s of roofWindowSpecs()){
   const raw=[-s.cell.plane[0],-s.cell.plane[1],1],normal=raw.map(v=>v/Math.hypot(...raw)),halfW=s.width/2+17.5,halfH=s.height/2+17.5,point=(u,v)=>s.centre.map((q,i)=>q+s.u[i]*u+s.v[i]*v-normal[i]*187);
   for(const side of [-1,1]){
@@ -1425,9 +1447,14 @@ function drawWindowFrameScenario(g,visible){
 }
 function frameFamilyWanted(family){if(roofFrameState.family!=='all')return roofFrameState.family===family;if(family==='counter')return roofFrameState.counter;if(family==='battens')return roofFrameState.battens;return true;}
 function drawGlobalRoofFrame(g,visible){
- const layers={};for(const [family,m]of Object.entries(ROOF_FRAME_STYLE))layers[family]=g.addLayer('frame-'+family,m.color,{visible:visible&&frameFamilyWanted(family),order:16,explodeOrder:4});
+ const house=mode==='house',overhead=['rafters','diagonals','purlins','ties','mauerlat'];
+ const layers={};
+ for(const [family,m] of Object.entries(ROOF_FRAME_STYLE)){
+  const shown=house?overhead.includes(family):visible&&frameFamilyWanted(family);
+  layers[family]=g.addLayer('frame-'+family,m.color,{visible:shown,showEdges:!house,order:16,explodeOrder:4});
+ }
  for(const m of MODEL.roof_frame.members)emitFrameMember(g,layers[m.family],m);
- drawWindowFrameScenario(g,visible);
+ drawWindowFrameScenario(g,visible||house);
  const checks=g.addLayer('frame-checks',[.82,.41,.16],{visible,order:18,explodeOrder:4});
  for(const p of MODEL.roof_frame.contact_checks){const point=MODEL.roof_geometry.points.find(n=>n.id===p.roof_point_id),top=roofFrameState.paired==='vertical_stack_hypothesis'?p.purlin_top_stacked_mm:p.purlin_top_side_by_side_mm;g.line(checks,[+point.x_mm,+point.y_mm,top],[+point.x_mm,+point.y_mm,p.rafter_lower_reference_mm],'frame:checks');}
  for(const m of MODEL.roof_frame.members.filter(m=>m.family==='unresolved'||['13','15','16','19','20'].includes(m.position))){const p=m.a_mm.map((v,i)=>(v+m.b_mm[i])/2);for(const k of [0,1]){const a=[...p],b=[...p];a[k]-=180;b[k]+=180;g.line(checks,a,b,'frame-member:'+m.id);}}
@@ -1933,7 +1960,18 @@ function drawFacade(g){
   }
  }
  for(const e of MODEL.roof_geometry.edges.filter(e=>e.kind==='eave'))drawEaveMoulding(g,trim,e);
- for(const step of MODEL.roof_geometry.height_steps)for(const [a,b] of splitRoofReturn(step.polygon_mm))if(step.max_height_difference_mm>100&&(Math.abs(a[0]-b[0])<.001||Math.abs(a[1]-b[1])<.001))drawEaveMoulding(g,trim,{a_mm:a,b_mm:b});
+ for(const step of MODEL.roof_geometry.height_steps){
+  if(step.max_height_difference_mm<=100)continue;
+  for(const [a,b,lowB,lowA] of splitRoofReturn(step.polygon_mm)){
+   if(Math.abs(a[0]-b[0])>.001&&Math.abs(a[1]-b[1])>.001)continue;
+   const middle=a.map((v,i)=>(v+b[i])/2);
+   const lower=MODEL.roof_geometry.cells.find(cell=>
+    [lowA,lowB].every(p=>Math.abs(HouseShapes.z(cell.plane,p)-p[2])<.001)&&
+    cell.polygon_mm.some((v,i)=>{const w=cell.polygon_mm[(i+1)%cell.polygon_mm.length],t=rulerFraction(...middle.slice(0,2),v,w);
+     return Math.hypot(v[0]+t*(w[0]-v[0])-middle[0],v[1]+t*(w[1]-v[1])-middle[1])<.001;}));
+   if(lower)drawEaveMoulding(g,trim,{a_mm:a,b_mm:b},lower.plane);
+  }
+ }
  expInfo(g,'decor:eaves',{title:'Карнизы и фронтонные молдинги',facts:['roof.osb.thickness','decor.Д-6.profile_height'],note:'Карниз показан под нижней гранью настила своего ската. Положение и сечение свеса схематичны.',sheets:[['house_1',19],['house_2',24]]});
 }
 
@@ -1975,7 +2013,7 @@ function addExperience(g){
  expInfo(g,'polyethylene',{title:'Армированный полиэтилен',note:'Между щебнем5–10 и В10. Толщина в источнике не назначена; показана плоскость.',sheets:[['house_2',8]]});
  if(architectural){drawWallJunctions(g);drawRoomZones(g);drawOpenings(g);drawDoorThresholds(g);drawRoofWindows(g);drawFacade(g);drawVents(g);drawSanitaryFixtures(g);}
  if(mode==='services3d')drawSanitaryFixtures(g);
- drawServiceRoutes(g,foundation&&experience.showPipes);
+ drawServiceRoutes(g,foundation||(architectural&&experience.showPipes));
  if(mode==='house')g.labels=[];
  if(['roof','frame'].includes(mode))drawRoofWindows(g);
  if(mode==='foundation-stack'){
@@ -2026,7 +2064,7 @@ function drawServiceRoutes(g,visible){const config=MODEL.experience.service_scen
  route(water,'pipe:water',wp,16,'В1 · ввод воды'+(experience.waterCorner?' · угол Е':' · исходная точка'),source.input_fact_ids,`Ø32 из ВК-1. ${experience.waterCorner?'Перенос: X(1)+250; Y(Е)−250 — решение владельца от 18.11.2026.':'XY по исходному листу.'} Источник слева сверху. Z−1700 и наружная трасса условны. I008: Ø63/65/32 сохранены отдельно.`);
  g.tube(sleeves,[...xy,-850],[...xy,-450],50,12,'sleeve:water');expInfo(g,'sleeve:water',{title:'Гильза В1 · Ø100',facts:source.input_fact_ids,note:'Длина400 мм условна. Местный узел с Ø100×4 — КЖ-2; это не согласование I008.'});
  drawIndoorPlumbing(g,visible,xy,route);
- g.labels=g.labels.filter(l=>l.kind!=='service-route');if(visible){for(const [text,p,id,layer]of [['К1 → септик · спереди справа',[...septic.slice(0,2),lid+100],'septic','septic3d'],['В1 ← вода слева сверху',start,'pipe:water','water3d'],[experience.waterCorner?'В1 · перенос к Е':'В1 · исходная точка',[...xy,100],'pipe:water','water3d']])g.labels.push({text,p,id,layer,kind:'service-route'});}
+ g.labels=g.labels.filter(l=>l.kind!=='service-route');if(visible&&['foundation','foundation-stack','services3d'].includes(mode)){for(const [text,p,id,layer]of [['К1 → септик · спереди справа',[...septic.slice(0,2),lid+100],'septic','septic3d'],['В1 ← вода слева сверху',start,'pipe:water','water3d'],[experience.waterCorner?'В1 · перенос к Е':'В1 · исходная точка',[...xy,100],'pipe:water','water3d']])g.labels.push({text,p,id,layer,kind:'service-route'});}
 }
 function indexSceneObjects(g){const objects=new Map();for(const hit of g.hitTargets.concat(g.roomZoneOutlines||[])){if(hit.layer==='selection'||hit.layer==='dimensions')continue;let o=objects.get(hit.id);if(!o){o={id:hit.id,layer:hit.layer,bounds:[Infinity,Infinity,Infinity,-Infinity,-Infinity,-Infinity],faces:[]};objects.set(hit.id,o);}o.faces.push(hit);for(const p of hit.points)for(let i=0;i<3;i++){o.bounds[i]=Math.min(o.bounds[i],p[i]);o.bounds[i+3]=Math.max(o.bounds[i+3],p[i]);}}
  for(const o of objects.values()){const id=o.id;let info=g.objectInfo.get(id);if(!info){let wall;if(id.startsWith('wall:'))wall=MODEL.floor1.walls.find(w=>w.id===id.slice(5));if(id.startsWith('upperwall:'))wall=MODEL.floor2.walls.find(w=>w.id===id.slice(10));if(wall)info={title:wall.label,facts:wall.input_fact_ids,note:(['bearing3','boiler'].includes(wall.id)?'Верх под маршами/площадкой условно обрезан по вычисленной нижней плоскости лестницы. Эта сопрягающая оболочка не меняет исходный прямоугольный объём стен/таблицу блоков; I019 остаётся открытым. ':'')+(wall.note||'Границы derived из размерного графа. Мансардный верх — сценарий оболочки.')};else if(id.startsWith('roofcell:')){const cell=MODEL.roof_geometry.cells.find(c=>c.id===id.slice(9));info={title:cell?.label||id,note:'Плоскость по АР-8. Размеры рамки объекта вычислены по вершинам; это не длина стропила.',sheets:[['house_1',9]]};}else info={title:LAYER_META[o.layer]?.[0]||id,note:'Габарит выбранной геометрии вычислен в локальных осях X/Y/Z; фактические размеры изделия смотреть в источнике.'};}Object.assign(o,info);o.facts=(o.facts||[]).filter(i=>FACTS.has(i));}g.sceneObjects=objects;}
@@ -2042,7 +2080,7 @@ function drawCombinedCourses(g){const courses=ensureCombinedCourses();for(const 
 function renderExperienceTools(){const mount=$('experience-tools');if(!mount||!renderer)return;syncSceneControls();mount.hidden=!EXPERIENCE_MODES.includes(mode);if(mount.hidden)return;const walk=!!renderer.walk,objects=[...(renderer.sceneObjects?.values()||[])].filter(o=>renderer.layers.get(o.layer)?.visible);mount.innerHTML=`<div class="experience-actions"><button id="start-tour" class="${walk?'active':''}">${walk?'Выйти из румтура':'Румтур · войти в дом'}</button><button id="object-mode" class="${experience.objectMode?'active':''}">Выбор объекта ${experience.objectMode?'включён':''}</button><label><input type="checkbox" id="show-3d-dimensions" ${experience.dimensions?'checked':''}> Размеры в 3D</label><label><input type="checkbox" id="room-labels" ${experience.roomLabels&&mode!=='house'?'checked':''}> Названия комнат</label></div>
  ${walk?`<div class="tour-navigation"><button id="tour-previous">←</button><label>Помещение<select id="tour-room">${tourOptions()}</select></label><button id="tour-next">→</button><button id="tour-interact">Открыть / закрыть рядом · E</button><p>Удерживайте стрелки на сцене — идти, тяните по сцене — смотреть. С клавиатуры: WASD / стрелки, Shift — быстрее, Esc — выйти. Двери открываются нажатием. Высота глаз1.65 м; лестничная отделка20 мм — сценарий.</p></div>`:''}
  ${experience.objectMode?`<label>Найти элемент<select id="scene-object-list"><option value="">Выберите или нажмите на модель</option>${objects.slice(0,900).map(o=>`<option value="${esc(o.id)}" ${o.id===experience.selected?'selected':''}>${esc(o.title)}</option>`).join('')}</select></label>`:''}
- ${['house','floor1','floor2'].includes(mode)?'<div class="buttons-row"><button id="open-all">Открыть все створки</button><button id="close-all">Закрыть все створки</button><button id="toggle-house-pipes">Показать / скрыть трубы</button></div>':''}
+ ${['house','floor1','floor2'].includes(mode)?'<div class="buttons-row"><button id="open-all">Открыть все створки</button><button id="close-all">Закрыть все створки</button><button id="toggle-house-pipes">Трубы</button></div>':''}
  ${mode==='services3d'?plumbingControls():''}
  ${['foundation','foundation-stack','services3d'].includes(mode)?foundationStackHTML():''}
  ${['foundation','foundation-stack','services3d','house'].includes(mode)?`<div class="service-scenario-controls"><label>Ввод В1<select id="water-placement"><option value="corner-E" ${experience.waterCorner?'selected':''}>Принято · у оси Е</option><option value="source" ${!experience.waterCorner?'selected':''}>Исходная точка ВК-1</option></select></label><label>Глубина оси выпуска, мм · сценарий<input id="sewer-depth" type="number" min="900" max="4000" step="1" value="${experience.sewerDepth}"></label><label>Уклон К1, % · сценарий<input id="sewer-slope" type="number" min="0" max="10" step="0.1" value="${experience.sewerSlope}"></label><p class="tiny muted">Синим показана холодная вода, красным — горячая. Коричневые трубы соединяют сливы приборов с К1. На ВК-1 обозначены проходы через фундамент. Разводка внутри дома и водонагреватель показаны как вариант. <span id="sewer-depth-note">При этом уклоне отводы проходят под гильзами при глубине выпуска от ${fmt(renderer.minimumSewerDepth)} мм.</span> <button data-sheet="embeds:1">Сверить схему ↗</button></p></div>`:''}
@@ -2051,7 +2089,15 @@ function renderExperienceTools(){const mount=$('experience-tools');if(!mount||!r
  mount.querySelectorAll('[data-room-inspect]').forEach(b=>b.onclick=()=>selectSceneObject('room:'+b.dataset.roomInspect));
  $('start-tour').onclick=()=>walk?exitTour():startTour();$('object-mode').onclick=()=>{experience.objectMode=!experience.objectMode;renderExperienceTools();};$('show-3d-dimensions').onchange=e=>{experience.dimensions=e.target.checked;drawDimensions(renderer,true);};$('room-labels').onchange=e=>{experience.roomLabels=e.target.checked;if(mode==='house'&&e.target.checked){buildScene('floor1');}else rebuildExperience();};$('scene-object-list')?.addEventListener('change',e=>{if(e.target.value)selectSceneObject(e.target.value);});
  for(const [id,open]of [['open-all',true],['close-all',false]])$(id)?.addEventListener('click',()=>{for(const s of renderer.openings||[])if(s.openable){if(open)experience.open.add(s.id);else experience.open.delete(s.id);}redrawLeaves(renderer);});
- $('toggle-house-pipes')?.addEventListener('click',()=>{const visible=!renderer.layers.get('sewer3d').visible;for(const id of servicePipeLayers)renderer.layers.get(id).visible=visible;renderer.request();renderLayerControls();});
+ const pipes=$('toggle-house-pipes');
+ if(pipes){
+  syncHousePipeButton();
+  pipes.onclick=()=>{
+   experience.showPipes=!servicePipeLayers.some(id=>renderer.layers.get(id)?.visible);
+   for(const id of servicePipeLayers)renderer.layers.get(id).visible=experience.showPipes;
+   renderer.request();renderLayerControls();syncHousePipeButton();
+  };
+ }
  $('water-placement')?.addEventListener('change',e=>{experience.waterCorner=e.target.value==='corner-E';refreshServiceGeometry();});
  for(const id of ['sewer-depth','sewer-slope'])$(id)?.addEventListener('change',e=>{if(!e.target.validity.valid||!e.target.value)return;experience[id==='sewer-depth'?'sewerDepth':'sewerSlope']=+e.target.value;refreshServiceGeometry();$('sewer-depth').value=experience.sewerDepth;$('sewer-depth-note').textContent='При этом уклоне отводы проходят под гильзами при глубине выпуска от '+fmt(renderer.minimumSewerDepth)+' мм.';});
  mount.querySelectorAll('[data-stack-step]').forEach(b=>b.onclick=()=>{experience.section=+b.dataset.stackStep;applyFoundationStack();});$('stack-show-all')?.addEventListener('click',()=>{experience.section=8;applyFoundationStack();});
@@ -2059,6 +2105,10 @@ function renderExperienceTools(){const mount=$('experience-tools');if(!mount||!r
  $('tour-room')?.addEventListener('change',e=>startTour(e.target.value));for(const [id,delta]of [['tour-previous',-1],['tour-next',1]])$(id)?.addEventListener('click',()=>{const rooms=tourStops(),i=rooms.findIndex(r=>r.id===experience.tourRoom);startTour(rooms[(i+delta+rooms.length)%rooms.length].id);});$('tour-interact')?.addEventListener('click',interactNearby);
 
  for(const id of ['combined-floor','combined-display','combined-row'])$(id)?.addEventListener(id==='combined-row'?'input':'change',e=>{experience[id==='combined-floor'?'scope':id==='combined-display'?'courseDisplay':'row']=id==='combined-row'?+e.target.value:e.target.value;rebuildExperience();});
+}
+function syncHousePipeButton(){
+ const button=$('toggle-house-pipes');
+ if(button)button.textContent=servicePipeLayers.some(id=>renderer.layers.get(id)?.visible)?'Скрыть трубы':'Показать трубы';
 }
 function refreshServiceGeometry(){
  const g=renderer,marker=g.layers.get('services');
@@ -2289,7 +2339,7 @@ function architecturalPriorities(g){
  // Equal-depth materials get a deterministic result, including at grazing
  // tour angles. Spaced depth units cover float32 rounding of coincident roof
  // caps; the slope factor stays zero to avoid pulling steep faces forwards.
- const order=['groundTextile','gravel20','gravel5','polyethylene','blinding','membrane','slab','beams','walls1','walls2','floor1Frame','upperFrame','wallJunctions','slab2','floor1Lintels','floor1Brick','stairsLower','stairsUpper','stairLanding','stairBrick','stairFinish','roomFloors','doorThresholds','fixtures1','fixtures2','fixtureCabinet1','fixtureCabinet2','fixtureMetal1','fixtureMetal2','vents','ventCaps','facade','mouldings','roofCheeks','roofReturns','roof','openingFrames1','openingFrames2','openingLeaves1','openingLeaves2','roofWindowFrames','roofWindowLeaves'];
+ const order=['groundTextile','gravel20','gravel5','polyethylene','blinding','membrane','slab','beams','frame-mauerlat','frame-purlins','frame-ties','frame-rafters','frame-diagonals','frame-window-headers','walls1','walls2','floor1Frame','upperFrame','wallJunctions','slab2','floor1Lintels','floor1Brick','stairsLower','stairsUpper','stairLanding','stairBrick','stairFinish','roomFloors','doorThresholds','fixtures1','fixtures2','fixtureCabinet1','fixtureCabinet2','fixtureMetal1','fixtureMetal2','vents','ventCaps','facade','mouldings','roofCheeks','roofReturns','roof','openingFrames1','openingFrames2','openingLeaves1','openingLeaves2','roofWindowFrames','roofWindowLeaves'];
  for(const [i,id]of order.entries())if(g.layers.has(id))g.layers.get(id).depthPriority=(i+1)*16;
 }
 function clipDisplaySolid(faces,plane){
@@ -2300,13 +2350,14 @@ function clipDisplaySolid(faces,plane){
  if(cuts.length>=3){const centre=[0,1,2].map(i=>cuts.reduce((s,p)=>s+p[i],0)/cuts.length),n=plane.slice(0,3).map(v=>-v),len=Math.hypot(...n);for(let i=0;i<3;i++)n[i]/=len;const u=cuts[0].map((v,i)=>v-centre[i]),ul=Math.hypot(...u);for(let i=0;i<3;i++)u[i]/=ul;const v=[n[1]*u[2]-n[2]*u[1],n[2]*u[0]-n[0]*u[2],n[0]*u[1]-n[1]*u[0]],dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0),angle=p=>{const q=p.map((v,i)=>v-centre[i]);return Math.atan2(dot(q,v),dot(q,u));};out.push(cuts.sort((a,b)=>angle(a)-angle(b)));}
  return out;
 }
-function drawEaveMoulding(g,layer,edge){
+function drawEaveMoulding(g,layer,edge,lowerPlane){
  const a=edge.a_mm,b=edge.b_mm,d=b.map((v,i)=>v-a[i]),length=Math.hypot(...d);if(length<1e-6)return;for(let i=0;i<3;i++)d[i]/=length;let u=[-d[1],d[0],0];const ul=Math.hypot(...u);u=u.map(v=>v/ul);const v=[d[1]*u[2]-d[2]*u[1],d[2]*u[0]-d[0]*u[2],d[0]*u[1]-d[1]*u[0]],points=[];
  for(const end of [a,b])for(const [su,sv]of [[-1,-1],[1,-1],[1,1],[-1,1]])points.push(end.map((q,i)=>q+u[i]*su*60+v[i]*sv*75));
  const indices=[[0,3,2,1],[4,5,6,7],[0,1,5,4],[1,2,6,5],[2,3,7,6],[3,0,4,7]];
  for(const cell of MODEL.roof_geometry.cells){if([a,b].some(p=>Math.abs(HouseShapes.z(cell.plane,p)-p[2])>.001))continue;
   const down=roofDeckDrop(cell.plane)+Math.max(0,...points.map(p=>p[2]-HouseShapes.z(cell.plane,p))),shifted=points.map(p=>[p[0],p[1],p[2]-down]);let faces=indices.map(ids=>ids.map(i=>shifted[i]));const foot=cell.polygon_mm,orientation=foot.reduce((s,a,i)=>{const b=foot[(i+1)%foot.length];return s+a[0]*b[1]-b[0]*a[1];},0)>0?1:-1;
   for(let i=0;i<foot.length&&faces.length;i++){const a=foot[i],b=foot[(i+1)%foot.length],dx=b[0]-a[0],dy=b[1]-a[1];faces=clipDisplaySolid(faces,[-dy*orientation,dx*orientation,0,(dy*a[0]-dx*a[1])*orientation]);}
+  if(lowerPlane){const [sx,sy,z]=lowerPlane;faces=clipDisplaySolid(faces,[-sx,-sy,1,-z]);}
   for(const face of faces)g.face(layer,face,null,'decor:eaves');
  }
 }
@@ -2555,14 +2606,14 @@ const sceneSheets={
 function buildScene(newMode){if(!renderer)return;if(location.hash==='#entry-valley'&&renderer.layers.has('entryValley'))history.replaceState(null,'','#model');experience.savedVisibility=null;renderer.visibleLabels=true;mode=newMode;renderer.clear();renderer.explode=0;renderer.clipZ=Infinity;$('explode').value=0;$('explode-value').textContent='0 мм';$('cut').value=11000;$('cut-value').textContent='выкл.';
  if(['foundation','house','floor1','floor2','roof','rebar','stairs','frame','services3d','foundation-stack','masonry3d'].includes(mode))overview(renderer);else if(mode==='lap')lap(renderer);else section(renderer,mode);if(mode==='roof'){for(const l of renderer.layers.values())l.visible=['roof','roofCheeks','roofWindowFrames','roofWindowLeaves','roofWindowGlass'].includes(l.id);renderer.labels=renderer.labels.filter(l=>l.layer==='roof');}renderer.commit();renderer.home(['house','foundation','floor1','floor2','roof','rebar','stairs','frame','services3d','foundation-stack','masonry3d'].includes(mode)?mode:'detail');
 
- if(mode==='floor2'){for(const l of renderer.layers.values())l.visible=['walls2','upperFrame','guides','slab2','stairsLower','stairsUpper','stairLanding','stairBrick','roomFloors','doorThresholds','openingFrames2','openingLeaves2','glass2','fixtures2','fixtureMetal2','fixtureWater2','fixtureCabinet2'].includes(l.id);renderer.labels=renderer.labels.filter(l=>l.kind==='room');}
+ if(mode==='floor2'){for(const l of renderer.layers.values())if(!servicePipeLayers.includes(l.id))l.visible=['walls2','upperFrame','guides','slab2','stairsLower','stairsUpper','stairLanding','stairBrick','roomFloors','doorThresholds','openingFrames2','openingLeaves2','glass2','fixtures2','fixtureMetal2','fixtureWater2','fixtureCabinet2'].includes(l.id);renderer.labels=renderer.labels.filter(l=>l.kind==='room');}
  if(mode==='frame'){for(const l of renderer.layers.values())l.visible=['roof','frame-selected','frame-checks','roofWindowFrames','roofWindowLeaves','roofWindowGlass','frame-window-headers'].includes(l.id)||(l.id.startsWith('frame-')&&frameFamilyWanted(l.id.slice(6)));renderer.layers.get('roof').opacity=.10;renderer.labels=[];renderer.home('frame');}
  if(mode==='stairs'){for(const l of renderer.layers.values())l.visible=['slab2','stairsLower','stairsUpper','stairLanding','stairBrick','stairChecks','guides'].includes(l.id)||(l.id==='stairFinish'&&stairState.showFinish);renderer.labels=renderer.labels.filter(l=>['stairLanding','slab2'].includes(l.layer));}
  if(mode==='roof'){renderer.target=[6500,7800,5500];renderer.span=22500*renderer.fitAspect();renderer.request();}
  if(mode==='rebar'){for(const l of renderer.layers.values())l.visible=['guides','slab','beams','rebarChecks','rebarSelected',...Object.values(REBAR_LAYER_IDS).filter(id=>foundationRebarState.family==='all'||id===REBAR_LAYER_IDS[foundationRebarState.family])].includes(l.id);renderer.layers.get('slab').opacity=.12;renderer.layers.get('beams').opacity=.12;renderer.request();}
  const [k,title,status,notice]=descriptions[mode];$('scene-kicker').textContent=k;$('scene-title').textContent=title;$('scene-status').textContent=status;$('scene-status').className='status '+(['house','foundation','floor1','floor2','roof','rebar','stairs','frame','services3d','foundation-stack','masonry3d'].includes(mode)?'amber':'green');$('scene-notice').innerHTML=esc(notice)+' '+sceneSheets[mode].map(([source,page,edition])=>sheetBtn(source,page,null,edition)).join('')+(['house','roof'].includes(mode)?' <button data-entry-valley>Примыкание над входом в 3D</button>':'');document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));foundationStudyTools();renderLayerControls();renderRebarTools();renderStairTools();renderRoofFrameTools();renderExperienceTools();$('explode').value=renderer.explode;$('explode-value').textContent=renderer.explode+' мм';if(mode==='frame')renderRoofFrameInspector();else if(mode==='rebar')renderRebarInspector();else inspect(mode==='stairs'?'stairsLower':mode==='floor2'?'walls2':mode==='roof'?'roof':mode==='floor1'?'walls1':['house','foundation'].includes(mode)?'slab':mode==='lap'?'lap':mode==='services3d'?'services':mode==='masonry3d'?'courseFull':mode==='section-field'?'slab':mode==='section-edge'?'edgesteel':'beams');}
 function renderLayerControls(){if(!renderer)return;$('layers').innerHTML=[...renderer.layers.values()].filter(l=>LAYER_META[l.id]).map(l=>`<div class="layer"><label class="layer-label"><input data-layer-visible="${l.id}" type="checkbox" ${l.visible?'checked':''}><span class="layer-swatch" style="background:rgb(${l.color.map(v=>v*255).join(',')})"></span>${LAYER_META[l.id][0]}<button data-layer-info="${l.id}" aria-label="Сведения о слое ${esc(LAYER_META[l.id][0])}">ⓘ</button></label><input aria-label="Непрозрачность ${esc(LAYER_META[l.id][0])}" title="Непрозрачность" data-layer-opacity="${l.id}" type="range" min="0" max="100" value="${Math.round(l.opacity*100)}"></div>`).join('');}
-$('layers').addEventListener('input',e=>{const v=e.target.dataset.layerVisible,o=e.target.dataset.layerOpacity;if(v)renderer.layers.get(v).visible=e.target.checked;if(o)renderer.layers.get(o).opacity=+e.target.value/100;renderer.request();});$('layers').addEventListener('click',e=>{const b=e.target.closest('[data-layer-info]');if(b){e.preventDefault();inspect(b.dataset.layerInfo);}});
+$('layers').addEventListener('input',e=>{const v=e.target.dataset.layerVisible,o=e.target.dataset.layerOpacity;if(v){renderer.layers.get(v).visible=e.target.checked;if(servicePipeLayers.includes(v))syncHousePipeButton();}if(o)renderer.layers.get(o).opacity=+e.target.value/100;renderer.request();});$('layers').addEventListener('click',e=>{const b=e.target.closest('[data-layer-info]');if(b){e.preventDefault();inspect(b.dataset.layerInfo);}});
 function inspect(id){
  const layerInfo=foundationLayers.find(([key])=>key===id);
  if(layerInfo&&mode==='foundation-stack'){const [key,title,size,purpose,z]=layerInfo;$('inspector').innerHTML=`<div class="eyebrow">СЛОЙ ${foundationLayers.indexOf(layerInfo)+1} ИЗ 8</div><h3>${title}</h3><p>${purpose}.</p><div class="formula">${size}<br>${z}</div>${sheetBtn('house_2',8,'Сечение КЖ-3')}`;return;}
