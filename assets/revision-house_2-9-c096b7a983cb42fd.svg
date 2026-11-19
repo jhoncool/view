@@ -1,0 +1,363 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1350 954.6429" data-source-pdf="дом-2 A3.pdf" data-source-page="9" data-source-sha256="e8639d00b1b2a862bf58c810c3158b170445cd161224c78af929f22ccc099556" data-project-sheet="КЖ-4" data-edition="revision">
+  <title>КЖ-4 · Фм 1: спецификация и ведомость расхода стали</title>
+  <rect width="100%" height="100%" fill="white" />
+  <g transform="translate(0 0) scale(0.8182)">
+    <g data-source-region="КЖ-4 · рамка и обозначение">
+      <path d="M89 23 L1602 23 L1602 1123 L89 1123 Z" stroke="#000000" fill="none" stroke-width="1.25" />
+      <text transform="translate(1575 1040) rotate(0) scale(0.76 1)" x="-209.2783" y="0" font-size="19" font-family="Arial, Liberation Sans, sans-serif" textLength="209.2783" lengthAdjust="spacingAndGlyphs">62-47AFL*-КЖ   ·   КЖ-4</text>
+      <text transform="translate(1575 1070) rotate(0) scale(0.76 1)" x="-367.6816" y="0" font-size="18" font-family="Arial, Liberation Sans, sans-serif" textLength="367.6816" lengthAdjust="spacingAndGlyphs">Фундамент Фм 1. Ведомость расхода стали</text>
+      <text transform="translate(1575 1100) rotate(0) scale(0.76 1)" x="-638.6133" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="638.6133" lengthAdjust="spacingAndGlyphs">Индивидуальный жилой дом. Конструкции железобетонные индивидуального жилого дома</text>
+    </g>
+    <g data-source-region="Спецификация арматурных изделий и материалов · левая таблица">
+      <text transform="translate(483.5 62) rotate(0) scale(0.76 1)" x="-190.1367" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="380.2734" lengthAdjust="spacingAndGlyphs">Спецификация арматурных изделий и материалов</text>
+      <path d="M130 72 L130 770.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <path d="M187 72 L187 770.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <path d="M417 72 L417 770.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <path d="M653 72 L653 770.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <path d="M703 72 L703 770.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <path d="M761 72 L761 770.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <path d="M837 72 L837 770.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <path d="M130 72 L837 72" stroke="#000000" fill="none" stroke-width="1.05" />
+      <path d="M130 130 L837 130" stroke="#000000" fill="none" stroke-width="1.05" />
+      <path d="M130 770.5 L837 770.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <text transform="translate(158.5 106.12) rotate(0) scale(0.76 1)" x="-16.0898" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="32.1797" lengthAdjust="spacingAndGlyphs">Поз.</text>
+      <text transform="translate(302 106.12) rotate(0) scale(0.76 1)" x="-49.7422" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="99.4844" lengthAdjust="spacingAndGlyphs">Обозначение</text>
+      <text transform="translate(535 106.12) rotate(0) scale(0.76 1)" x="-55.5469" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="111.0938" lengthAdjust="spacingAndGlyphs">Наименование</text>
+      <text transform="translate(678 106.12) rotate(0) scale(0.76 1)" x="-16" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="32" lengthAdjust="spacingAndGlyphs">Кол.</text>
+      <text transform="translate(732 97.48) rotate(0) scale(0.76 1)" x="-23.5625" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="47.125" lengthAdjust="spacingAndGlyphs">Масса</text>
+      <text transform="translate(732 114.76) rotate(0) scale(0.76 1)" x="-19.9805" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="39.9609" lengthAdjust="spacingAndGlyphs">ед.,кг</text>
+      <text transform="translate(799 97.48) rotate(0) scale(0.76 1)" x="-27.2812" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="54.5625" lengthAdjust="spacingAndGlyphs">Приме-</text>
+      <text transform="translate(799 114.76) rotate(0) scale(0.76 1)" x="-21.8359" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="43.6719" lengthAdjust="spacingAndGlyphs">чания</text>
+      <path d="M130 160.5 L837 160.5" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(158.5 180.87) rotate(0) scale(0.76 1)" x="-18.2539" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="36.5078" lengthAdjust="spacingAndGlyphs">Фм 1</text>
+      <text transform="translate(302 180.87) rotate(0) scale(0.76 1)" x="-32.2812" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="64.5625" lengthAdjust="spacingAndGlyphs">КЖ – л.2</text>
+      <text transform="translate(426 180.87) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="221.2031" lengthAdjust="spacingAndGlyphs">Фундамент монолитный Фм 1</text>
+      <g transform="translate(678 180.87) rotate(0) scale(0.76 1)" data-revised-cell="foundation.schedule_area.quantity">
+        <text x="-20.0195" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="40.0391" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">246,4</text>
+        <path d="M -16.02 -10 L 16.02 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">223,331</text>
+      </g>
+      <text transform="translate(732 180.87) rotate(0) scale(0.76 1)" x="-8.1641" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="16.3281" lengthAdjust="spacingAndGlyphs">м²</text>
+      <path d="M130 191 L837 191" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(158.5 211.37) rotate(0) scale(0.76 1)" x="-4.4492" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="8.8984" lengthAdjust="spacingAndGlyphs">1</text>
+      <text transform="translate(302 211.37) rotate(0) scale(0.76 1)" x="-71.4844" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="142.9688" lengthAdjust="spacingAndGlyphs">ГОСТ Р52544-2006</text>
+      <text transform="translate(426 211.37) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="121.0547" lengthAdjust="spacingAndGlyphs">Ø12 А500С, п.м.</text>
+      <g transform="translate(678 211.37) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.rebar.1.quantity">
+        <text x="-17.7969" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="35.5938" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">2464</text>
+        <path d="M -14.24 -10 L 14.24 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">2201</text>
+      </g>
+      <text transform="translate(732 211.37) rotate(0) scale(0.76 1)" x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs">0.89</text>
+      <path d="M130 221.5 L837 221.5" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(158.5 241.87) rotate(0) scale(0.76 1)" x="-4.4492" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="8.8984" lengthAdjust="spacingAndGlyphs">2</text>
+      <text transform="translate(302 241.87) rotate(0) scale(0.76 1)" x="-20.1367" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="40.2734" lengthAdjust="spacingAndGlyphs">то же</text>
+      <text transform="translate(426 241.87) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="121.0547" lengthAdjust="spacingAndGlyphs">Ø12 А500С, п.м.</text>
+      <g transform="translate(678 241.87) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.rebar.2.quantity">
+        <text x="-17.7969" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="35.5938" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">2464</text>
+        <path d="M -14.24 -10 L 14.24 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">2201</text>
+      </g>
+      <text transform="translate(732 241.87) rotate(0) scale(0.76 1)" x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs">0.89</text>
+      <path d="M130 252 L837 252" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(158.5 272.37) rotate(0) scale(0.76 1)" x="-7.5625" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="15.125" lengthAdjust="spacingAndGlyphs">3*</text>
+      <text transform="translate(302 272.37) rotate(0) scale(0.76 1)" x="-52.8008" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="105.6016" lengthAdjust="spacingAndGlyphs">ГОСТ 5781-82</text>
+      <text transform="translate(426 272.37) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="111.6406" lengthAdjust="spacingAndGlyphs">Ø8 А240, l=950</text>
+      <g transform="translate(678 272.37) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.rebar.3.quantity">
+        <text x="-13.3477" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="26.6953" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">386</text>
+        <path d="M -10.68 -10 L 10.68 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">334</text>
+      </g>
+      <text transform="translate(732 272.37) rotate(0) scale(0.76 1)" x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs">0.38</text>
+      <path d="M130 282.5 L837 282.5" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(158.5 302.87) rotate(0) scale(0.76 1)" x="-7.5625" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="15.125" lengthAdjust="spacingAndGlyphs">4*</text>
+      <text transform="translate(302 302.87) rotate(0) scale(0.76 1)" x="-71.4844" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="142.9688" lengthAdjust="spacingAndGlyphs">ГОСТ Р52544-2006</text>
+      <text transform="translate(426 302.87) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="132.0938" lengthAdjust="spacingAndGlyphs">Ø12 А500С, l=790</text>
+      <g transform="translate(678 302.87) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.rebar.4.quantity">
+        <text x="-13.3477" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="26.6953" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">818</text>
+        <path d="M -10.68 -10 L 10.68 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">774</text>
+      </g>
+      <text transform="translate(732 302.87) rotate(0) scale(0.76 1)" x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs">0.70</text>
+      <path d="M130 313 L837 313" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(158.5 333.37) rotate(0) scale(0.76 1)" x="-7.5625" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="15.125" lengthAdjust="spacingAndGlyphs">5*</text>
+      <text transform="translate(302 333.37) rotate(0) scale(0.76 1)" x="-52.8008" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="105.6016" lengthAdjust="spacingAndGlyphs">ГОСТ 5781-82</text>
+      <text transform="translate(426 333.37) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="181.9219" lengthAdjust="spacingAndGlyphs">Шпилька Ø8 А240, l=680</text>
+      <g transform="translate(678 333.37) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.rebar.5.quantity">
+        <text x="-13.3477" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="26.6953" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">292</text>
+        <path d="M -10.68 -10 L 10.68 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">274</text>
+      </g>
+      <text transform="translate(732 333.37) rotate(0) scale(0.76 1)" x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs">0.27</text>
+      <path d="M130 343.5 L837 343.5" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(158.5 363.87) rotate(0) scale(0.76 1)" x="-4.4492" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="8.8984" lengthAdjust="spacingAndGlyphs">6</text>
+      <text transform="translate(302 363.87) rotate(0) scale(0.76 1)" x="-71.4844" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="142.9688" lengthAdjust="spacingAndGlyphs">ГОСТ Р52544-2006</text>
+      <text transform="translate(426 363.87) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="112.1562" lengthAdjust="spacingAndGlyphs">Ø8 А500С, п.м.</text>
+      <g transform="translate(678 363.87) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.rebar.6.quantity">
+        <text x="-13.3477" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="26.6953" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">327</text>
+        <path d="M -10.68 -10 L 10.68 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">307,7</text>
+      </g>
+      <text transform="translate(732 363.87) rotate(0) scale(0.76 1)" x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs">0.40</text>
+      <path d="M130 374 L837 374" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(158.5 394.37) rotate(0) scale(0.76 1)" x="-7.5625" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="15.125" lengthAdjust="spacingAndGlyphs">7*</text>
+      <text transform="translate(302 394.37) rotate(0) scale(0.76 1)" x="-71.4844" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="142.9688" lengthAdjust="spacingAndGlyphs">ГОСТ Р52544-2006</text>
+      <text transform="translate(426 394.37) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="170.8828" lengthAdjust="spacingAndGlyphs">Хомут Ø8 А500, l=1020</text>
+      <g transform="translate(678 394.37) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.rebar.7.quantity">
+        <text x="-13.3477" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="26.6953" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">336</text>
+        <path d="M -10.68 -10 L 10.68 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">307</text>
+      </g>
+      <text transform="translate(732 394.37) rotate(0) scale(0.76 1)" x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs">0.41</text>
+      <path d="M130 404.5 L837 404.5" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(158.5 424.87) rotate(0) scale(0.76 1)" x="-7.5625" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="15.125" lengthAdjust="spacingAndGlyphs">8*</text>
+      <text transform="translate(302 424.87) rotate(0) scale(0.76 1)" x="-52.8008" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="105.6016" lengthAdjust="spacingAndGlyphs">ГОСТ 5781-82</text>
+      <text transform="translate(426 424.87) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="181.9219" lengthAdjust="spacingAndGlyphs">Шпилька Ø8 А240, l=480</text>
+      <g transform="translate(678 424.87) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.rebar.8.quantity">
+        <text x="-13.3477" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="26.6953" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">118</text>
+        <path d="M -10.68 -10 L 10.68 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">114</text>
+      </g>
+      <text transform="translate(732 424.87) rotate(0) scale(0.76 1)" x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs">0.19</text>
+      <path d="M130 435 L837 435" stroke="#000000" fill="none" stroke-width="0.55" />
+      <path d="M130 465.5 L837 465.5" stroke="#000000" fill="none" stroke-width="0.55" />
+      <path d="M130 496 L837 496" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(426 516.37) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="90.4688" lengthAdjust="spacingAndGlyphs">Материалы:</text>
+      <path d="M130 526.5 L837 526.5" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(426 546.87) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="146.7344" lengthAdjust="spacingAndGlyphs">Бетон В25 W6 F150</text>
+      <g transform="translate(678 546.87) rotate(0) scale(0.76 1)" data-revised-cell="foundation.concrete.quantity">
+        <text x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">90,5</text>
+        <path d="M -12.46 -10 L 12.46 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">82,58</text>
+      </g>
+      <text transform="translate(732 546.87) rotate(0) scale(0.76 1)" x="-8.1641" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="16.3281" lengthAdjust="spacingAndGlyphs">м³</text>
+      <path d="M130 557 L837 557" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(426 577.37) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="77.375" lengthAdjust="spacingAndGlyphs">Бетон В10</text>
+      <g transform="translate(678 577.37) rotate(0) scale(0.76 1)" data-revised-cell="foundation.blinding.quantity">
+        <text x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">12,7</text>
+        <path d="M -12.46 -10 L 12.46 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">11,167</text>
+      </g>
+      <text transform="translate(732 577.37) rotate(0) scale(0.76 1)" x="-8.1641" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="16.3281" lengthAdjust="spacingAndGlyphs">м³</text>
+      <path d="M130 587.5 L837 587.5" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(426 607.87) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="130.125" lengthAdjust="spacingAndGlyphs">Щебень фр. 5–10</text>
+      <g transform="translate(678 607.87) rotate(0) scale(0.76 1)" data-revised-cell="foundation.gravel_5_10.quantity">
+        <text x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">63,4</text>
+        <path d="M -12.46 -10 L 12.46 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">44,666</text>
+      </g>
+      <text transform="translate(732 607.87) rotate(0) scale(0.76 1)" x="-8.1641" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="16.3281" lengthAdjust="spacingAndGlyphs">м³</text>
+      <path d="M130 618 L837 618" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(426 638.37) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="139.0234" lengthAdjust="spacingAndGlyphs">Щебень фр. 20–40</text>
+      <g transform="translate(678 638.37) rotate(0) scale(0.76 1)" data-revised-cell="foundation.gravel_20_40.quantity">
+        <text x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">63,4</text>
+        <path d="M -12.46 -10 L 12.46 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">44,666</text>
+      </g>
+      <text transform="translate(732 638.37) rotate(0) scale(0.76 1)" x="-8.1641" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="16.3281" lengthAdjust="spacingAndGlyphs">м³</text>
+      <path d="M130 648.5 L837 648.5" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(732 668.87) rotate(0) scale(0.76 1)" x="-8.1641" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="16.3281" lengthAdjust="spacingAndGlyphs">м³</text>
+      <path d="M130 679 L837 679" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(426 699.37) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="157.3906" lengthAdjust="spacingAndGlyphs">Геотекстиль 300 г/м2</text>
+      <g transform="translate(678 699.37) rotate(0) scale(0.76 1)" data-revised-cell="foundation.geotextile.quantity">
+        <text x="-20.0195" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="40.0391" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">460,0</text>
+        <path d="M -16.02 -10 L 16.02 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">223,331</text>
+      </g>
+      <text transform="translate(732 699.37) rotate(0) scale(0.76 1)" x="-8.1641" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="16.3281" lengthAdjust="spacingAndGlyphs">м²</text>
+      <path d="M130 709.5 L837 709.5" stroke="#000000" fill="none" stroke-width="0.55" />
+      <path d="M130 740 L837 740" stroke="#000000" fill="none" stroke-width="0.55" />
+      <text transform="translate(145 788.5) rotate(0) scale(0.76 1)" x="0" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="216.6138" lengthAdjust="spacingAndGlyphs">* Эскиз см. ведомость деталей</text>
+      <text transform="translate(145 805.5) rotate(0) scale(0.76 1)" x="0" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="319.7095" lengthAdjust="spacingAndGlyphs">** Объем уточняется при производстве работ</text>
+    </g>
+    <g data-source-region="КЖ-4 · ведомость деталей, эскизы и подписанные размеры">
+      <path d="M1023 51 L1406 51 L1406 823 L1023 823 Z" stroke="#000000" fill="none" stroke-width="1.3" />
+      <path d="M1023 108 L1406 108" stroke="#000000" fill="none" stroke-width="1.25" />
+      <text transform="translate(1214.5 86) rotate(0) scale(0.76 1)" x="-96.761" y="0" font-size="21" font-family="Arial, Liberation Sans, sans-serif" textLength="193.522" lengthAdjust="spacingAndGlyphs">Ведомость деталей</text>
+      <path d="M1080 108 L1080 823" stroke="#000000" fill="none" stroke-width="1.1" />
+      <path d="M1023 139 L1406 139" stroke="#000000" fill="none" stroke-width="1.05" />
+      <text transform="translate(1051 130) rotate(0) scale(0.76 1)" x="-18.1011" y="0" font-size="18" font-family="Arial, Liberation Sans, sans-serif" textLength="36.2021" lengthAdjust="spacingAndGlyphs">Поз.</text>
+      <text transform="translate(1243 130) rotate(0) scale(0.76 1)" x="-24.0601" y="0" font-size="18" font-family="Arial, Liberation Sans, sans-serif" textLength="48.1201" lengthAdjust="spacingAndGlyphs">Эскиз</text>
+      <text transform="translate(1051 199) rotate(0) scale(0.76 1)" x="-4.1711" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="8.3423" lengthAdjust="spacingAndGlyphs">3</text>
+      <path d="M1023 253 L1406 253" stroke="#000000" fill="none" stroke-width="0.62" />
+      <text transform="translate(1051 313) rotate(0) scale(0.76 1)" x="-4.1711" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="8.3423" lengthAdjust="spacingAndGlyphs">4</text>
+      <path d="M1023 367 L1406 367" stroke="#000000" fill="none" stroke-width="0.62" />
+      <text transform="translate(1051 427) rotate(0) scale(0.76 1)" x="-4.1711" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="8.3423" lengthAdjust="spacingAndGlyphs">5</text>
+      <path d="M1023 481 L1406 481" stroke="#000000" fill="none" stroke-width="0.62" />
+      <text transform="translate(1051 541) rotate(0) scale(0.76 1)" x="-4.1711" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="8.3423" lengthAdjust="spacingAndGlyphs">7</text>
+      <path d="M1023 595 L1406 595" stroke="#000000" fill="none" stroke-width="0.62" />
+      <text transform="translate(1051 655) rotate(0) scale(0.76 1)" x="-4.1711" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="8.3423" lengthAdjust="spacingAndGlyphs">8</text>
+      <path d="M1023 709 L1406 709" stroke="#000000" fill="none" stroke-width="0.62" />
+      <path d="M1196 203 L1208 215 L1208 184 L1227 174 L1227 205 L1238 216" stroke="#000000" fill="none" stroke-width="1.2" />
+      <path d="M1173 180 L1173 219" stroke="#000000" fill="none" stroke-width="0.58" />
+      <path d="M1170.3 186.9 L1175.7 181.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1206 184 L1168 184" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1170.3 217.9 L1175.7 212.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1206 215 L1168 215" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1161.499 207.3644 L1161.499 191.6356 L1171.669 191.6356 L1171.669 207.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+      <text transform="translate(1170.2 199.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="1173 184 1173 215" data-dimension-unit="mm">160</text>
+      <path d="M1200.2686 177.8987 L1226.348 164.1728" stroke="#000000" fill="none" stroke-width="0.6" />
+      <path d="M1208 184 L1202.9699 174.4429" stroke="#000000" fill="none" stroke-width="0.54" />
+      <path d="M1201.0083 179.0357 L1206.6083 173.0357" stroke="#000000" fill="none" stroke-width="0.72" />
+      <path d="M1227 174 L1221.9699 164.4429" stroke="#000000" fill="none" stroke-width="0.54" />
+      <path d="M1220.0083 169.0357 L1225.6083 163.0357" stroke="#000000" fill="none" stroke-width="0.72" />
+      <text transform="translate(1213.3083 168.2357) rotate(-27.7585) scale(0.76 1)" x="-10.845" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="21.6899" lengthAdjust="spacingAndGlyphs">130</text>
+      <path d="M1185.3934 207.9497 L1203.0503 225.6066" stroke="#000000" fill="none" stroke-width="0.6" />
+      <path d="M1196 203 L1186.6662 212.3338" stroke="#000000" fill="none" stroke-width="0.54" />
+      <path d="M1185.4218 213.7782 L1191.0218 207.7782" stroke="#000000" fill="none" stroke-width="0.72" />
+      <path d="M1208 215 L1198.6662 224.3338" stroke="#000000" fill="none" stroke-width="0.54" />
+      <path d="M1197.4218 225.7782 L1203.0218 219.7782" stroke="#000000" fill="none" stroke-width="0.72" />
+      <path d="M1238.3137 188.0294 L1254.9706 204.6863" stroke="#000000" fill="none" stroke-width="0.6" />
+      <path d="M1227 205 L1243.9706 188.0294" stroke="#000000" fill="none" stroke-width="0.54" />
+      <path d="M1238.3421 193.8579 L1243.9421 187.8579" stroke="#000000" fill="none" stroke-width="0.72" />
+      <path d="M1238 216 L1254.9706 199.0294" stroke="#000000" fill="none" stroke-width="0.54" />
+      <path d="M1249.3421 204.8579 L1254.9421 198.8579" stroke="#000000" fill="none" stroke-width="0.72" />
+      <path d="M1178 302 L1300 302 L1300 337" stroke="#000000" fill="none" stroke-width="1.1" />
+      <path d="M1174 280 L1304 280" stroke="#000000" fill="none" stroke-width="0.58" />
+      <path d="M1175.3 282.9 L1180.7 277.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1178 302 L1178 275" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1297.3 282.9 L1302.7 277.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1300 302 L1300 275" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1231.1356 268.199 L1246.8644 268.199 L1246.8644 278.369 L1231.1356 278.369 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+      <text transform="translate(1239 276.9) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="1178 280 1300 280" data-dimension-unit="mm">590</text>
+      <path d="M1333 298 L1333 341" stroke="#000000" fill="none" stroke-width="0.58" />
+      <path d="M1330.3 304.9 L1335.7 299.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1300 302 L1338 302" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1330.3 339.9 L1335.7 334.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1300 337 L1338 337" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1321.499 327.3644 L1321.499 311.6356 L1331.669 311.6356 L1331.669 327.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+      <text transform="translate(1330.2 319.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="1333 302 1333 337" data-dimension-unit="mm">200</text>
+      <path d="M1177 427 L1311 427" stroke="#000000" fill="none" stroke-width="0.5" stroke-dasharray="14 5 2 5" />
+      <path d="M1207 434 L1200 434 C1195 434 1195 427 1200 427 L1286 427 C1291 427 1291 434 1286 434 L1279 434" stroke="#000000" fill="none" stroke-width="1.15" />
+      <path d="M1193 402 L1293 402" stroke="#000000" fill="none" stroke-width="0.58" />
+      <path d="M1194.3 404.9 L1199.7 399.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1197 427 L1197 397" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1286.3 404.9 L1291.7 399.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1289 427 L1289 397" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1235.1356 390.199 L1250.8644 390.199 L1250.8644 400.369 L1235.1356 400.369 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+      <text transform="translate(1243 398.9) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="1197 402 1289 402" data-dimension-unit="mm">530</text>
+      <path d="M1294 517 L1208 517 L1208 562 L1294 562" stroke="#000000" fill="none" stroke-width="1.1" />
+      <path d="M1204 504 L1298 504" stroke="#000000" fill="none" stroke-width="0.58" />
+      <path d="M1205.3 506.9 L1210.7 501.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1208 517 L1208 499" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1291.3 506.9 L1296.7 501.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1294 517 L1294 499" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1243.1356 492.199 L1258.8644 492.199 L1258.8644 502.369 L1243.1356 502.369 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+      <text transform="translate(1251 500.9) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="1208 504 1294 504" data-dimension-unit="mm">400</text>
+      <path d="M1179 513 L1179 566" stroke="#000000" fill="none" stroke-width="0.58" />
+      <path d="M1176.3 519.9 L1181.7 514.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1208 517 L1174 517" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1176.3 564.9 L1181.7 559.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1208 562 L1174 562" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1167.499 547.3644 L1167.499 531.6356 L1177.669 531.6356 L1177.669 547.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+      <text transform="translate(1176.2 539.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="1179 517 1179 562" data-dimension-unit="mm">220</text>
+      <path d="M1179 655 L1312 655" stroke="#000000" fill="none" stroke-width="0.5" stroke-dasharray="14 5 2 5" />
+      <path d="M1209 662 L1202 662 C1197 662 1197 655 1202 655 L1287 655 C1292 655 1292 662 1287 662 L1280 662" stroke="#000000" fill="none" stroke-width="1.15" />
+      <path d="M1195 630 L1294 630" stroke="#000000" fill="none" stroke-width="0.58" />
+      <path d="M1196.3 632.9 L1201.7 627.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1199 655 L1199 625" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1287.3 632.9 L1292.7 627.1" stroke="#000000" fill="none" stroke-width="0.69" />
+      <path d="M1290 655 L1290 625" stroke="#000000" fill="none" stroke-width="0.48" />
+      <path d="M1236.6356 618.199 L1252.3644 618.199 L1252.3644 628.369 L1236.6356 628.369 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+      <text transform="translate(1244.5 626.9) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="1199 630 1290 630" data-dimension-unit="mm">330</text>
+    </g>
+    <g data-source-region="Ведомость расхода стали, кг · многоуровневый заголовок и итоги">
+      <text transform="translate(543.25 860) rotate(0) scale(0.76 1)" x="-141.3655" y="0" font-size="21" font-family="Arial, Liberation Sans, sans-serif" textLength="282.731" lengthAdjust="spacingAndGlyphs">Ведомость расхода стали, кг</text>
+      <path d="M292 870 L794.5 870 L794.5 1083.5 L292 1083.5 Z" stroke="#000000" fill="none" stroke-width="1.45" />
+      <path d="M445 870 L445 1083.5" stroke="#000000" fill="none" stroke-width="1.2" />
+      <path d="M732.5 870 L732.5 1083.5" stroke="#000000" fill="none" stroke-width="1.2" />
+      <text transform="translate(368.5 943.2) rotate(0) scale(0.76 1)" x="-22.0422" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="44.0845" lengthAdjust="spacingAndGlyphs">Марка</text>
+      <text transform="translate(368.5 961.5) rotate(0) scale(0.76 1)" x="-33.4497" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="66.8994" lengthAdjust="spacingAndGlyphs">элемента</text>
+      <text transform="translate(763.5 982.85) rotate(0) scale(0.76 1)" x="-19.8303" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="39.6606" lengthAdjust="spacingAndGlyphs">Всего</text>
+      <text transform="translate(588.75 891.045) rotate(0) scale(0.76 1)" x="-74.8169" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="149.6338" lengthAdjust="spacingAndGlyphs">Изделия арматурные</text>
+      <text transform="translate(588.75 921.545) rotate(0) scale(0.76 1)" x="-59.6118" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="119.2236" lengthAdjust="spacingAndGlyphs">Арматура класса</text>
+      <path d="M445 900.5 L732.5 900.5" stroke="#000000" fill="none" stroke-width="0.95" />
+      <path d="M445 931 L732.5 931" stroke="#000000" fill="none" stroke-width="0.95" />
+      <path d="M445 961.5 L732.5 961.5" stroke="#000000" fill="none" stroke-width="0.95" />
+      <path d="M445 992 L732.5 992" stroke="#000000" fill="none" stroke-width="0.95" />
+      <path d="M560 931 L560 1083.5" stroke="#000000" fill="none" stroke-width="1.12" />
+      <text transform="translate(502.5 952.35) rotate(0) scale(0.76 1)" x="-17.5159" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0317" lengthAdjust="spacingAndGlyphs">А240</text>
+      <text transform="translate(502.5 982.85) rotate(0) scale(0.76 1)" x="-49.5007" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="99.0015" lengthAdjust="spacingAndGlyphs">ГОСТ 5781-82</text>
+      <text transform="translate(473.75 1013.655) rotate(0) scale(0.76 1)" x="-10.0049" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="20.0098" lengthAdjust="spacingAndGlyphs">Ø8</text>
+      <path d="M502.5 992 L502.5 1083.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <text transform="translate(531.25 1013.655) rotate(0) scale(0.76 1)" x="-19.9036" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="39.8071" lengthAdjust="spacingAndGlyphs">Итого</text>
+      <text transform="translate(646.25 952.35) rotate(0) scale(0.76 1)" x="-22.9321" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="45.8643" lengthAdjust="spacingAndGlyphs">А500С</text>
+      <text transform="translate(646.25 982.85) rotate(0) scale(0.76 1)" x="-69.1003" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="138.2007" lengthAdjust="spacingAndGlyphs">ГОСТ Р 52544-2006</text>
+      <text transform="translate(588.75 1013.655) rotate(0) scale(0.76 1)" x="-10.0049" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="20.0098" lengthAdjust="spacingAndGlyphs">Ø8</text>
+      <path d="M617.5 992 L617.5 1083.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <text transform="translate(646.25 1013.655) rotate(0) scale(0.76 1)" x="-14.176" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="28.3521" lengthAdjust="spacingAndGlyphs">Ø12</text>
+      <path d="M675 992 L675 1083.5" stroke="#000000" fill="none" stroke-width="1.05" />
+      <text transform="translate(703.75 1013.655) rotate(0) scale(0.76 1)" x="-19.9036" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="39.8071" lengthAdjust="spacingAndGlyphs">Итого</text>
+      <path d="M292 1022.5 L794.5 1022.5" stroke="#000000" fill="none" stroke-width="1.1" />
+      <text transform="translate(368.5 1043.24) rotate(0) scale(0.76 1)" x="-17.113" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="34.2261" lengthAdjust="spacingAndGlyphs">Фм 1</text>
+      <g transform="translate(473.75 1043.24) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.steel_kg_А240_8">
+        <text x="-18.7683" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="37.5366" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">260,4</text>
+        <path d="M -15.01 -10 L 15.01 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">233,688</text>
+      </g>
+      <g transform="translate(531.25 1043.24) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.steel_kg_А240_8">
+        <text x="-18.7683" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="37.5366" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">260,4</text>
+        <path d="M -15.01 -10 L 15.01 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">233,688</text>
+      </g>
+      <g transform="translate(588.75 1043.24) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.steel_kg_А500С_8">
+        <text x="-18.7683" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="37.5366" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">282,0</text>
+        <path d="M -15.01 -10 L 15.01 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">261,398</text>
+      </g>
+      <g transform="translate(646.25 1043.24) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.steel_kg_А500С_12">
+        <text x="-22.9395" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="45.8789" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">5206,5</text>
+        <path d="M -18.35 -10 L 18.35 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">4682,559</text>
+      </g>
+      <g transform="translate(703.75 1043.24) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.steel_kg_А500С_total">
+        <text x="-22.9395" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="45.8789" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">5488,5</text>
+        <path d="M -18.35 -10 L 18.35 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">4943,956</text>
+      </g>
+      <g transform="translate(763.5 1043.24) rotate(0) scale(0.76 1)" data-revised-cell="foundation.Фм1.steel_kg_total">
+        <text x="-22.9395" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="45.8789" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">5748,9</text>
+        <path d="M -18.35 -10 L 18.35 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">5177,644</text>
+      </g>
+      <path d="M292 1053 L794.5 1053" stroke="#000000" fill="none" stroke-width="0.64" />
+    </g>
+    <g data-source-region="КЖ-4 · два примечания над основной надписью">
+      <text transform="translate(915 853) rotate(0) scale(0.76 1)" x="0" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="502.251" lengthAdjust="spacingAndGlyphs">1. В ведомости расхода стали учтен дополнительный расход арматуры</text>
+      <text transform="translate(927 870) rotate(0) scale(0.76 1)" x="0" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="121.0254" lengthAdjust="spacingAndGlyphs">в количестве 5%.</text>
+      <text transform="translate(915 889) rotate(0) scale(0.76 1)" x="0" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="268.2935" lengthAdjust="spacingAndGlyphs">2. Данный лист см. совместно с л.2, 3.</text>
+    </g>
+    <g data-source-region="Пересчёт по грани выступа и линии крыльца">
+      <text x="915" y="920" fill="#006757" font-size="14" font-family="Arial, sans-serif">Фм 1 — 223,330875 м². В25 с ростверками — 82,5798145 м³.</text>
+      <text x="915" y="938" fill="#006757" font-size="14" font-family="Arial, sans-serif">Сталь по раскладке — 4931,09 кг. С 5 % — 5177,6445 кг.</text>
+      <text x="915" y="956" fill="#006757" font-size="14" font-family="Arial, sans-serif">В10 и щебень — в пятне плиты. Геотекстиль — один слой без нахлёста.</text>
+      <text x="915" y="974" fill="#006757" font-size="14" font-family="Arial, sans-serif">XPS по цоколю и отмостке — по раскладке. Количества в таблице округлены до 0,001.</text>
+    </g>
+  </g>
+  <g data-lettering-layer="true">
+    <polygon points="348.6794,556.1269 476.8332,556.1269 476.8332,543.1103 348.6794,543.1103" fill="white" stroke="none" />
+    <polygon points="971.5081,170.5570 981.5217,180.5705 987.9314,174.1608 977.9178,164.1473" fill="white" stroke="none" />
+    <polygon points="1014.3981,153.8491 1024.4117,163.8626 1030.8214,157.4529 1020.8078,147.4394" fill="white" stroke="none" />
+    <g transform="translate(0 0) scale(0.8182)">
+      <g data-source-region="Спецификация арматурных изделий и материалов · левая таблица">
+        <text transform="translate(426 661.495) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="115.5078" lengthAdjust="spacingAndGlyphs">Теплоизоляция</text>
+        <text transform="translate(426 676.245) rotate(0) scale(0.76 1)" x="0" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="205.7109" lengthAdjust="spacingAndGlyphs">ПЕНОПЛЭКС ФУНДАМЕНТ</text>
+      </g>
+      <g data-source-region="КЖ-4 · ведомость деталей, эскизы и подписанные размеры">
+        <text transform="translate(1194.2218 213.9782) rotate(45) scale(0.76 1)" x="-10.845" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="21.6899" lengthAdjust="spacingAndGlyphs">250</text>
+        <text transform="translate(1246.6421 193.5579) rotate(45) scale(0.76 1)" x="-10.845" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="21.6899" lengthAdjust="spacingAndGlyphs">250</text>
+      </g>
+    </g>
+  </g>
+  <g data-lettering-layer="true">
+    <polygon points="537.0372,555.9385 572.3007,555.9385 572.3007,546.5361 537.0372,546.5361" fill="white" stroke="none" />
+    <g transform="translate(0 0) scale(0.8182)">
+      <g data-source-region="Спецификация арматурных изделий и материалов · левая таблица">
+        <g transform="translate(678 668.87) rotate(0) scale(0.76 1)" data-revised-cell="foundation.xps.quantity">
+          <text x="-15.5703" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1406" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">10,0</text>
+          <path d="M -12.46 -10 L 12.46 -10" stroke="#575d5a" stroke-width="1.25" />
+          <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">уточнить</text>
+        </g>
+      </g>
+    </g>
+  </g>
+<text x="40.254464285714285" y="933.2232142857142" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.205357142857142" data-print-folio="true">32 / 48</text></svg>

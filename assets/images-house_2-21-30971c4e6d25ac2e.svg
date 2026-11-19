@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1350 954.6429" data-source-pdf="дом-2 A3.pdf" data-source-page="21" data-source-sha256="e8639d00b1b2a862bf58c810c3158b170445cd161224c78af929f22ccc099556" data-project-sheet="КД-1" data-edition="source">
+  <title>КД-1 · Общие данные</title>
+  <rect width="100%" height="100%" fill="white" />
+  <g data-source-region="КД-1 · рамка, обозначение комплекта и листа">
+    <path d="M68 23 L1308 23 L1308 911 L68 911 Z" stroke="#000000" fill="none" stroke-width="1.1" />
+    <text transform="translate(1291 846) rotate(0) scale(0.76 1)" x="-101.9766" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="101.9766" lengthAdjust="spacingAndGlyphs">62-47AFL*-КД</text>
+    <text transform="translate(1291 867) rotate(0) scale(0.76 1)" x="-565.2705" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="565.2705" lengthAdjust="spacingAndGlyphs">Индивидуальный жилой дом. Конструкции деревянные индивидуального жилого дома</text>
+    <text transform="translate(1291 894) rotate(0) scale(0.76 1)" x="-172.0835" y="0" font-size="17" font-family="Arial, Liberation Sans, sans-serif" textLength="172.0835" lengthAdjust="spacingAndGlyphs">КД-1 · Общие данные</text>
+  </g>
+  <g data-source-region="КД-1 · ведомость чертежей, левая колонка">
+    <text transform="translate(389.5 59) rotate(0) scale(0.76 1)" x="-196.0039" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="392.0078" lengthAdjust="spacingAndGlyphs">Ведомость чертежей основного комплекта марки КД</text>
+    <path d="M100 69 L100 740" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M148 69 L148 740" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M587 69 L587 740" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M679 69 L679 740" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M100 69 L679 69" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M100 115 L679 115" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M100 740 L679 740" stroke="#000000" fill="none" stroke-width="1.05" />
+    <text transform="translate(124 96.48) rotate(0) scale(0.76 1)" x="-15.21" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="30.4199" lengthAdjust="spacingAndGlyphs">Лист</text>
+    <text transform="translate(367.5 96.48) rotate(0) scale(0.76 1)" x="-48.6035" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="97.207" lengthAdjust="spacingAndGlyphs">Наименование</text>
+    <text transform="translate(633 96.48) rotate(0) scale(0.76 1)" x="-40.749" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="81.498" lengthAdjust="spacingAndGlyphs">Примечание</text>
+    <path d="M100 140 L679 140" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 156.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">1</text>
+    <text transform="translate(154 156.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="99.1895" lengthAdjust="spacingAndGlyphs">Общие данные</text>
+    <path d="M100 165 L679 165" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 181.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">2</text>
+    <text transform="translate(154 181.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="263.1562" lengthAdjust="spacingAndGlyphs">Схема расположения элементов кровли</text>
+    <path d="M100 190 L679 190" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 206.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">3</text>
+    <text transform="translate(154 206.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="162.9414" lengthAdjust="spacingAndGlyphs">Кровля. Сечения 1-1, 2-2</text>
+    <path d="M100 215 L679 215" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 231.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">4</text>
+    <text transform="translate(154 231.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="220.7666" lengthAdjust="spacingAndGlyphs">Спецификация элементов кровли</text>
+    <path d="M100 240 L679 240" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 265 L679 265" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 290 L679 290" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 315 L679 315" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 340 L679 340" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 365 L679 365" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 390 L679 390" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 415 L679 415" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 440 L679 440" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 465 L679 465" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 490 L679 490" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 515 L679 515" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 540 L679 540" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 565 L679 565" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 590 L679 590" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 615 L679 615" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 640 L679 640" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 665 L679 665" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 690 L679 690" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 715 L679 715" stroke="#000000" fill="none" stroke-width="0.55" />
+  </g>
+  <g data-source-region="КД-1 · общие указания, правая колонка">
+    <text transform="translate(723 68) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="489.7153" lengthAdjust="spacingAndGlyphs">1. Рабочая документация выполнена на основании чертежей марки АР, а также:</text>
+    <text transform="translate(723 83) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="261.8853" lengthAdjust="spacingAndGlyphs">техническим заданием на проектирование;</text>
+    <text transform="translate(723 98) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="613.8691" lengthAdjust="spacingAndGlyphs">национальными стандартами и сводами правил, в результате применения которых на обязательной</text>
+    <text transform="translate(723 113) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="655.3257" lengthAdjust="spacingAndGlyphs">основе обеспечивается соблюдение требований Федерального закона №384-ФЗ ”Технический регламент о</text>
+    <text transform="translate(723 128) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="511.1831" lengthAdjust="spacingAndGlyphs">безопасности зданий и сооружений”, иной нормативно-технической документацией:</text>
+    <text transform="translate(723 143) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="490.5913" lengthAdjust="spacingAndGlyphs">–       №123-ФЗ ”Технический регламент о требованиях пожарной безопасности”;</text>
+    <text transform="translate(723 158) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="604.3667" lengthAdjust="spacingAndGlyphs">–       ГОСТ 27751-2014 Надежность строительных конструкций и оснований. Основные положения;</text>
+    <text transform="translate(723 173) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="326.6504" lengthAdjust="spacingAndGlyphs">–       ГОСТ 24454-80 Пиломатериалы хвойных пород;</text>
+    <text transform="translate(723 188) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="293.1538" lengthAdjust="spacingAndGlyphs">–       СП 20.13330.2016 Нагрузки и воздействия;</text>
+    <text transform="translate(723 203) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="436.4585" lengthAdjust="spacingAndGlyphs">–       СП 28.13330.2017 Защита строительных конструкций от коррозии;</text>
+    <text transform="translate(723 218) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="329.4751" lengthAdjust="spacingAndGlyphs">–       СП 131.13330.2025 Строительная климатология;</text>
+    <text transform="translate(723 233) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="298.1431" lengthAdjust="spacingAndGlyphs">–       СП 64.13330.2017 Деревянные конструкции</text>
+    <text transform="translate(723 248) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="629.2114" lengthAdjust="spacingAndGlyphs">2. Для обеспечения заданных уклонов кровли все отметки и длины позиций, указанные на чертежах до</text>
+    <text transform="translate(723 263) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="316.3545" lengthAdjust="spacingAndGlyphs">монтажа в проектное положение уточнить по месту.</text>
+    <text transform="translate(723 278) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="546.311" lengthAdjust="spacingAndGlyphs">3. Материал конструкций – древесина хвойных пород I сорта с влажностью не более 30%</text>
+    <text transform="translate(723 293) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="671.4741" lengthAdjust="spacingAndGlyphs">4. Опорные части деревянных конструкций, соприкасающиеся с кладкой, защитить от гниения, обернув двумя</text>
+    <text transform="translate(723 308) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="245.9019" lengthAdjust="spacingAndGlyphs">слоями гидроизоляционного материала.</text>
+    <text transform="translate(723 323) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="604.1572" lengthAdjust="spacingAndGlyphs">5. Выполнить огнезащитную обработку древесину и защиту ее от гниения путем глубокой пропитки</text>
+    <text transform="translate(723 338) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="87.0771" lengthAdjust="spacingAndGlyphs">антисептиком.</text>
+    <text transform="translate(723 353) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="667.3862" lengthAdjust="spacingAndGlyphs">6. Соединение несущих деревянных элементов кровли между собой выполняется при помощи оцинкованных</text>
+    <text transform="translate(723 368) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="439.7021" lengthAdjust="spacingAndGlyphs">металлических соеденителей SIMPSON Strong-Tie или аналогичных им.</text>
+    <text transform="translate(723 383) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="659.9849" lengthAdjust="spacingAndGlyphs">7. Окончательное решение о конструкции ”кровельного пирога” (расположение обрешетки, контробрешетки,</text>
+    <text transform="translate(723 398) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="690.4917" lengthAdjust="spacingAndGlyphs">продухов для вентиляции подкровельного пространства и т.п.) принимает Подрядчик в соответствии с альбомом</text>
+    <text transform="translate(723 413) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="365.0537" lengthAdjust="spacingAndGlyphs">технических решений применяемого кровельного покрытия.</text>
+    <text transform="translate(723 428) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="236.1328" lengthAdjust="spacingAndGlyphs">8. Данный лист см. совместно с л.2...4.</text>
+  </g>
+<text x="40.254464285714285" y="933.2232142857142" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.205357142857142" data-print-folio="true">44 / 48</text></svg>
