@@ -1,0 +1,618 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1350 954.6429" data-source-pdf="дом-1 А3.pdf" data-source-page="19" data-source-sha256="49ae7d8ee62fc5bb22c74148f55ff273888cb6bdd9a357a4b8423adb42175141" data-project-sheet="АР-18" data-edition="source">
+  <title>АР-18 · Спецификация элементов фасадного декора</title>
+  <rect width="100%" height="100%" fill="white" />
+  <g data-source-region="АР · рамка и обозначение листа">
+    <path d="M104 23 L1335 23 L1335 917 L104 917 Z" stroke="#000000" fill="none" stroke-width="1.25" />
+    <text transform="translate(1317 865) rotate(0) scale(0.76 1)" x="-103.4961" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="103.4961" lengthAdjust="spacingAndGlyphs">N 62-47AFL*/АР</text>
+    <text transform="translate(1317 886) rotate(0) scale(0.76 1)" x="-414.3438" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="414.3438" lengthAdjust="spacingAndGlyphs">АР-18   ·   Спецификация элементов фасадного декора</text>
+    <text transform="translate(1317 905) rotate(0) scale(0.76 1)" x="-349.1909" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="349.1909" lengthAdjust="spacingAndGlyphs">Индивидуальный жилой дом   ·   Архитектурные решения</text>
+  </g>
+  <g data-source-region="АР-18 · спецификация элементов фасадного декора, заголовки">
+    <text transform="translate(429 48) rotate(0) scale(0.76 1)" x="-220.834" y="0" font-size="17" font-family="Arial, Liberation Sans, sans-serif" textLength="441.668" lengthAdjust="spacingAndGlyphs">СПЕЦИФИКАЦИЯ ЭЛЕМЕНТОВ ФАСАДНОГО ДЕКОРА</text>
+    <path d="M109 55 L109 713" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M169 55 L169 713" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M371 55 L371 713" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M527 55 L527 713" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M634 55 L634 713" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M682 55 L682 713" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M749 55 L749 713" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 55 L749 55" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 92 L749 92" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 161 L749 161" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 230 L749 230" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 299 L749 299" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 368 L749 368" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 437 L749 437" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 506 L749 506" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 575 L749 575" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 644 L749 644" stroke="#000000" fill="none" stroke-width="0.95" />
+    <path d="M109 713 L749 713" stroke="#000000" fill="none" stroke-width="0.95" />
+    <text transform="translate(139 77) rotate(0) scale(0.76 1)" x="-32.8301" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="65.6602" lengthAdjust="spacingAndGlyphs">Марка поз.</text>
+    <text transform="translate(270 77) rotate(0) scale(0.76 1)" x="-17.3767" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="34.7534" lengthAdjust="spacingAndGlyphs">Эскиз</text>
+    <text transform="translate(449 77) rotate(0) scale(0.76 1)" x="-45.1318" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="90.2637" lengthAdjust="spacingAndGlyphs">Наименование</text>
+    <text transform="translate(580.5 77) rotate(0) scale(0.76 1)" x="-40.4155" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="80.8311" lengthAdjust="spacingAndGlyphs">Обозначение</text>
+    <text transform="translate(658 77) rotate(0) scale(0.76 1)" x="-20.4268" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="40.8535" lengthAdjust="spacingAndGlyphs">Кол-во</text>
+    <text transform="translate(715.5 77) rotate(0) scale(0.76 1)" x="-18.1924" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="36.3848" lengthAdjust="spacingAndGlyphs">Прим.</text>
+  </g>
+  <g data-source-region="АР-18 · молдинг Д-1, эскиз, сечение, количество">
+    <text transform="translate(139 131.5) rotate(0) scale(0.76 1)" x="-10.9648" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="21.9297" lengthAdjust="spacingAndGlyphs">Д-1</text>
+    <text transform="translate(449 124.5) rotate(0) scale(0.76 1)" x="-76.1845" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="152.3689" lengthAdjust="spacingAndGlyphs">Молдинг полиуретановый</text>
+    <text transform="translate(449 136.5) rotate(0) scale(0.76 1)" x="-43.937" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="87.8739" lengthAdjust="spacingAndGlyphs">(или гипсовый)</text>
+    <text transform="translate(658 131.5) rotate(0) scale(0.76 1)" x="-10.845" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="21.6899" lengthAdjust="spacingAndGlyphs">146</text>
+    <text transform="translate(716 124.5) rotate(0) scale(0.76 1)" x="-11.3495" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="22.699" lengthAdjust="spacingAndGlyphs">шт.,</text>
+    <text transform="translate(716 137.5) rotate(0) scale(0.76 1)" x="-24.0814" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="48.1628" lengthAdjust="spacingAndGlyphs">на заказ</text>
+    <path d="M208.2 112.9 L255.8 112.9 L255.8 140.1 L208.2 140.1 Z" stroke="#000000" fill="none" stroke-width="1.32" />
+    <path d="M198.2 108.9 L198.2 144.1" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M195.5 115.8 L200.9 110" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M208.2 112.9 L193.2 112.9" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M195.5 143 L200.9 137.2" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M208.2 140.1 L193.2 140.1" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M186.699 134.3644 L186.699 118.6356 L196.869 118.6356 L196.869 134.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(195.4 126.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="198.2 112.9 198.2 140.1" data-dimension-unit="mm">400</text>
+    <path d="M204.2 150.1 L259.8 150.1" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M205.5 153 L210.9 147.2" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M208.2 140.1 L208.2 155.1" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M253.1 153 L258.5 147.2" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M255.8 140.1 L255.8 155.1" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M224.1356 138.299 L239.8644 138.299 L239.8644 148.469 L224.1356 148.469 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(232 147) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="208.2 150.1 255.8 150.1" data-dimension-unit="mm">700</text>
+    <path d="M313 112.9 L315.04 112.9 L315.04 140.1 L313 140.1 Z" stroke="#000000" fill="none" stroke-width="1.15" />
+    <path d="M309 150.1 L339 150.1" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M312.2023 150.9568 L313.7977 149.2432" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M313 140.1 L313 155.1" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M314.2423 150.9568 L315.8377 149.2432" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M315.04 140.1 L315.04 155.1" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M325.5238 138.299 L336.4762 138.299 L336.4762 148.469 L325.5238 148.469 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <path d="M342 108.9 L342 144.1" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M339.3 115.8 L344.7 110" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M315.04 112.9 L347 112.9" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M339.3 143 L344.7 137.2" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M315.04 140.1 L347 140.1" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M330.499 134.3644 L330.499 118.6356 L340.669 118.6356 L340.669 134.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(339.2 126.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="342 112.9 342 140.1" data-dimension-unit="mm">400</text>
+  </g>
+  <g data-source-region="АР-18 · молдинг Д-2, эскиз, сечение, количество">
+    <text transform="translate(139 200.5) rotate(0) scale(0.76 1)" x="-10.9648" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="21.9297" lengthAdjust="spacingAndGlyphs">Д-2</text>
+    <text transform="translate(449 193.5) rotate(0) scale(0.76 1)" x="-76.1845" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="152.3689" lengthAdjust="spacingAndGlyphs">Молдинг полиуретановый</text>
+    <text transform="translate(449 205.5) rotate(0) scale(0.76 1)" x="-43.937" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="87.8739" lengthAdjust="spacingAndGlyphs">(или гипсовый)</text>
+    <text transform="translate(658 200.5) rotate(0) scale(0.76 1)" x="-3.615" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="7.23" lengthAdjust="spacingAndGlyphs">4</text>
+    <text transform="translate(716 193.5) rotate(0) scale(0.76 1)" x="-11.3495" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="22.699" lengthAdjust="spacingAndGlyphs">шт.,</text>
+    <text transform="translate(716 206.5) rotate(0) scale(0.76 1)" x="-24.0814" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="48.1628" lengthAdjust="spacingAndGlyphs">на заказ</text>
+    <path d="M223.5 184.11 L240.5 184.11 L237.95 206.89 L226.05 206.89 Z" stroke="#000000" fill="none" stroke-width="1.32" />
+    <path d="M213.5 180.11 L213.5 210.89" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M210.8 187.01 L216.2 181.21" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M223.5 184.11 L208.5 184.11" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M210.8 209.79 L216.2 203.99" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M226.05 206.89 L208.5 206.89" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M201.999 203.3644 L201.999 187.6356 L212.169 187.6356 L212.169 203.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(210.7 195.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="213.5 184.11 213.5 206.89" data-dimension-unit="mm">335</text>
+    <path d="M222.05 216.89 L259 216.89" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M223.35 219.79 L228.75 213.99" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M226.05 206.89 L226.05 221.89" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M235.25 219.79 L240.65 213.99" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M237.95 206.89 L237.95 221.89" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M243.1356 205.089 L258.8644 205.089 L258.8644 215.259 L243.1356 215.259 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(251 213.79) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="226.05 216.89 237.95 216.89" data-dimension-unit="mm">175</text>
+    <path d="M219.5 179.11 L244.5 179.11" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M220.8 182.01 L226.2 176.21" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M223.5 184.11 L223.5 174.11" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M237.8 182.01 L243.2 176.21" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M240.5 184.11 L240.5 174.11" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M222.1356 167.309 L237.8644 167.309 L237.8644 177.479 L222.1356 177.479 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(230 176.01) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="223.5 179.11 240.5 179.11" data-dimension-unit="mm">250</text>
+    <path d="M313 184.11 L321.84 184.11 L321.84 206.89 L313 206.89 Z" stroke="#000000" fill="none" stroke-width="1.15" />
+    <path d="M313 186.59 L315.48 184.11" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M313 189.49 L318.38 184.11" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M313 192.39 L321.28 184.11" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M313 195.29 L321.84 186.45" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M313 198.19 L321.84 189.35" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M313 201.09 L321.84 192.25" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M313 203.99 L321.84 195.15" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M313 206.89 L321.84 198.05" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M315.9 206.89 L321.84 200.95" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M318.8 206.89 L321.84 203.85" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M321.7 206.89 L321.84 206.75" stroke="#000000" fill="none" stroke-width="0.6" />
+    <path d="M309 177.11 L339 177.11" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M310.3 180.01 L315.7 174.21" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 184.11 L313 172.11" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M319.14 180.01 L324.54 174.21" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M321.84 184.11 L321.84 172.11" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M323.1356 165.309 L338.8644 165.309 L338.8644 175.479 L323.1356 175.479 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(331 174.01) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 177.11 321.84 177.11" data-dimension-unit="mm">130</text>
+    <path d="M342 180.11 L342 210.89" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M339.3 187.01 L344.7 181.21" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M321.84 184.11 L347 184.11" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M339.3 209.79 L344.7 203.99" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M321.84 206.89 L347 206.89" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M330.499 203.3644 L330.499 187.6356 L340.669 187.6356 L340.669 203.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(339.2 195.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="342 184.11 342 206.89" data-dimension-unit="mm">335</text>
+  </g>
+  <g data-source-region="АР-18 · молдинг Д-3, эскиз, сечение, количество">
+    <text transform="translate(139 269.5) rotate(0) scale(0.76 1)" x="-10.9648" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="21.9297" lengthAdjust="spacingAndGlyphs">Д-3</text>
+    <text transform="translate(449 262.5) rotate(0) scale(0.76 1)" x="-76.1845" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="152.3689" lengthAdjust="spacingAndGlyphs">Молдинг полиуретановый</text>
+    <text transform="translate(449 274.5) rotate(0) scale(0.76 1)" x="-43.937" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="87.8739" lengthAdjust="spacingAndGlyphs">(или гипсовый)</text>
+    <text transform="translate(658 269.5) rotate(0) scale(0.76 1)" x="-12.6509" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="25.3018" lengthAdjust="spacingAndGlyphs">6.00</text>
+    <text transform="translate(716 262.5) rotate(0) scale(0.76 1)" x="-12.8906" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="25.7812" lengthAdjust="spacingAndGlyphs">м.п.,</text>
+    <text transform="translate(716 275.5) rotate(0) scale(0.76 1)" x="-24.0814" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="48.1628" lengthAdjust="spacingAndGlyphs">на заказ</text>
+    <path d="M204 254.3 L267 254.3 L267 263.5 L269 264.5 L265 266.5 L267 267.5 L267 274.7 L204 274.7 L204 267.5 L202 266.5 L206 264.5 L204 263.5 Z" stroke="#000000" fill="none" stroke-width="1.04" />
+    <path d="M204 259.06 L267 259.06" stroke="#000000" fill="none" stroke-width="0.8" />
+    <path d="M193 250.3 L193 278.7" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M190.3 257.2 L195.7 251.4" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 254.3 L188 254.3" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M190.3 277.6 L195.7 271.8" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 274.7 L188 274.7" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M181.499 272.3644 L181.499 256.6356 L191.669 256.6356 L191.669 272.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(190.2 264.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="193 254.3 193 274.7" data-dimension-unit="mm">300</text>
+    <path d="M313 254.3 L319.8 254.3 L319.8 259.06 L316.4 259.06 L316.4 274.7 L313 274.7 Z" stroke="#000000" fill="none" stroke-width="1.29" />
+    <path d="M293 246.3 L323.8 246.3" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M310.341 249.156 L315.659 243.444" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 254.3 L313 241.3" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M317.141 249.156 L322.459 243.444" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M319.8 254.3 L319.8 241.3" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M293.1356 234.499 L308.8644 234.499 L308.8644 244.669 L293.1356 244.669 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(301 243.2) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 246.3 319.8 246.3" data-dimension-unit="mm">100</text>
+    <path d="M288 288.7 L337 288.7" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M311.6705 290.128 L314.3295 287.272" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 274.7 L313 293.7" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M316.4 274.7 L316.4 293.7" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M290.5238 276.899 L301.4762 276.899 L301.4762 287.069 L290.5238 287.069 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(296 285.6) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 288.7 316.4 288.7" data-dimension-unit="mm">50</text>
+    <path d="M315.0705 290.128 L317.7295 287.272" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M318.4705 290.128 L321.1295 287.272" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M319.8 259.06 L319.8 293.7" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M323.5238 276.899 L334.4762 276.899 L334.4762 287.069 L323.5238 287.069 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(329 285.6) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="316.4 288.7 319.8 288.7" data-dimension-unit="mm">50</text>
+    <path d="M358 239.5 L358 288.5" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M356.1387 256.2992 L359.8613 252.3008" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M319.8 254.3 L363 254.3" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M316.4 259.06 L363 259.06" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M346.499 252.9762 L346.499 242.0238 L356.669 242.0238 L356.669 252.9762 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(355.2 247.5) rotate(-90) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="358 254.3 358 259.06" data-dimension-unit="mm">70</text>
+    <path d="M356.1387 261.0592 L359.8613 257.0608" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M355.3 277.6 L360.7 271.8" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M316.4 274.7 L363 274.7" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M346.499 288.3644 L346.499 272.6356 L356.669 272.6356 L356.669 288.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(355.2 280.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="358 259.06 358 274.7" data-dimension-unit="mm">230</text>
+  </g>
+  <g data-source-region="АР-18 · молдинг Д-4, эскиз, сечение, количество">
+    <text transform="translate(139 338.5) rotate(0) scale(0.76 1)" x="-10.9648" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="21.9297" lengthAdjust="spacingAndGlyphs">Д-4</text>
+    <text transform="translate(449 331.5) rotate(0) scale(0.76 1)" x="-76.1845" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="152.3689" lengthAdjust="spacingAndGlyphs">Молдинг полиуретановый</text>
+    <text transform="translate(449 343.5) rotate(0) scale(0.76 1)" x="-43.937" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="87.8739" lengthAdjust="spacingAndGlyphs">(или гипсовый)</text>
+    <text transform="translate(658 338.5) rotate(0) scale(0.76 1)" x="-12.6509" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="25.3018" lengthAdjust="spacingAndGlyphs">3.00</text>
+    <text transform="translate(716 331.5) rotate(0) scale(0.76 1)" x="-12.8906" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="25.7812" lengthAdjust="spacingAndGlyphs">м.п.,</text>
+    <text transform="translate(716 344.5) rotate(0) scale(0.76 1)" x="-24.0814" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="48.1628" lengthAdjust="spacingAndGlyphs">на заказ</text>
+    <path d="M204 325 L267 325 L267 332.5 L269 333.5 L265 335.5 L267 336.5 L267 342 L204 342 L204 336.5 L202 335.5 L206 333.5 L204 332.5 Z" stroke="#000000" fill="none" stroke-width="1.04" />
+    <path d="M204 327.04 L267 327.04" stroke="#000000" fill="none" stroke-width="0.8" />
+    <path d="M193 321 L193 346" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M190.3 327.9 L195.7 322.1" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 325 L188 325" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M190.3 344.9 L195.7 339.1" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 342 L188 342" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M181.499 341.3644 L181.499 325.6356 L191.669 325.6356 L191.669 341.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(190.2 333.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="193 325 193 342" data-dimension-unit="mm">250</text>
+    <path d="M313 325 L319.8 325 L319.8 327.04 L316.4 327.04 L316.4 342 L313 342 Z" stroke="#000000" fill="none" stroke-width="1.29" />
+    <path d="M293 317 L323.8 317" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M310.341 319.856 L315.659 314.144" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 325 L313 312" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M317.141 319.856 L322.459 314.144" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M319.8 325 L319.8 312" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M293.1356 305.199 L308.8644 305.199 L308.8644 315.369 L293.1356 315.369 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(301 313.9) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 317 319.8 317" data-dimension-unit="mm">100</text>
+    <path d="M288 356 L337 356" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M311.6705 357.428 L314.3295 354.572" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 342 L313 361" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M316.4 342 L316.4 361" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M290.5238 344.199 L301.4762 344.199 L301.4762 354.369 L290.5238 354.369 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(296 352.9) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 356 316.4 356" data-dimension-unit="mm">50</text>
+    <path d="M315.0705 357.428 L317.7295 354.572" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M318.4705 357.428 L321.1295 354.572" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M319.8 327.04 L319.8 361" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M323.5238 344.199 L334.4762 344.199 L334.4762 354.369 L323.5238 354.369 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(329 352.9) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="316.4 356 319.8 356" data-dimension-unit="mm">50</text>
+    <path d="M358 308.5 L358 357.5" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M357.2023 325.8568 L358.7977 324.1432" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M319.8 325 L363 325" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M316.4 327.04 L363 327.04" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M346.499 321.9762 L346.499 311.0238 L356.669 311.0238 L356.669 321.9762 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(355.2 316.5) rotate(-90) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="358 325 358 327.04" data-dimension-unit="mm">30</text>
+    <path d="M357.2023 327.8968 L358.7977 326.1832" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M355.3 344.9 L360.7 339.1" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M316.4 342 L363 342" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M346.499 357.3644 L346.499 341.6356 L356.669 341.6356 L356.669 357.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(355.2 349.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="358 327.04 358 342" data-dimension-unit="mm">220</text>
+  </g>
+  <g data-source-region="АР-18 · молдинг Д-5, эскиз, сечение, количество">
+    <text transform="translate(139 407.5) rotate(0) scale(0.76 1)" x="-10.9648" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="21.9297" lengthAdjust="spacingAndGlyphs">Д-5</text>
+    <text transform="translate(449 400.5) rotate(0) scale(0.76 1)" x="-76.1845" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="152.3689" lengthAdjust="spacingAndGlyphs">Молдинг полиуретановый</text>
+    <text transform="translate(449 412.5) rotate(0) scale(0.76 1)" x="-43.937" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="87.8739" lengthAdjust="spacingAndGlyphs">(или гипсовый)</text>
+    <text transform="translate(658 407.5) rotate(0) scale(0.76 1)" x="-16.2659" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="32.5317" lengthAdjust="spacingAndGlyphs">34.00</text>
+    <text transform="translate(716 400.5) rotate(0) scale(0.76 1)" x="-12.8906" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="25.7812" lengthAdjust="spacingAndGlyphs">м.п.,</text>
+    <text transform="translate(716 413.5) rotate(0) scale(0.76 1)" x="-24.0814" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="48.1628" lengthAdjust="spacingAndGlyphs">на заказ</text>
+    <path d="M204 395.02 L267 395.02 L267 401.5 L269 402.5 L265 404.5 L267 405.5 L267 409.98 L204 409.98 L204 405.5 L202 404.5 L206 402.5 L204 401.5 Z" stroke="#000000" fill="none" stroke-width="1.04" />
+    <path d="M204 399.78 L267 399.78" stroke="#000000" fill="none" stroke-width="0.8" />
+    <path d="M193 391.02 L193 413.98" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M190.3 397.92 L195.7 392.12" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 395.02 L188 395.02" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M190.3 412.88 L195.7 407.08" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 409.98 L188 409.98" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M181.499 410.3644 L181.499 394.6356 L191.669 394.6356 L191.669 410.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(190.2 402.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="193 395.02 193 409.98" data-dimension-unit="mm">220</text>
+    <path d="M313 395.02 L320.14 395.02 L320.14 399.78 L316.4 399.78 L316.4 409.98 L313 409.98 Z" stroke="#000000" fill="none" stroke-width="1.29" />
+    <path d="M293 387.02 L324.14 387.02" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M310.3 389.92 L315.7 384.12" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 395.02 L313 382.02" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M317.44 389.92 L322.84 384.12" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M320.14 395.02 L320.14 382.02" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M293.1356 375.219 L308.8644 375.219 L308.8644 385.389 L293.1356 385.389 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(301 383.92) rotate(0) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 387.02 320.14 387.02" data-dimension-unit="mm">105</text>
+    <path d="M288 423.98 L337 423.98" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M311.6705 425.408 L314.3295 422.552" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 409.98 L313 428.98" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M316.4 409.98 L316.4 428.98" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M290.5238 412.179 L301.4762 412.179 L301.4762 422.349 L290.5238 422.349 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(296 420.88) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 423.98 316.4 423.98" data-dimension-unit="mm">50</text>
+    <path d="M315.0705 425.408 L317.7295 422.552" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M318.6775 425.5508 L321.6025 422.4092" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M320.14 399.78 L320.14 428.98" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M323.5238 412.179 L334.4762 412.179 L334.4762 422.349 L323.5238 422.349 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(329 420.88) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="316.4 423.98 320.14 423.98" data-dimension-unit="mm">55</text>
+    <path d="M358 377.5 L358 426.5" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M356.1387 397.0192 L359.8613 393.0208" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M320.14 395.02 L363 395.02" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M316.4 399.78 L363 399.78" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M346.499 390.9762 L346.499 380.0238 L356.669 380.0238 L356.669 390.9762 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(355.2 385.5) rotate(-90) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="358 395.02 358 399.78" data-dimension-unit="mm">70</text>
+    <path d="M356.1387 401.7792 L359.8613 397.7808" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M355.3 412.88 L360.7 407.08" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M316.4 409.98 L363 409.98" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M346.499 426.3644 L346.499 410.6356 L356.669 410.6356 L356.669 426.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(355.2 418.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="358 399.78 358 409.98" data-dimension-unit="mm">150</text>
+  </g>
+  <g data-source-region="АР-18 · молдинг Д-6, эскиз, сечение, количество">
+    <text transform="translate(139 476.5) rotate(0) scale(0.76 1)" x="-10.9648" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="21.9297" lengthAdjust="spacingAndGlyphs">Д-6</text>
+    <text transform="translate(449 469.5) rotate(0) scale(0.76 1)" x="-76.1845" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="152.3689" lengthAdjust="spacingAndGlyphs">Молдинг полиуретановый</text>
+    <text transform="translate(449 481.5) rotate(0) scale(0.76 1)" x="-43.937" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="87.8739" lengthAdjust="spacingAndGlyphs">(или гипсовый)</text>
+    <text transform="translate(658 476.5) rotate(0) scale(0.76 1)" x="-16.2659" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="32.5317" lengthAdjust="spacingAndGlyphs">81.00</text>
+    <text transform="translate(716 469.5) rotate(0) scale(0.76 1)" x="-12.8906" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="25.7812" lengthAdjust="spacingAndGlyphs">м.п.,</text>
+    <text transform="translate(716 482.5) rotate(0) scale(0.76 1)" x="-24.0814" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="48.1628" lengthAdjust="spacingAndGlyphs">на заказ</text>
+    <path d="M204 466.4 L267 466.4 L267 470.5 L265 471.5 L269 473.5 L267 474.5 L267 476.6 L204 476.6 L204 474.5 L206 473.5 L202 471.5 L204 470.5 Z" stroke="#000000" fill="none" stroke-width="1.04" />
+    <path d="M204 468.44 L267 468.44" stroke="#000000" fill="none" stroke-width="0.8" />
+    <path d="M193 455.5 L193 480.6" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M190.3 469.3 L195.7 463.5" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 466.4 L188 466.4" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M190.3 479.5 L195.7 473.7" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 476.6 L188 476.6" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M181.499 471.3644 L181.499 455.6356 L191.669 455.6356 L191.669 471.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(190.2 463.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="193 466.4 193 476.6" data-dimension-unit="mm">150</text>
+    <path d="M313 466.4 L317.08 466.4 L317.08 468.44 L315.04 468.44 L315.04 476.6 L313 476.6 Z" stroke="#000000" fill="none" stroke-width="1.29" />
+    <path d="M293 458.4 L321.08 458.4" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M311.4046 460.1136 L314.5954 456.6864" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 466.4 L313 453.4" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M315.4846 460.1136 L318.6754 456.6864" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M317.08 466.4 L317.08 453.4" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M295.5238 446.599 L306.4762 446.599 L306.4762 456.769 L295.5238 456.769 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(301 455.3) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 458.4 317.08 458.4" data-dimension-unit="mm">60</text>
+    <path d="M288 490.6 L337 490.6" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M312.2023 491.4568 L313.7977 489.7432" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M313 476.6 L313 495.6" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M315.04 476.6 L315.04 495.6" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M290.5238 478.799 L301.4762 478.799 L301.4762 488.969 L290.5238 488.969 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(296 487.5) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 490.6 315.04 490.6" data-dimension-unit="mm">30</text>
+    <path d="M314.2423 491.4568 L315.8377 489.7432" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M316.2823 491.4568 L317.8777 489.7432" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M317.08 468.44 L317.08 495.6" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M323.5238 478.799 L334.4762 478.799 L334.4762 488.969 L323.5238 488.969 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(329 487.5) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="315.04 490.6 317.08 490.6" data-dimension-unit="mm">30</text>
+    <path d="M358 446.5 L358 495.5" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M357.2023 467.2568 L358.7977 465.5432" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M317.08 466.4 L363 466.4" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M315.04 468.44 L363 468.44" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M346.499 459.9762 L346.499 449.0238 L356.669 449.0238 L356.669 459.9762 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(355.2 454.5) rotate(-90) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="358 466.4 358 468.44" data-dimension-unit="mm">30</text>
+    <path d="M357.2023 469.2968 L358.7977 467.5832" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M355.3 479.5 L360.7 473.7" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M315.04 476.6 L363 476.6" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M346.499 495.3644 L346.499 479.6356 L356.669 479.6356 L356.669 495.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(355.2 487.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="358 468.44 358 476.6" data-dimension-unit="mm">120</text>
+  </g>
+  <g data-source-region="АР-18 · молдинг Д-7, эскиз, сечение, количество">
+    <text transform="translate(139 545.5) rotate(0) scale(0.76 1)" x="-10.9648" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="21.9297" lengthAdjust="spacingAndGlyphs">Д-7</text>
+    <text transform="translate(449 538.5) rotate(0) scale(0.76 1)" x="-76.1845" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="152.3689" lengthAdjust="spacingAndGlyphs">Молдинг полиуретановый</text>
+    <text transform="translate(449 550.5) rotate(0) scale(0.76 1)" x="-43.937" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="87.8739" lengthAdjust="spacingAndGlyphs">(или гипсовый)</text>
+    <text transform="translate(658 545.5) rotate(0) scale(0.76 1)" x="-12.6509" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="25.3018" lengthAdjust="spacingAndGlyphs">4.00</text>
+    <text transform="translate(716 538.5) rotate(0) scale(0.76 1)" x="-12.8906" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="25.7812" lengthAdjust="spacingAndGlyphs">м.п.,</text>
+    <text transform="translate(716 551.5) rotate(0) scale(0.76 1)" x="-24.0814" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="48.1628" lengthAdjust="spacingAndGlyphs">на заказ</text>
+    <path d="M204 534.72 L267 534.72 L267 539.5 L269 540.5 L265 542.5 L267 543.5 L267 546.28 L204 546.28 L204 543.5 L202 542.5 L206 540.5 L204 539.5 Z" stroke="#000000" fill="none" stroke-width="1.04" />
+    <path d="M204 538.8 L267 538.8" stroke="#000000" fill="none" stroke-width="0.8" />
+    <path d="M204 540.84 L267 540.84" stroke="#000000" fill="none" stroke-width="0.8" />
+    <path d="M193 524.5 L193 550.28" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M190.3 537.62 L195.7 531.82" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 534.72 L188 534.72" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M190.3 549.18 L195.7 543.38" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 546.28 L188 546.28" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M181.499 540.3644 L181.499 524.6356 L191.669 524.6356 L191.669 540.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(190.2 532.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="193 534.72 193 546.28" data-dimension-unit="mm">170</text>
+    <path d="M313 534.72 L318.44 534.72 L318.44 538.8 L316.4 538.8 L316.4 540.84 L314.7 540.84 L314.7 546.28 L313 546.28 Z" stroke="#000000" fill="none" stroke-width="1.29" />
+    <path d="M293 526.72 L322.44 526.72" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M310.8728 529.0048 L315.1272 524.4352" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 534.72 L313 521.72" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M316.3128 529.0048 L320.5672 524.4352" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M318.44 534.72 L318.44 521.72" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M295.5238 514.919 L306.4762 514.919 L306.4762 525.089 L295.5238 525.089 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(301 523.62) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 526.72 318.44 526.72" data-dimension-unit="mm">80</text>
+    <path d="M288 560.28 L318.7 560.28" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M312.3352 560.994 L313.6648 559.566" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M313 546.28 L313 565.28" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M314.0352 560.994 L315.3648 559.566" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M314.7 546.28 L314.7 565.28" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M290.5238 548.479 L301.4762 548.479 L301.4762 558.649 L290.5238 558.649 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(296 557.18) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 560.28 314.7 560.28" data-dimension-unit="mm">25</text>
+    <path d="M298 569.28 L320.4 569.28" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M314.0352 569.994 L315.3648 568.566" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M314.7 546.28 L314.7 574.28" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M315.7352 569.994 L317.0648 568.566" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M316.4 540.84 L316.4 574.28" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M300.5238 557.479 L311.4762 557.479 L311.4762 567.649 L300.5238 567.649 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(306 566.18) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="314.7 569.28 316.4 569.28" data-dimension-unit="mm">25</text>
+    <path d="M312.4 560.28 L337 560.28" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M315.6023 561.1368 L317.1977 559.4232" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M316.4 540.84 L316.4 565.28" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M317.6423 561.1368 L319.2377 559.4232" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M318.44 538.8 L318.44 565.28" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M323.5238 548.479 L334.4762 548.479 L334.4762 558.649 L323.5238 558.649 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(329 557.18) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="316.4 560.28 318.44 560.28" data-dimension-unit="mm">30</text>
+    <path d="M347 515.5 L347 542.8" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M345.4046 536.4336 L348.5954 533.0064" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M318.44 534.72 L352 534.72" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M345.4046 540.5136 L348.5954 537.0864" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M318.44 538.8 L352 538.8" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M335.499 528.9762 L335.499 518.0238 L345.669 518.0238 L345.669 528.9762 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(344.2 523.5) rotate(-90) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="347 534.72 347 538.8" data-dimension-unit="mm">60</text>
+    <path d="M367 532.5 L367 548.5" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M366.2023 539.6568 L367.7977 537.9432" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M316.4 538.8 L372 538.8" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M366.2023 541.6968 L367.7977 539.9832" stroke="#000000" fill="none" stroke-width="0.5" />
+    <path d="M316.4 540.84 L372 540.84" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M355.499 545.9762 L355.499 535.0238 L365.669 535.0238 L365.669 545.9762 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(364.2 540.5) rotate(-90) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="367 538.8 367 540.84" data-dimension-unit="mm">30</text>
+    <path d="M347 536.84 L347 564.5" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M344.8728 543.1248 L349.1272 538.5552" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M314.7 540.84 L352 540.84" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M344.8728 548.5648 L349.1272 543.9952" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M314.7 546.28 L352 546.28" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M335.499 561.9762 L335.499 551.0238 L345.669 551.0238 L345.669 561.9762 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(344.2 556.5) rotate(-90) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="347 540.84 347 546.28" data-dimension-unit="mm">80</text>
+  </g>
+  <g data-source-region="АР-18 · молдинг Д-8, эскиз, сечение, количество">
+    <text transform="translate(139 614.5) rotate(0) scale(0.76 1)" x="-10.9648" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="21.9297" lengthAdjust="spacingAndGlyphs">Д-8</text>
+    <text transform="translate(449 607.5) rotate(0) scale(0.76 1)" x="-76.1845" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="152.3689" lengthAdjust="spacingAndGlyphs">Молдинг полиуретановый</text>
+    <text transform="translate(449 619.5) rotate(0) scale(0.76 1)" x="-43.937" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="87.8739" lengthAdjust="spacingAndGlyphs">(или гипсовый)</text>
+    <text transform="translate(658 614.5) rotate(0) scale(0.76 1)" x="-16.2659" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="32.5317" lengthAdjust="spacingAndGlyphs">14.00</text>
+    <text transform="translate(716 607.5) rotate(0) scale(0.76 1)" x="-12.8906" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="25.7812" lengthAdjust="spacingAndGlyphs">м.п.,</text>
+    <text transform="translate(716 620.5) rotate(0) scale(0.76 1)" x="-24.0814" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="48.1628" lengthAdjust="spacingAndGlyphs">на заказ</text>
+    <path d="M204 604.4 L267 604.4 L267 608.5 L269 609.5 L265 611.5 L267 612.5 L267 614.6 L204 614.6 L204 612.5 L202 611.5 L206 609.5 L204 608.5 Z" stroke="#000000" fill="none" stroke-width="1.04" />
+    <path d="M193 593.5 L193 618.6" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M190.3 607.3 L195.7 601.5" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 604.4 L188 604.4" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M190.3 617.5 L195.7 611.7" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 614.6 L188 614.6" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M181.499 609.3644 L181.499 593.6356 L191.669 593.6356 L191.669 609.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(190.2 601.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="193 604.4 193 614.6" data-dimension-unit="mm">150</text>
+    <path d="M313 604.4 L316.4 604.4 L316.4 614.6 L313 614.6 Z" stroke="#000000" fill="none" stroke-width="1.15" />
+    <path d="M309 624.6 L339 624.6" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M311.6705 626.028 L314.3295 623.172" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 614.6 L313 629.6" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M315.0705 626.028 L317.7295 623.172" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M316.4 614.6 L316.4 629.6" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M325.5238 612.799 L336.4762 612.799 L336.4762 622.969 L325.5238 622.969 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(331 621.5) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 624.6 316.4 624.6" data-dimension-unit="mm">50</text>
+  </g>
+  <g data-source-region="АР-18 · молдинг Д-9, эскиз, сечение, количество">
+    <text transform="translate(139 683.5) rotate(0) scale(0.76 1)" x="-10.9648" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="21.9297" lengthAdjust="spacingAndGlyphs">Д-9</text>
+    <text transform="translate(449 676.5) rotate(0) scale(0.76 1)" x="-76.1845" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="152.3689" lengthAdjust="spacingAndGlyphs">Молдинг полиуретановый</text>
+    <text transform="translate(449 688.5) rotate(0) scale(0.76 1)" x="-43.937" y="0" font-size="12.6" font-family="Arial, Liberation Sans, sans-serif" textLength="87.8739" lengthAdjust="spacingAndGlyphs">(или гипсовый)</text>
+    <text transform="translate(658 683.5) rotate(0) scale(0.76 1)" x="-16.2659" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="32.5317" lengthAdjust="spacingAndGlyphs">14.00</text>
+    <text transform="translate(716 676.5) rotate(0) scale(0.76 1)" x="-12.8906" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="25.7812" lengthAdjust="spacingAndGlyphs">м.п.,</text>
+    <text transform="translate(716 689.5) rotate(0) scale(0.76 1)" x="-24.0814" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="48.1628" lengthAdjust="spacingAndGlyphs">на заказ</text>
+    <path d="M204 675.1 L267 675.1 L267 677.5 L269 678.5 L265 680.5 L267 681.5 L267 681.9 L204 681.9 L204 681.5 L202 680.5 L206 678.5 L204 677.5 Z" stroke="#000000" fill="none" stroke-width="1.04" />
+    <path d="M193 662.5 L193 685.9" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M190.341 677.956 L195.659 672.244" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 675.1 L188 675.1" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M190.341 684.756 L195.659 679.044" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M204 681.9 L188 681.9" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M181.499 678.3644 L181.499 662.6356 L191.669 662.6356 L191.669 678.3644 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(190.2 670.5) rotate(-90) scale(0.76 1)" x="-9.4268" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="18.8536" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="193 675.1 193 681.9" data-dimension-unit="mm">100</text>
+    <path d="M313 675.1 L316.4 675.1 L316.4 681.9 L313 681.9 Z" stroke="#000000" fill="none" stroke-width="1.15" />
+    <path d="M309 691.9 L339 691.9" stroke="#000000" fill="none" stroke-width="0.58" />
+    <path d="M311.6705 693.328 L314.3295 690.472" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M313 681.9 L313 696.9" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M315.0705 693.328 L317.7295 690.472" stroke="#000000" fill="none" stroke-width="0.69" />
+    <path d="M316.4 681.9 L316.4 696.9" stroke="#000000" fill="none" stroke-width="0.48" />
+    <path d="M325.5238 680.099 L336.4762 680.099 L336.4762 690.269 L325.5238 690.269 Z" stroke="none" fill="#ffffff" stroke-width="0" />
+    <text transform="translate(331 688.8) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 691.9 316.4 691.9" data-dimension-unit="mm">50</text>
+  </g>
+  <g data-source-region="АР-18 · вариант установки водосточного желоба, аксонометрия и 12 позиций">
+    <text transform="translate(1045 85) rotate(0) scale(0.76 1)" x="-162.9692" y="0" font-size="17" font-family="Arial, Liberation Sans, sans-serif" textLength="325.9385" lengthAdjust="spacingAndGlyphs">Вариант установки водосточного желоба</text>
+    <g transform="translate(788 103) scale(0.509)">
+      <path d="M70 530 L70 424 L241 100 L410 100 L420 81 L424 117 L434 100 L877 100 L877 168 L683 521 L683 409 L704 360 L561 360 L561 412 L475 412 L475 446 L72 448" stroke="#000000" fill="none" stroke-width="1.65" />
+      <path d="M475 412 L504 368 L373 368 L351 418 L72 424" stroke="#000000" fill="none" stroke-width="1.7" />
+      <path d="M369 386 L473 386 L458 412 L360 412" stroke="#000000" fill="none" stroke-width="1.7" />
+      <path d="M72 424 L475 420 L475 446 L71 454" stroke="#000000" fill="none" stroke-width="2" />
+      <path d="M188 212 L200 210 L284 140 L282 102" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M284 140 L338 138 L379 102" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M338 138 L345 209" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M200 210 L207 277 L151 326 L121 332 L129 422" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M207 277 L263 277" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M129 422 L178 422 L269 350 L269 316" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M395 213 L488 136 L486 102" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M488 136 L540 135 L578 102" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M540 135 L550 208" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M606 203 L688 132 L685 102" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M688 132 L726 131 L742 100" stroke="#000000" fill="none" stroke-width="1.25" />
+      <path d="M262.5283 283.4717 L306.1538 239.8462" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M263.5849 296.4151 L352 208" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M264.6415 309.3585 L366 208" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M265.6981 322.3019 L380 208" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M276 326 L394 208" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M290 326 L397.8 218.2" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M304 326 L399.9 230.1" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M318 326 L402 242" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M332 326 L404.1 253.9" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M346 326 L406.2 265.8" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M360 326 L410 276" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M374 326 L424 276" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M388 326 L438 276" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M402 326 L452 276" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M395.3 346.7 L479.5 262.5" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M384.24 371.76 L552 204" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M399.36 370.64 L566 204" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M414.48 369.52 L580 204" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M429.6 368.4 L594 204" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M454.4211 357.5789 L632.5 179.5" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M480.8235 345.1765 L647.9121 178.0879" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M497.7059 342.2941 L632.5275 207.4725" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M514.5882 339.4118 L617.1429 236.8571" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M527.32 340.68 L601.7582 266.2418" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M539.36 342.64 L586.3736 295.6264" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M551.4 344.6 L570.989 325.011" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M659.4712 155.4712 L659.6564 155.6564" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M652.0673 162.0673 L654.8454 164.8454" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M644.6635 168.6635 L650.0344 174.0344" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M637.2596 175.2596 L645.2234 183.2234" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M629.8558 181.8558 L640.4124 192.4124" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M622.4519 188.4519 L635.6014 201.6014" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M615.0481 195.0481 L630.7904 210.7904" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M607.6442 201.6442 L625.9794 219.9794" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M596 204 L621.1684 229.1684" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M582 204 L616.3574 238.3574" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M568 204 L611.5464 247.5464" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M554 204 L606.7354 256.7354" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M544.95 208.95 L601.9244 265.9244" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M537.25 215.25 L597.1134 275.1134" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M529.55 221.55 L592.3024 284.3024" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M521.85 227.85 L587.4914 293.4914" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M514.15 234.15 L582.6804 302.6804" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M506.45 240.45 L577.8694 311.8694" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M498.75 246.75 L573.0584 321.0584" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M491.05 253.05 L568.2474 330.2474" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M483.35 259.35 L563.4364 339.4364" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M475.65 265.65 L555.2222 345.2222" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M467.95 271.95 L538.5 342.5" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M390 208 L397.2857 215.2857" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M458 276 L521.7778 339.7778" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M376 208 L400.2857 232.2857" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M444 276 L508.4583 340.4583" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M362 208 L403.2857 249.2857" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M430 276 L496.5 342.5" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M348 208 L406.2857 266.2857" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M416 276 L484.5417 344.5417" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M338.5695 212.5695 L473.3968 347.3968" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M330.9669 218.9669 L464.2857 352.2857" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M323.3642 225.3642 L455.1746 357.1746" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M315.7616 231.7616 L446.0635 362.0635" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M308.1589 238.1589 L396 326" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M403.0278 333.0278 L436.9524 366.9524" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M300.5563 244.5563 L382 326" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M397.9722 341.9722 L424.7586 368.7586" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M292.9536 250.9536 L368 326" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M392.9167 350.9167 L411.7241 369.7241" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M285.351 257.351 L354 326" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M387.8611 359.8611 L398.6897 370.6897" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M277.7483 263.7483 L340 326" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M382.8056 368.8056 L385.6552 371.6552" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M270.1457 270.1457 L326 326" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M262.543 276.543 L312 326" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M263.1556 291.1556 L298 326" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M264.4 306.4 L284 326" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M265.6444 321.6444 L270 326" stroke="#000000" fill="none" stroke-width="1.75" />
+      <path d="M262 277 L344 208 L396 208 L408 276 L463 276 L551 204 L605 204 L660 155 L560 346 L517 339 L476 346 L435 368 L381 372 L407 326 L266 326 Z" stroke="#000000" fill="none" stroke-width="1.42" />
+      <path d="M561 410 L628 282 C652 242 699 229 781 234" stroke="#000000" fill="none" stroke-width="1.6" />
+      <path d="M628 282 L757 282" stroke="#000000" fill="none" stroke-width="1.2" />
+      <path d="M641 261 L762 261" stroke="#000000" fill="none" stroke-width="1.2" />
+      <path d="M598 359 L705 359" stroke="#000000" fill="none" stroke-width="1.2" />
+      <path d="M568 404 L662 404" stroke="#000000" fill="none" stroke-width="1.2" />
+      <path d="M874 99 L668 408 L668 453" stroke="#000000" fill="none" stroke-width="1.7" />
+      <path d="M852 99 L660 405 L660 446" stroke="#000000" fill="none" stroke-width="0.9" />
+      <path d="M856 99 L663.3 405 L663.3 446" stroke="#000000" fill="none" stroke-width="0.9" />
+      <path d="M860 99 L666.6 405 L666.6 446" stroke="#000000" fill="none" stroke-width="0.9" />
+      <path d="M864 99 L669.9 405 L669.9 446" stroke="#000000" fill="none" stroke-width="0.9" />
+      <path d="M868 99 L673.2 405 L673.2 446" stroke="#000000" fill="none" stroke-width="0.9" />
+      <path d="M852 127 C864 108 866 119 859 136 L846 163" stroke="#000000" fill="none" stroke-width="1" />
+      <path d="M824 172 C836 153 838 164 831 181 L818 208" stroke="#000000" fill="none" stroke-width="1" />
+      <path d="M795 221 C807 202 809 213 802 230 L789 257" stroke="#000000" fill="none" stroke-width="1" />
+      <path d="M769 271 C781 252 783 263 776 280 L763 307" stroke="#000000" fill="none" stroke-width="1" />
+      <path d="M744 318 C756 299 758 310 751 327 L738 354" stroke="#000000" fill="none" stroke-width="1" />
+      <path d="M715 368 C727 349 729 360 722 377 L709 404" stroke="#000000" fill="none" stroke-width="1" />
+      <path d="M690 414 C702 395 704 406 697 423 L684 450" stroke="#000000" fill="none" stroke-width="1" />
+      <path d="M539 416 L539 451 C541 524 659 542 686 484" stroke="#000000" fill="none" stroke-width="2.3" />
+      <path d="M546 416 L546 453 C551 515 656 529 681 483" stroke="#000000" fill="none" stroke-width="1.65" />
+      <path d="M592 452 C600 506 650 504 663 471 L663 416" stroke="#000000" fill="none" stroke-width="2.45" />
+      <path d="M597 453 C603 496 649 500 659 467" stroke="#000000" fill="none" stroke-width="1.35" />
+      <path d="M72 458 L242 455 L233 461 C256 500 312 499 316 447" stroke="#000000" fill="none" stroke-width="2" />
+      <path d="M200 461 C212 496 247 496 279 491 L71 495" stroke="#000000" fill="none" stroke-width="1.7" />
+      <path d="M365 453 C374 505 440 499 440 445" stroke="#000000" fill="none" stroke-width="2.6" />
+      <path d="M370 454 C377 492 429 501 436 446" stroke="#000000" fill="none" stroke-width="1.2" />
+      <path d="M70 530 L683 521 L683 448" stroke="#000000" fill="none" stroke-width="0.82" />
+      <path d="M475 446 L475 415 L561 412" stroke="#000000" fill="none" stroke-width="0.82" />
+      <path d="M345 39 L345 133" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M324 39 C324 11 366 11 366 39 C366 67 324 67 324 39 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(345 46) rotate(0) scale(0.76 1)" x="-6.1177" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="12.2354" lengthAdjust="spacingAndGlyphs" data-leader-anchor="345 133">1</text>
+      <path d="M89 262 L281 265" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M68 262 C68 234 110 234 110 262 C110 290 68 290 68 262 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(89 269) rotate(0) scale(0.76 1)" x="-6.1177" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="12.2354" lengthAdjust="spacingAndGlyphs" data-leader-anchor="281 265">2</text>
+      <path d="M44 390 L446 386" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M23 390 C23 362 65 362 65 390 C65 418 23 418 23 390 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(44 397) rotate(0) scale(0.76 1)" x="-6.1177" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="12.2354" lengthAdjust="spacingAndGlyphs" data-leader-anchor="446 386">3</text>
+      <path d="M787 38 L788 130" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M766 38 C766 10 808 10 808 38 C808 66 766 66 766 38 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(787 45) rotate(0) scale(0.76 1)" x="-6.1177" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="12.2354" lengthAdjust="spacingAndGlyphs" data-leader-anchor="788 130">4</text>
+      <path d="M870 328 L711 329" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M849 328 C849 300 891 300 891 328 C891 356 849 356 849 328 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(870 335) rotate(0) scale(0.76 1)" x="-6.1177" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="12.2354" lengthAdjust="spacingAndGlyphs" data-leader-anchor="711 329">5</text>
+      <path d="M827 414 L689 417" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M806 414 C806 386 848 386 848 414 C848 442 806 442 806 414 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(827 421) rotate(0) scale(0.76 1)" x="-6.1177" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="12.2354" lengthAdjust="spacingAndGlyphs" data-leader-anchor="689 417">6</text>
+      <path d="M925 197 L831 195" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M904 197 C904 169 946 169 946 197 C946 225 904 225 904 197 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(925 204) rotate(0) scale(0.76 1)" x="-6.1177" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="12.2354" lengthAdjust="spacingAndGlyphs" data-leader-anchor="831 195">7</text>
+      <path d="M55 333 L295 332" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M34 333 C34 305 76 305 76 333 C76 361 34 361 34 333 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(55 340) rotate(0) scale(0.76 1)" x="-6.1177" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="12.2354" lengthAdjust="spacingAndGlyphs" data-leader-anchor="295 332">8</text>
+      <path d="M383 567 L386 482" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M362 567 C362 539 404 539 404 567 C404 595 362 595 362 567 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(383 574) rotate(0) scale(0.76 1)" x="-6.1177" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="12.2354" lengthAdjust="spacingAndGlyphs" data-leader-anchor="386 482">9</text>
+      <path d="M168 590 L167 482" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M147 590 C147 562 189 562 189 590 C189 618 147 618 147 590 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(168 597) rotate(0) scale(0.76 1)" x="-12.2354" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="24.4707" lengthAdjust="spacingAndGlyphs" data-leader-anchor="167 482">10</text>
+      <path d="M531 581 L528 477" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M510 581 C510 553 552 553 552 581 C552 609 510 609 510 581 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(531 588) rotate(0) scale(0.76 1)" x="-12.2354" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="24.4707" lengthAdjust="spacingAndGlyphs" data-leader-anchor="528 477">11</text>
+      <path d="M450 583 L447 400" stroke="#000000" fill="none" stroke-width="1.55" />
+      <path d="M429 583 C429 555 471 555 471 583 C471 611 429 611 429 583 Z" stroke="#000000" fill="white" stroke-width="1.9" />
+      <text transform="translate(450 590) rotate(0) scale(0.76 1)" x="-12.2354" y="0" font-size="22" font-family="Arial, Liberation Sans, sans-serif" textLength="24.4707" lengthAdjust="spacingAndGlyphs" data-leader-anchor="447 400">12</text>
+    </g>
+    <text transform="translate(852 449) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="202.1094" lengthAdjust="spacingAndGlyphs">1. Кровельное покрытие RUFLEX</text>
+    <text transform="translate(852 463) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="197.2852" lengthAdjust="spacingAndGlyphs">2. Подкладочный ковер RUFLEX</text>
+    <text transform="translate(852 477) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="219.7559" lengthAdjust="spacingAndGlyphs">3. Карнизная металлическая планка</text>
+    <text transform="translate(852 491) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="237.2754" lengthAdjust="spacingAndGlyphs">4. Сплошное основание (ОСП–3, ФСФ)</text>
+    <text transform="translate(852 505) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="157.9868" lengthAdjust="spacingAndGlyphs">5. Обрезная доска 100х25</text>
+    <text transform="translate(852 519) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="154.3179" lengthAdjust="spacingAndGlyphs">6. Контробрешетка 50х50</text>
+    <text transform="translate(852 533) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="124.3569" lengthAdjust="spacingAndGlyphs">7. Стропильная нога</text>
+    <text transform="translate(852 547) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="252.5415" lengthAdjust="spacingAndGlyphs">8. Коньково-карнизная черепица RUFLEX</text>
+    <text transform="translate(852 561) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="197.8438" lengthAdjust="spacingAndGlyphs">9. Кронштейн крепления желоба</text>
+    <text transform="translate(852 575) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="144.4409" lengthAdjust="spacingAndGlyphs">10. Водосточный желоб</text>
+    <text transform="translate(852 589) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="111.1411" lengthAdjust="spacingAndGlyphs">11. Лобовая доска</text>
+    <text transform="translate(852 603) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="106.2344" lengthAdjust="spacingAndGlyphs">12. Клей RUFLEX</text>
+  </g>
+  <g data-source-region="АР-18 · примечания под схемой водосточного желоба">
+    <text transform="translate(773 688) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="74.5125" lengthAdjust="spacingAndGlyphs">Примечание</text>
+    <text transform="translate(773 706) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="579.9937" lengthAdjust="spacingAndGlyphs">1. Перед размещением заказа на элементы фасадного декора произвести контрольные замеры.</text>
+    <text transform="translate(773 724) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="327.1313" lengthAdjust="spacingAndGlyphs">2. Данный лист рассматривать совместно с АР–12..15.</text>
+  </g>
+  <g data-lettering-layer="true">
+    <polygon points="325.9346,147.7856 336.0115,147.7856 336.0115,138.2253 325.9346,138.2253" fill="white" stroke="none" />
+    <g data-source-region="АР-18 · молдинг Д-1, эскиз, сечение, количество">
+      <text transform="translate(331 147) rotate(0) scale(0.76 1)" x="-6.2845" y="0" font-size="11.3" font-family="Arial, Liberation Sans, sans-serif" textLength="12.569" lengthAdjust="spacingAndGlyphs" data-dimension-witnesses="313 150.1 315.04 150.1" data-dimension-unit="mm">30</text>
+    </g>
+  </g>
+<text x="40.254464285714285" y="933.2232142857142" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.205357142857142" data-print-folio="true">19 / 48</text></svg>

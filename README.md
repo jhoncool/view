@@ -2,7 +2,7 @@
 
 **[Открыть 3D-просмотрщик на GitHub Pages](https://jhoncool.github.io/view/)**
 
-В разделе кладки доступны этажи, ряды и планы. Румтур начинается перед входной дверью. На iPad можно удерживать стрелку ходьбы и осматриваться вторым пальцем. [Кладка первого этажа и мансарды](https://jhoncool.github.io/view/#masonry)
+У дома есть отдельный обзор с румтуром. Фундамент, кладка, перекрытие и крыша открывают свои сцены и чертежи. Выбранную деталь крыши можно вращать в карточке с размерами. [Дом в 3D](https://jhoncool.github.io/view/#model) · [Крыша](https://jhoncool.github.io/view/#roof)
 
 Ендову между гаражом и слуховым окном над входом можно открыть крупным планом. На схеме отмечен участок под свесом. [Примыкание над входом в 3D](https://jhoncool.github.io/view/#entry-valley)
 
@@ -45,7 +45,6 @@ HTML содержит `<meta name="robots" content="noindex, nofollow, noimagein
 
 ```bash
 cd /Users/shangin/g/house
-npm ci
 HOUSE_PY='/Users/shangin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3'
 "$HOUSE_PY" /Users/shangin/g/view/scripts/update-viewer.py
 ```
