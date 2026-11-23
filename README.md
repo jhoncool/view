@@ -46,6 +46,7 @@ HTML содержит `<meta name="robots" content="noindex, nofollow, noimagein
 ```bash
 cd /Users/shangin/g/house
 HOUSE_PY='/Users/shangin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3'
+"$HOUSE_PY" tools/build_model.py
 "$HOUSE_PY" /Users/shangin/g/view/scripts/update-viewer.py
 ```
 
