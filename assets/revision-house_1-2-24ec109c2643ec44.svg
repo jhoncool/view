@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1350 954.6429" data-source-pdf="дом-1 А3.pdf" data-source-page="2" data-source-sha256="49ae7d8ee62fc5bb22c74148f55ff273888cb6bdd9a357a4b8423adb42175141" data-project-sheet="АР-1" data-edition="revision">
+  <title>АР-1 · Общие данные (начало)</title>
+  <rect width="100%" height="100%" fill="white" />
+  <g data-source-region="АР · рамка и обозначение листа">
+    <path d="M104 23 L1335 23 L1335 917 L104 917 Z" stroke="#000000" fill="none" stroke-width="1.25" />
+    <text transform="translate(1317 886) rotate(0) scale(0.76 1)" x="-253.6797" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="253.6797" lengthAdjust="spacingAndGlyphs">АР-1   ·   Общие данные (начало).</text>
+  </g>
+  <g data-source-region="АР-1 · левая ведомость рабочих чертежей, в порядке исходных строк">
+    <text transform="translate(392.5 57) rotate(0) scale(0.76 1)" x="-207.0195" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="414.0391" lengthAdjust="spacingAndGlyphs">Ведомость рабочих чертежей основного комплекта АР.</text>
+    <path d="M104 67 L104 689" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M151 67 L151 689" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M587 67 L587 689" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M681 67 L681 689" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M104 67 L681 67" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M104 114 L681 114" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M104 689 L681 689" stroke="#000000" fill="none" stroke-width="1.05" />
+    <text transform="translate(127.5 94.596) rotate(0) scale(0.76 1)" x="-13.9062" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="27.8125" lengthAdjust="spacingAndGlyphs">Лист</text>
+    <text transform="translate(369 94.596) rotate(0) scale(0.76 1)" x="-44.4375" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="88.875" lengthAdjust="spacingAndGlyphs">Наименование</text>
+    <text transform="translate(634 94.596) rotate(0) scale(0.76 1)" x="-37.2563" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="74.5125" lengthAdjust="spacingAndGlyphs">Примечание</text>
+    <text transform="translate(127.5 130.596) rotate(0) scale(0.76 1)" x="-15.6562" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="31.3125" lengthAdjust="spacingAndGlyphs">АР–1</text>
+    <text transform="translate(168 130.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="148.8875" lengthAdjust="spacingAndGlyphs">Общие данные (начало).</text>
+    <path d="M104 139 L681 139" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 155.596) rotate(0) scale(0.76 1)" x="-15.6562" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="31.3125" lengthAdjust="spacingAndGlyphs">АР–2</text>
+    <text transform="translate(168 155.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="168.3563" lengthAdjust="spacingAndGlyphs">Общие данные (окончание).</text>
+    <path d="M104 164 L681 164" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 180.596) rotate(0) scale(0.76 1)" x="-15.6562" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="31.3125" lengthAdjust="spacingAndGlyphs">АР–3</text>
+    <text transform="translate(168 180.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="184.5563" lengthAdjust="spacingAndGlyphs">План этажа на отметке ±0.000.</text>
+    <path d="M104 189 L681 189" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 205.596) rotate(0) scale(0.76 1)" x="-15.6562" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="31.3125" lengthAdjust="spacingAndGlyphs">АР–4</text>
+    <text transform="translate(168 205.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="185.0063" lengthAdjust="spacingAndGlyphs">План этажа на отметке +3.300.</text>
+    <path d="M104 214 L681 214" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 230.596) rotate(0) scale(0.76 1)" x="-15.6562" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="31.3125" lengthAdjust="spacingAndGlyphs">АР–5</text>
+    <text transform="translate(168 230.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="281.7375" lengthAdjust="spacingAndGlyphs">Маркировочный план этажа на отметке ±0.000.</text>
+    <path d="M104 239 L681 239" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 255.596) rotate(0) scale(0.76 1)" x="-15.6562" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="31.3125" lengthAdjust="spacingAndGlyphs">АР–6</text>
+    <text transform="translate(168 255.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="282.1875" lengthAdjust="spacingAndGlyphs">Маркировочный план этажа на отметке +3.300.</text>
+    <path d="M104 264 L681 264" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 280.596) rotate(0) scale(0.76 1)" x="-15.6562" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="31.3125" lengthAdjust="spacingAndGlyphs">АР–7</text>
+    <text transform="translate(168 280.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="152.9813" lengthAdjust="spacingAndGlyphs">Экспликация помещений.</text>
+    <path d="M104 289 L681 289" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 305.596) rotate(0) scale(0.76 1)" x="-15.6562" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="31.3125" lengthAdjust="spacingAndGlyphs">АР–8</text>
+    <text transform="translate(168 305.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="79.225" lengthAdjust="spacingAndGlyphs">План кровли.</text>
+    <path d="M104 314 L681 314" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 330.596) rotate(0) scale(0.76 1)" x="-15.6562" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="31.3125" lengthAdjust="spacingAndGlyphs">АР–9</text>
+    <text transform="translate(168 330.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="70.1" lengthAdjust="spacingAndGlyphs">Разрез 1–1.</text>
+    <path d="M104 339 L681 339" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 355.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–10</text>
+    <text transform="translate(168 355.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="70.1" lengthAdjust="spacingAndGlyphs">Разрез 2–2.</text>
+    <path d="M104 364 L681 364" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 380.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–11</text>
+    <text transform="translate(168 380.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="271.7625" lengthAdjust="spacingAndGlyphs">Коньковый узел, узел свеса, цокольный узел.</text>
+    <path d="M104 389 L681 389" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 405.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–12</text>
+    <text transform="translate(168 405.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="73.4188" lengthAdjust="spacingAndGlyphs">Фасад 1 – 6.</text>
+    <path d="M104 414 L681 414" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 430.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–13</text>
+    <text transform="translate(168 430.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="76.9188" lengthAdjust="spacingAndGlyphs">Фасад А – И.</text>
+    <path d="M104 439 L681 439" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 455.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–14</text>
+    <text transform="translate(168 455.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="73.4188" lengthAdjust="spacingAndGlyphs">Фасад 6 – 1.</text>
+    <path d="M104 464 L681 464" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 480.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–15</text>
+    <text transform="translate(168 480.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="76.9188" lengthAdjust="spacingAndGlyphs">Фасад И – А.</text>
+    <path d="M104 489 L681 489" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 505.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–16</text>
+    <path d="M104 514 L681 514" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 530.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–17</text>
+    <text transform="translate(168 530.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="292.8562" lengthAdjust="spacingAndGlyphs">Схемы элементов заполнения оконных проемов.</text>
+    <path d="M104 539 L681 539" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 555.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–18</text>
+    <text transform="translate(168 555.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="273.8562" lengthAdjust="spacingAndGlyphs">Спецификация элементов фасадного декора.</text>
+    <path d="M104 564 L681 564" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 580.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–19</text>
+    <text transform="translate(168 580.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="177.5" lengthAdjust="spacingAndGlyphs">Вентиляционный канал ВК–1.</text>
+    <path d="M104 589 L681 589" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 605.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–20</text>
+    <text transform="translate(168 605.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="177.5" lengthAdjust="spacingAndGlyphs">Вентиляционный канал ВК–2.</text>
+    <path d="M104 614 L681 614" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 630.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–21</text>
+    <text transform="translate(168 630.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="177.5" lengthAdjust="spacingAndGlyphs">Вентиляционный канал ВК–3.</text>
+    <path d="M104 639 L681 639" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 655.596) rotate(0) scale(0.76 1)" x="-19.2156" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="38.4312" lengthAdjust="spacingAndGlyphs">АР–22</text>
+    <text transform="translate(168 655.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="256.0375" lengthAdjust="spacingAndGlyphs">Узлы установки мансардного окна FAKRO.</text>
+    <path d="M104 664 L681 664" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(168 680.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="78.4438" lengthAdjust="spacingAndGlyphs">Приложения.</text>
+  </g>
+  <g data-source-region="АР-1 · верхняя правая ведомость основных комплектов">
+    <text transform="translate(1045 73) rotate(0) scale(0.76 1)" x="-196.3086" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="392.6172" lengthAdjust="spacingAndGlyphs">Ведомость основных комплектов рабочих чертежей.</text>
+    <path d="M755 83 L755 211" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M940 83 L940 211" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M1235 83 L1235 211" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M1335 83 L1335 211" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M755 83 L1335 83" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M755 130 L1335 130" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M755 211 L1335 211" stroke="#000000" fill="none" stroke-width="1.05" />
+    <text transform="translate(847.5 110.66) rotate(0) scale(0.76 1)" x="-40.4155" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="80.8311" lengthAdjust="spacingAndGlyphs">Обозначение</text>
+    <text transform="translate(1087.5 110.66) rotate(0) scale(0.76 1)" x="-45.1318" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="90.2637" lengthAdjust="spacingAndGlyphs">Наименование</text>
+    <text transform="translate(847.5 147.66) rotate(0) scale(0.76 1)" x="-12.2859" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="24.5718" lengthAdjust="spacingAndGlyphs">–АР</text>
+    <text transform="translate(1087.5 147.66) rotate(0) scale(0.76 1)" x="-74.5913" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="149.1826" lengthAdjust="spacingAndGlyphs">Архитектурные решения</text>
+    <path d="M755 157 L1335 157" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(847.5 174.66) rotate(0) scale(0.76 1)" x="-13.4031" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="26.8062" lengthAdjust="spacingAndGlyphs">–КЖ</text>
+    <text transform="translate(1087.5 174.66) rotate(0) scale(0.76 1)" x="-91.0793" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="182.1587" lengthAdjust="spacingAndGlyphs">Конструкции железобетонные</text>
+    <path d="M755 184 L1335 184" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(847.5 201.66) rotate(0) scale(0.76 1)" x="-11.8035" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="23.6069" lengthAdjust="spacingAndGlyphs">–КД</text>
+    <text transform="translate(1087.5 201.66) rotate(0) scale(0.76 1)" x="-76.7939" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="153.5879" lengthAdjust="spacingAndGlyphs">Конструкции деревянные</text>
+  </g>
+  <g data-source-region="АР-1 · основные технико-экономические показатели, шесть строк">
+    <text transform="translate(1037.5 256) rotate(0) scale(0.76 1)" x="-179.1367" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="358.2734" lengthAdjust="spacingAndGlyphs">Основные технико–экономические показатели*.</text>
+    <path d="M825 266 L825 481" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M1130 266 L1130 481" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M1163 266 L1163 481" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M1250 266 L1250 481" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M825 266 L1250 266" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M825 313 L1250 313" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M825 481 L1250 481" stroke="#000000" fill="none" stroke-width="1.05" />
+    <text transform="translate(977.5 293.98) rotate(0) scale(0.76 1)" x="-48.6035" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="97.207" lengthAdjust="spacingAndGlyphs">Наименование</text>
+    <text transform="translate(1146.5 286.42) rotate(0) scale(0.76 1)" x="-10.6982" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="21.3965" lengthAdjust="spacingAndGlyphs">Ед.</text>
+    <text transform="translate(1146.5 301.54) rotate(0) scale(0.76 1)" x="-13.877" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.7539" lengthAdjust="spacingAndGlyphs">изм.</text>
+    <text transform="translate(1206.5 293.98) rotate(0) scale(0.76 1)" x="-37.8232" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="75.6465" lengthAdjust="spacingAndGlyphs">Количество</text>
+    <text transform="translate(847 331.48) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="106.4766" lengthAdjust="spacingAndGlyphs">Жилая площадь</text>
+    <text transform="translate(1146.5 331.48) rotate(0) scale(0.76 1)" x="-8.7056" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="17.4111" lengthAdjust="spacingAndGlyphs">м2</text>
+    <text transform="translate(1206.5 331.48) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">87.56</text>
+    <path d="M825 341 L1250 341" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(847 359.48) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="107.9873" lengthAdjust="spacingAndGlyphs">Общая площадь</text>
+    <text transform="translate(1146.5 359.48) rotate(0) scale(0.76 1)" x="-8.7056" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="17.4111" lengthAdjust="spacingAndGlyphs">м2</text>
+    <text transform="translate(1206.5 359.48) rotate(0) scale(0.76 1)" x="-21.4102" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="42.8203" lengthAdjust="spacingAndGlyphs">241.01</text>
+    <path d="M825 369 L1250 369" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(847 387.48) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" lengthAdjust="spacingAndGlyphs" fill="#006757">Площадь входной площадки</text>
+    <text transform="translate(1146.5 387.48) rotate(0) scale(0.76 1)" x="-8.7056" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="17.4111" lengthAdjust="spacingAndGlyphs">м2</text>
+    <g transform="translate(1206.5 387.48) rotate(0) scale(0.76 1)" data-revised-cell="building.terrace_porch_area">
+      <text x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">37.58</text>
+      <path d="M -14.01 -10 L 14.01 -10" stroke="#575d5a" stroke-width="1.25" />
+      <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">6,39535</text>
+    </g>
+    <path d="M825 397 L1250 397" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(847 415.48) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="129.6299" lengthAdjust="spacingAndGlyphs">Площадь застройки</text>
+    <text transform="translate(1146.5 415.48) rotate(0) scale(0.76 1)" x="-8.7056" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="17.4111" lengthAdjust="spacingAndGlyphs">м2</text>
+    <path d="M825 425 L1250 425" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(847 443.48) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="109.7988" lengthAdjust="spacingAndGlyphs">Площадь кровли</text>
+    <text transform="translate(1146.5 443.48) rotate(0) scale(0.76 1)" x="-8.7056" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="17.4111" lengthAdjust="spacingAndGlyphs">м2</text>
+    <text transform="translate(1206.5 443.48) rotate(0) scale(0.76 1)" x="-21.4102" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="42.8203" lengthAdjust="spacingAndGlyphs">300.00</text>
+    <path d="M825 453 L1250 453" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(847 471.48) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="141.0459" lengthAdjust="spacingAndGlyphs">Строительный объем</text>
+    <text transform="translate(1146.5 471.48) rotate(0) scale(0.76 1)" x="-8.7056" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="17.4111" lengthAdjust="spacingAndGlyphs">м3</text>
+    <text transform="translate(1206.5 471.48) rotate(0) scale(0.76 1)" x="-25.3032" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="50.6064" lengthAdjust="spacingAndGlyphs">1700.00</text>
+    <text transform="translate(825 498) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="222.168" lengthAdjust="spacingAndGlyphs">*СП 54.13330.2022 Приложение А</text>
+  </g>
+  <g data-source-region="АР-1 · правая колонка, расход материалов с исходными единицами и примечаниями">
+    <text transform="translate(825 520) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="144.1494" lengthAdjust="spacingAndGlyphs">Расход материалов**:</text>
+    <text transform="translate(825 536) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="513.8306" lengthAdjust="spacingAndGlyphs">Газобетонные блоки 400 мм ЛСР стеновые (объем кладки) для наружных несущих стен</text>
+    <text transform="translate(1315 536) rotate(0) scale(0.76 1)" x="-70.3765" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="70.3765" lengthAdjust="spacingAndGlyphs">–  81.50  м3</text>
+    <text transform="translate(825 550) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="522.7356" lengthAdjust="spacingAndGlyphs">Газобетонные блоки 400 мм ЛСР стеновые (объем кладки) для внутренних несущих стен</text>
+    <text transform="translate(1315 550) rotate(0) scale(0.76 1)" x="-70.3765" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="70.3765" lengthAdjust="spacingAndGlyphs">–  30.50  м3</text>
+    <text transform="translate(825 564) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="446.3806" lengthAdjust="spacingAndGlyphs">Газобетонные блоки 250 мм ЛСР стеновые (объем кладки) для перегородок</text>
+    <text transform="translate(1315 564) rotate(0) scale(0.76 1)" x="-63.1465" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="63.1465" lengthAdjust="spacingAndGlyphs">–  1.50  м3</text>
+    <text transform="translate(825 578) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="446.3806" lengthAdjust="spacingAndGlyphs">Газобетонные блоки 150 мм ЛСР стеновые (объем кладки) для перегородок</text>
+    <text transform="translate(1315 578) rotate(0) scale(0.76 1)" x="-63.1465" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="63.1465" lengthAdjust="spacingAndGlyphs">–  7.00  м3</text>
+    <text transform="translate(825 592) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="446.3806" lengthAdjust="spacingAndGlyphs">Газобетонные блоки 100 мм ЛСР стеновые (объем кладки) для перегородок</text>
+    <text transform="translate(1315 592) rotate(0) scale(0.76 1)" x="-63.1465" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="63.1465" lengthAdjust="spacingAndGlyphs">–  1.50  м3</text>
+    <text transform="translate(825 606) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="396.3989" lengthAdjust="spacingAndGlyphs">Кирпич рядовой полнотелый М150 (объем кладки) для вентканалов</text>
+    <text transform="translate(1315 606) rotate(0) scale(0.76 1)" x="-70.3765" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="70.3765" lengthAdjust="spacingAndGlyphs">–  12.50  м3</text>
+    <text transform="translate(825 620) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="543.6584" lengthAdjust="spacingAndGlyphs">Лицевой кирпич Скрябин Керамикс пустотелый сортировка 5–250х120х65 мм (объем кладки)</text>
+    <text transform="translate(1315 620) rotate(0) scale(0.76 1)" x="-70.3765" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="70.3765" lengthAdjust="spacingAndGlyphs">–  31.00  м3</text>
+    <text transform="translate(825 634) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="215.2527" lengthAdjust="spacingAndGlyphs">Декоративная штукатурка (1 слой)***</text>
+    <text transform="translate(1315 634) rotate(0) scale(0.76 1)" x="-70.3765" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="70.3765" lengthAdjust="spacingAndGlyphs">–  32.00  м2</text>
+    <text transform="translate(825 648) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="391.3696" lengthAdjust="spacingAndGlyphs">Искусственный камень КАМРОК Альпийская деревня арт. 08610***</text>
+    <text transform="translate(1315 648) rotate(0) scale(0.76 1)" x="-70.3765" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="70.3765" lengthAdjust="spacingAndGlyphs">–  18.00  м2</text>
+    <text transform="translate(825 662) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="398.8403" lengthAdjust="spacingAndGlyphs">Экструзионный пенополистирол ПЕНОПЛЭКС КОМФОРТ (для стен)</text>
+    <text transform="translate(1315 662) rotate(0) scale(0.76 1)" x="-70.3765" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="70.3765" lengthAdjust="spacingAndGlyphs">–  14.00  м3</text>
+    <text transform="translate(825 676) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.5" font-family="Arial, Liberation Sans, sans-serif" textLength="525.5005" lengthAdjust="spacingAndGlyphs">Арматура А500С для кладки наружных и внутренних стен из газобетонных блоков 400 мм</text>
+    <text transform="translate(1315 676) rotate(0) scale(0.76 1)" x="-71.8682" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="71.8682" lengthAdjust="spacingAndGlyphs">–  280.00  кг</text>
+    <text transform="translate(825 717) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="138.271" lengthAdjust="spacingAndGlyphs">Запас материалов 2%.</text>
+    <text transform="translate(825 733) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="269.8706" lengthAdjust="spacingAndGlyphs">***Данные уточнить при производстве работ</text>
+  </g>
+  <g data-source-region="АР-1 · левая колонка ниже ведомости, указания и примечание">
+    <text transform="translate(175 718) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="411.6328" lengthAdjust="spacingAndGlyphs">Рабочая документация выполнена в соответствии с действующими</text>
+    <text transform="translate(175 734) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="455.3618" lengthAdjust="spacingAndGlyphs">нормами и правилами, и предусматривает мероприятия, обеспечивающие</text>
+    <text transform="translate(175 750) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="424.8486" lengthAdjust="spacingAndGlyphs">пожарную безопасность при эксплуатации здания при соблюдении их</text>
+    <text transform="translate(175 766) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="165.6548" lengthAdjust="spacingAndGlyphs">заказчиком и подрядчиком.</text>
+    <text transform="translate(306 811) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="79.2886" lengthAdjust="spacingAndGlyphs">Примечание:</text>
+    <text transform="translate(175 831) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="464.4517" lengthAdjust="spacingAndGlyphs">1. Без штампа к производству работ технадзора заказчика данный комплект</text>
+    <text transform="translate(175 847) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="529.8452" lengthAdjust="spacingAndGlyphs">чертежей не имеет силы и может использоваться только для подготовительных работ.</text>
+  </g>
+  <g data-lettering-layer="true">
+    <polygon points="167.8365,514.7806 386.9465,514.7806 386.9465,501.6278 167.8365,501.6278" fill="white" stroke="none" />
+    <g data-source-region="АР-1 · левая ведомость рабочих чертежей, в порядке исходных строк">
+      <text transform="translate(168 499.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="119.4313" lengthAdjust="spacingAndGlyphs">Экспликация полов.</text>
+      <text transform="translate(168 511.596) rotate(0) scale(0.76 1)" x="0" y="0" font-size="12.8" font-family="Arial, Liberation Sans, sans-serif" textLength="288.55" lengthAdjust="spacingAndGlyphs">Спецификация элементов заполнения проемов.</text>
+    </g>
+  </g>
+  <g data-source-region="Пересчёт по грани выступа и линии крыльца">
+    <text x="825" y="760" fill="#006757" font-size="14" font-family="Arial, sans-serif">Входная площадка № 12 по плану — 6,39535 м².</text>
+    <text x="825" y="778" fill="#006757" font-size="14" font-family="Arial, sans-serif">Площадь застройки уточняется отдельно. Плита Фм 1 — 217,250875 м².</text>
+  </g>
+  <g data-lettering-layer="true">
+    <polygon points="1185.0088,425.9307 1227.8189,425.9307 1227.8189,414.7281 1185.0088,414.7281" fill="white" stroke="none" />
+    <g data-source-region="АР-1 · основные технико-экономические показатели, шесть строк">
+      <g transform="translate(1206.5 415.48) rotate(0) scale(0.76 1)" data-revised-cell="building.footprint_area">
+        <text x="-21.4102" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="42.8203" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">246.61</text>
+        <path d="M -17.13 -10 L 17.13 -10" stroke="#575d5a" stroke-width="1.25" />
+        <text x="0" y="7" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">уточнить</text>
+      </g>
+    </g>
+  </g>
+<text x="40.254464285714285" y="933.2232142857142" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.205357142857142" data-print-folio="true">2 / 48</text></svg>

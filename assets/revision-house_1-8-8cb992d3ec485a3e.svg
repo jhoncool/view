@@ -1,0 +1,344 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1350 954.6429" data-source-pdf="дом-1 А3.pdf" data-source-page="8" data-source-sha256="49ae7d8ee62fc5bb22c74148f55ff273888cb6bdd9a357a4b8423adb42175141" data-project-sheet="АР-7" data-edition="revision">
+  <title>АР-7 · Экспликация помещений</title>
+  <rect width="100%" height="100%" fill="white" />
+  <g data-source-region="АР · рамка и обозначение листа">
+    <path d="M104 23 L1335 23 L1335 917 L104 917 Z" stroke="#000000" fill="none" stroke-width="1.25" />
+    <text transform="translate(1317 886) rotate(0) scale(0.76 1)" x="-258.7969" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="258.7969" lengthAdjust="spacingAndGlyphs">АР-7   ·   Экспликация помещений.</text>
+  </g>
+  <g data-source-region="АР-7 · таблица помещений 1-го этажа. Номер, наименование и площадь в одной строке.">
+    <text transform="translate(268 59) rotate(0) scale(0.76 1)" x="-134.3125" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="268.625" lengthAdjust="spacingAndGlyphs">Экспликация помещений 1-го этажа</text>
+    <path d="M104 69 L104 506" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M151 69 L151 506" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M369 69 L369 506" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M432 69 L432 506" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M104 69 L432 69" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M104 131 L432 131" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M104 506 L432 506" stroke="#000000" fill="none" stroke-width="1.05" />
+    <text transform="translate(127.5 96.92) rotate(0) scale(0.76 1)" x="-21.5469" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="43.0938" lengthAdjust="spacingAndGlyphs">Номер</text>
+    <text transform="translate(127.5 112.04) rotate(0) scale(0.7475 1)" x="-28.7622" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="57.5244" lengthAdjust="spacingAndGlyphs">по плану</text>
+    <text transform="translate(260 104.48) rotate(0) scale(0.76 1)" x="-48.6035" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="97.207" lengthAdjust="spacingAndGlyphs">Наименование</text>
+    <text transform="translate(400.5 96.92) rotate(0) scale(0.76 1)" x="-30.3926" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="60.7852" lengthAdjust="spacingAndGlyphs">Площадь</text>
+    <text transform="translate(400.5 112.04) rotate(0) scale(0.76 1)" x="-15.4834" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="30.9668" lengthAdjust="spacingAndGlyphs">м.кв.</text>
+    <text transform="translate(127.5 147.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">1</text>
+    <text transform="translate(169 147.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="48.7676" lengthAdjust="spacingAndGlyphs">Тамбур</text>
+    <text transform="translate(400.5 147.98) rotate(0) scale(0.76 1)" x="-13.624" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.248" lengthAdjust="spacingAndGlyphs">6.58</text>
+    <path d="M104 156 L432 156" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 172.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">2</text>
+    <text transform="translate(169 172.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="37.4678" lengthAdjust="spacingAndGlyphs">Кухня</text>
+    <text transform="translate(400.5 172.98) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">12.32</text>
+    <path d="M104 181 L432 181" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 197.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">3</text>
+    <text transform="translate(169 197.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="127.4424" lengthAdjust="spacingAndGlyphs">Гостиная–столовая</text>
+    <text transform="translate(400.5 197.98) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">48.70</text>
+    <path d="M104 206 L432 206" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 222.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">4</text>
+    <text transform="translate(169 222.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="59.3701" lengthAdjust="spacingAndGlyphs">Гостевая</text>
+    <text transform="translate(400.5 222.98) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">15.05</text>
+    <path d="M104 231 L432 231" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 247.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">5</text>
+    <text transform="translate(169 247.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="58.3037" lengthAdjust="spacingAndGlyphs">Душевая</text>
+    <text transform="translate(400.5 247.98) rotate(0) scale(0.76 1)" x="-13.624" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.248" lengthAdjust="spacingAndGlyphs">4.94</text>
+    <path d="M104 256 L432 256" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 272.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">6</text>
+    <text transform="translate(169 272.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="40.4141" lengthAdjust="spacingAndGlyphs">Сауна</text>
+    <text transform="translate(400.5 272.98) rotate(0) scale(0.76 1)" x="-13.624" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.248" lengthAdjust="spacingAndGlyphs">3.37</text>
+    <path d="M104 281 L432 281" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 297.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">7</text>
+    <text transform="translate(169 297.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="66.6777" lengthAdjust="spacingAndGlyphs">Санузел 1</text>
+    <text transform="translate(400.5 297.98) rotate(0) scale(0.76 1)" x="-13.624" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.248" lengthAdjust="spacingAndGlyphs">1.68</text>
+    <path d="M104 306 L432 306" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 322.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">8</text>
+    <text transform="translate(169 322.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="33.4619" lengthAdjust="spacingAndGlyphs">Холл</text>
+    <text transform="translate(400.5 322.98) rotate(0) scale(0.76 1)" x="-13.624" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.248" lengthAdjust="spacingAndGlyphs">3.02</text>
+    <path d="M104 331 L432 331" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 347.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">9</text>
+    <text transform="translate(169 347.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="66.6777" lengthAdjust="spacingAndGlyphs">Санузел 2</text>
+    <text transform="translate(400.5 347.98) rotate(0) scale(0.76 1)" x="-13.624" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.248" lengthAdjust="spacingAndGlyphs">3.26</text>
+    <path d="M104 356 L432 356" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 372.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">10</text>
+    <text transform="translate(169 372.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="128.9395" lengthAdjust="spacingAndGlyphs">Теплогенераторная</text>
+    <text transform="translate(400.5 372.98) rotate(0) scale(0.76 1)" x="-13.624" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.248" lengthAdjust="spacingAndGlyphs">9.57</text>
+    <path d="M104 381 L432 381" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 397.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">11</text>
+    <text transform="translate(169 397.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="40.3047" lengthAdjust="spacingAndGlyphs">Гараж</text>
+    <text transform="translate(400.5 397.98) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">36.72</text>
+    <path d="M104 406 L432 406" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(169 422.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="41.043" lengthAdjust="spacingAndGlyphs">Итого:</text>
+    <text transform="translate(400.5 422.98) rotate(0) scale(0.76 1)" x="-21.4102" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="42.8203" lengthAdjust="spacingAndGlyphs">145.21</text>
+    <path d="M104 431 L432 431" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 447.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">12</text>
+    <text transform="translate(169 447.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" lengthAdjust="spacingAndGlyphs" fill="#006757">Входная площадка</text>
+    <g transform="translate(400.5 447.98) rotate(0) scale(0.76 1)" data-revised-cell="room.12.area">
+      <text x="-13.624" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.248" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">3.96</text>
+      <path d="M -10.90 -10 L 10.90 -10" stroke="#575d5a" stroke-width="1.25" />
+      <text x="0" y="5" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">6,39535</text>
+    </g>
+    <path d="M104 456 L432 456" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(127.5 472.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">13</text>
+    <text transform="translate(169 472.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" lengthAdjust="spacingAndGlyphs" fill="#006757">Восточная терраса снята</text>
+    <g transform="translate(400.5 472.98) rotate(0) scale(0.76 1)" data-revised-cell="room.13.area">
+      <text x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">33.62</text>
+      <path d="M -14.01 -10 L 14.01 -10" stroke="#575d5a" stroke-width="1.25" />
+      <text x="0" y="5" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">0</text>
+    </g>
+    <path d="M104 481 L432 481" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(169 497.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="40.9062" lengthAdjust="spacingAndGlyphs">Всего:</text>
+    <g transform="translate(400.5 497.98) rotate(0) scale(0.76 1)" data-revised-cell="level.floor_1_with_outdoor.schedule_area_total">
+      <text x="-21.4102" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="42.8203" lengthAdjust="spacingAndGlyphs" transform="translate(0 -6) scale(.79 .79)" fill="#575d5a">182.79</text>
+      <path d="M -17.13 -10 L 17.13 -10" stroke="#575d5a" stroke-width="1.25" />
+      <text x="0" y="5" text-anchor="middle" font-size="13.4" font-family="Arial, sans-serif" fill="#006757">151,60535</text>
+    </g>
+  </g>
+  <g data-source-region="АР-7 · таблица помещений 2-го этажа. Номер, наименование и площадь в одной строке.">
+    <text transform="translate(734 56) rotate(0) scale(0.76 1)" x="-134.3125" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="268.625" lengthAdjust="spacingAndGlyphs">Экспликация помещений 2-го этажа</text>
+    <path d="M570 66 L570 328" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M617 66 L617 328" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M835 66 L835 328" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M898 66 L898 328" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M570 66 L898 66" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M570 128 L898 128" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M570 328 L898 328" stroke="#000000" fill="none" stroke-width="1.05" />
+    <text transform="translate(593.5 93.92) rotate(0) scale(0.76 1)" x="-21.5469" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="43.0938" lengthAdjust="spacingAndGlyphs">Номер</text>
+    <text transform="translate(593.5 109.04) rotate(0) scale(0.7475 1)" x="-28.7622" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="57.5244" lengthAdjust="spacingAndGlyphs">по плану</text>
+    <text transform="translate(726 101.48) rotate(0) scale(0.76 1)" x="-48.6035" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="97.207" lengthAdjust="spacingAndGlyphs">Наименование</text>
+    <text transform="translate(866.5 93.92) rotate(0) scale(0.76 1)" x="-30.3926" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="60.7852" lengthAdjust="spacingAndGlyphs">Площадь</text>
+    <text transform="translate(866.5 109.04) rotate(0) scale(0.76 1)" x="-15.4834" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="30.9668" lengthAdjust="spacingAndGlyphs">м.кв.</text>
+    <text transform="translate(593.5 144.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">14</text>
+    <text transform="translate(635 144.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="33.4619" lengthAdjust="spacingAndGlyphs">Холл</text>
+    <text transform="translate(866.5 144.98) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">12.71</text>
+    <path d="M570 153 L898 153" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(593.5 169.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">15</text>
+    <text transform="translate(635 169.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="67.9287" lengthAdjust="spacingAndGlyphs">Спальня 1</text>
+    <text transform="translate(866.5 169.98) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">16.93</text>
+    <path d="M570 178 L898 178" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(593.5 194.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">16</text>
+    <text transform="translate(635 194.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="67.9287" lengthAdjust="spacingAndGlyphs">Спальня 2</text>
+    <text transform="translate(866.5 194.98) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">20.27</text>
+    <path d="M570 203 L898 203" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(593.5 219.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">17</text>
+    <text transform="translate(635 219.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="67.9287" lengthAdjust="spacingAndGlyphs">Спальня 3</text>
+    <text transform="translate(866.5 219.98) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">14.02</text>
+    <path d="M570 228 L898 228" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(593.5 244.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">18</text>
+    <text transform="translate(635 244.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="67.9287" lengthAdjust="spacingAndGlyphs">Спальня 4</text>
+    <text transform="translate(866.5 244.98) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">21.29</text>
+    <path d="M570 253 L898 253" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(593.5 269.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">19</text>
+    <text transform="translate(635 269.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="47.9541" lengthAdjust="spacingAndGlyphs">Ванная</text>
+    <text transform="translate(866.5 269.98) rotate(0) scale(0.76 1)" x="-13.624" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.248" lengthAdjust="spacingAndGlyphs">8.40</text>
+    <path d="M570 278 L898 278" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(593.5 294.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">20</text>
+    <text transform="translate(635 294.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="55.002" lengthAdjust="spacingAndGlyphs">Санузел</text>
+    <text transform="translate(866.5 294.98) rotate(0) scale(0.76 1)" x="-13.624" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="27.248" lengthAdjust="spacingAndGlyphs">2.18</text>
+    <path d="M570 303 L898 303" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(635 319.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="40.9062" lengthAdjust="spacingAndGlyphs">Всего:</text>
+    <text transform="translate(866.5 319.98) rotate(0) scale(0.76 1)" x="-17.5171" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="35.0342" lengthAdjust="spacingAndGlyphs">95.80</text>
+  </g>
+  <g data-source-region="АР-7 · справа вверху, ведомость дверных проемов">
+    <text transform="translate(1186 47) rotate(0) scale(0.76 1)" x="-108.9922" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="217.9844" lengthAdjust="spacingAndGlyphs">Ведомость дверных проемов</text>
+    <path d="M1037 57 L1037 269" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M1112 57 L1112 269" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M1335 57 L1335 269" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M1037 57 L1335 57" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M1037 119 L1335 119" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M1037 269 L1335 269" stroke="#000000" fill="none" stroke-width="1.05" />
+    <text transform="translate(1074.5 84.92) rotate(0) scale(0.76 1)" x="-22.5176" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="45.0352" lengthAdjust="spacingAndGlyphs">Марка,</text>
+    <text transform="translate(1074.5 100.04) rotate(0) scale(0.76 1)" x="-12.8379" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="25.6758" lengthAdjust="spacingAndGlyphs">поз.</text>
+    <text transform="translate(1223.5 92.48) rotate(0) scale(0.76 1)" x="-64.0049" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="128.0098" lengthAdjust="spacingAndGlyphs">Размер проема, мм</text>
+    <text transform="translate(1074.5 135.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">3</text>
+    <text transform="translate(1223.5 135.98) rotate(0) scale(0.76 1)" x="-47.0894" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="94.1787" lengthAdjust="spacingAndGlyphs">5000 х 2400(h)</text>
+    <path d="M1037 144 L1335 144" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(1074.5 160.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">1</text>
+    <text transform="translate(1223.5 160.98) rotate(0) scale(0.76 1)" x="-47.0894" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="94.1787" lengthAdjust="spacingAndGlyphs">1395 х 2100(h)</text>
+    <path d="M1037 169 L1335 169" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(1074.5 185.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">2</text>
+    <text transform="translate(1223.5 185.98) rotate(0) scale(0.76 1)" x="-47.0894" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="94.1787" lengthAdjust="spacingAndGlyphs">1000 х 2500(h)</text>
+    <path d="M1037 194 L1335 194" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(1074.5 210.98) rotate(0) scale(0.76 1)" x="-19.4585" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="38.917" lengthAdjust="spacingAndGlyphs">4, 5, 6</text>
+    <text transform="translate(1223.5 210.98) rotate(0) scale(0.76 1)" x="-43.1963" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="86.3926" lengthAdjust="spacingAndGlyphs">910 х 2100(h)</text>
+    <path d="M1037 219 L1335 219" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(1074.5 235.98) rotate(0) scale(0.76 1)" x="-11.6758" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="23.3516" lengthAdjust="spacingAndGlyphs">7, 8</text>
+    <text transform="translate(1223.5 235.98) rotate(0) scale(0.76 1)" x="-43.1963" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="86.3926" lengthAdjust="spacingAndGlyphs">810 х 2100(h)</text>
+    <path d="M1037 244 L1335 244" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(1074.5 260.98) rotate(0) scale(0.76 1)" x="-15.5688" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="31.1377" lengthAdjust="spacingAndGlyphs">9, 10</text>
+    <text transform="translate(1223.5 260.98) rotate(0) scale(0.76 1)" x="-43.1963" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="86.3926" lengthAdjust="spacingAndGlyphs">700 х 2100(h)</text>
+  </g>
+  <g data-source-region="АР-7 · внизу слева, условные обозначения материалов и марок">
+    <text transform="translate(172 540) rotate(0) scale(0.76 1)" x="0" y="0" font-size="15" font-family="Arial, Liberation Sans, sans-serif" textLength="163.3887" lengthAdjust="spacingAndGlyphs">Условные обозначения</text>
+    <path d="M128 555 L132 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 561 L138 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 567 L144 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M134 567 L150 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M140 567 L156 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M146 567 L162 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M152 567 L164 555" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M158 567 L164 561" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 551.3 L128.3 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 557.3 L134.3 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 563.3 L140.3 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M130.3 567 L146.3 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M136.3 567 L152.3 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M142.3 567 L158.3 551" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M148.3 567 L164 551.3" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M154.3 567 L164 557.3" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M160.3 567 L164 563.3" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 551 L164 551 L164 567 L128 567 Z" stroke="#000000" fill="none" stroke-width="0.9" />
+    <text transform="translate(179 564) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13.5" font-family="Arial, Liberation Sans, sans-serif" textLength="292.3923" lengthAdjust="spacingAndGlyphs">Кладка из газобетонных блоков ЛСР стеновой</text>
+    <path d="M128 590 L135 597" stroke="#000000" fill="none" stroke-width="1.8" />
+    <path d="M128 581 L144 597" stroke="#000000" fill="none" stroke-width="1.8" />
+    <path d="M137 581 L153 597" stroke="#000000" fill="none" stroke-width="1.8" />
+    <path d="M146 581 L162 597" stroke="#000000" fill="none" stroke-width="1.8" />
+    <path d="M155 581 L164 590" stroke="#000000" fill="none" stroke-width="1.8" />
+    <path d="M128 596.6 L128.4 597" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 587.6 L137.4 597" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M130.4 581 L146.4 597" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M139.4 581 L155.4 597" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M148.4 581 L164 596.6" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M157.4 581 L164 587.6" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 595 L130 597" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 586 L139 597" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132 581 L148 597" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M141 581 L157 597" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M150 581 L164 595" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M159 581 L164 586" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 581 L164 581 L164 597 L128 597 Z" stroke="#000000" fill="none" stroke-width="0.9" />
+    <text transform="translate(179 594) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13.5" font-family="Arial, Liberation Sans, sans-serif" textLength="328.99" lengthAdjust="spacingAndGlyphs">Кладка из полнотелого рядового кирпича ЛСР М150</text>
+    <path d="M128 614.1 L131.1 611" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 618.4 L135.4 611" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 622.7 L139.7 611" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 627 L144 611" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.3 627 L148.3 611" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M136.6 627 L152.6 611" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M140.9 627 L156.9 611" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M145.2 627 L161.2 611" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M149.5 627 L164 612.5" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M153.8 627 L164 616.8" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M158.1 627 L164 621.1" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M162.4 627 L164 625.4" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 623.9 L131.1 627" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 619.6 L135.4 627" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 615.3 L139.7 627" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 611 L144 627" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.3 611 L148.3 627" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M136.6 611 L152.6 627" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M140.9 611 L156.9 627" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M145.2 611 L161.2 627" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M149.5 611 L164 625.5" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M153.8 611 L164 621.2" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M158.1 611 L164 616.9" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M162.4 611 L164 612.6" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 611 L164 611 L164 627 L128 627 Z" stroke="#000000" fill="none" stroke-width="0.9" />
+    <text transform="translate(179 624) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13.5" font-family="Arial, Liberation Sans, sans-serif" textLength="363.2937" lengthAdjust="spacingAndGlyphs">Экструзионный пенополистирол ПЕНОПЛЭКС КОМФОРТ</text>
+    <path d="M128 654.8 L130.2 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 652.5 L132.5 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 650.2 L134.8 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 647.9 L137.1 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 645.6 L139.4 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 643.3 L141.7 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 641 L144 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M130.3 641 L146.3 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.6 641 L148.6 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M134.9 641 L150.9 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M137.2 641 L153.2 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M139.5 641 L155.5 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M141.8 641 L157.8 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M144.1 641 L160.1 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M146.4 641 L162.4 657" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M148.7 641 L164 656.3" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M151 641 L164 654" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M153.3 641 L164 651.7" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M155.6 641 L164 649.4" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M157.9 641 L164 647.1" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M160.2 641 L164 644.8" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M162.5 641 L164 642.5" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 641 L164 641 L164 657 L128 657 Z" stroke="#000000" fill="none" stroke-width="0.9" />
+    <text transform="translate(179 654) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13.5" font-family="Arial, Liberation Sans, sans-serif" textLength="487.5754" lengthAdjust="spacingAndGlyphs">Лицевой кирпич Скрябин Керамикс пустотелый сортировка 5–250х120х65 мм</text>
+    <path d="M128 671 L132.8083 675.8083" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.8083 671 L137.6167 675.8083" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.8083 671 L130.4042 673.4042" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 675.8083 L130.4042 678.2125" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M137.6167 671 L142.425 675.8083" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M137.6167 671 L135.2125 673.4042" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.8083 675.8083 L135.2125 678.2125" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.8083 675.8083 L128 680.6167" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 680.6167 L132.8083 685.425" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M142.425 671 L147.2333 675.8083" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M142.425 671 L140.0208 673.4042" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M137.6167 675.8083 L140.0208 678.2125" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M137.6167 675.8083 L132.8083 680.6167" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.8083 680.6167 L137.6167 685.425" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.8083 680.6167 L130.4042 683.0208" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 685.425 L129.575 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M147.2333 671 L152.0416 675.8083" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M147.2333 671 L144.8291 673.4042" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M142.425 675.8083 L144.8291 678.2125" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M142.425 675.8083 L137.6167 680.6167" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M137.6167 680.6167 L142.425 685.425" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M137.6167 680.6167 L135.2125 683.0208" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.8083 685.425 L134.3833 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M132.8083 685.425 L131.2333 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M152.0416 671 L156.85 675.8083" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M152.0416 671 L149.6375 673.4042" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M147.2333 675.8083 L149.6375 678.2125" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M147.2333 675.8083 L142.425 680.6167" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M142.425 680.6167 L147.2333 685.425" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M142.425 680.6167 L140.0208 683.0208" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M137.6167 685.425 L139.1917 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M137.6167 685.425 L136.0416 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M156.85 671 L161.6583 675.8083" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M156.85 671 L154.4458 673.4042" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M152.0416 675.8083 L154.4458 678.2125" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M152.0416 675.8083 L147.2333 680.6167" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M147.2333 680.6167 L152.0416 685.425" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M147.2333 680.6167 L144.8291 683.0208" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M142.425 685.425 L144 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M142.425 685.425 L140.85 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M161.6583 671 L164 673.3417" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M161.6583 671 L159.2541 673.4042" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M156.85 675.8083 L159.2541 678.2125" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M156.85 675.8083 L152.0416 680.6167" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M152.0416 680.6167 L156.85 685.425" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M152.0416 680.6167 L149.6375 683.0208" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M147.2333 685.425 L148.8083 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M147.2333 685.425 L145.6583 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M161.6583 675.8083 L164 678.15" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M161.6583 675.8083 L156.85 680.6167" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M156.85 680.6167 L161.6583 685.425" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M156.85 680.6167 L154.4458 683.0208" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M152.0416 685.425 L153.6167 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M152.0416 685.425 L150.4666 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M164 678.2749 L161.6583 680.6167" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M161.6583 680.6167 L164 682.9584" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M161.6583 680.6167 L159.2541 683.0208" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M156.85 685.425 L158.425 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M156.85 685.425 L155.2749 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M161.6583 685.425 L163.2333 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M161.6583 685.425 L160.0833 687" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M128 671 L164 671 L164 687 L128 687 Z" stroke="#000000" fill="none" stroke-width="0.9" />
+    <text transform="translate(179 684) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13.5" font-family="Arial, Liberation Sans, sans-serif" textLength="104.4734" lengthAdjust="spacingAndGlyphs">Каркасная стена</text>
+    <circle cx="149" cy="708" r="9" fill="none" stroke="black" stroke-width="0.85" />
+    <text transform="translate(149 711.5) rotate(0) scale(0.76 1)" x="-2.7808" y="0" font-size="10" font-family="Arial, Liberation Sans, sans-serif" textLength="5.5615" lengthAdjust="spacingAndGlyphs">1</text>
+    <text transform="translate(175 713) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13.5" font-family="Arial, Liberation Sans, sans-serif" textLength="235.1228" lengthAdjust="spacingAndGlyphs">–  номер помещения по экспликации.</text>
+    <path d="M149 725 L142 739 L156 739 Z" stroke="#000000" fill="none" stroke-width="0.85" />
+    <text transform="translate(149 736.5) rotate(0) scale(0.76 1)" x="-2.7808" y="0" font-size="10" font-family="Arial, Liberation Sans, sans-serif" textLength="5.5615" lengthAdjust="spacingAndGlyphs">1</text>
+    <text transform="translate(175 738) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13.5" font-family="Arial, Liberation Sans, sans-serif" textLength="144.7427" lengthAdjust="spacingAndGlyphs">–  тип пола по проекту.</text>
+    <circle cx="149" cy="758" r="5.8" fill="none" stroke="black" stroke-width="0.85" />
+    <text transform="translate(149 761.5) rotate(0) scale(0.76 1)" x="-2.7808" y="0" font-size="10" font-family="Arial, Liberation Sans, sans-serif" textLength="5.5615" lengthAdjust="spacingAndGlyphs">1</text>
+    <text transform="translate(175 763) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13.5" font-family="Arial, Liberation Sans, sans-serif" textLength="168.8225" lengthAdjust="spacingAndGlyphs">–  марка двери по проекту.</text>
+    <text transform="translate(141 793) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13.5" font-family="Arial, Liberation Sans, sans-serif" textLength="364.8362" lengthAdjust="spacingAndGlyphs">Л1  –  монолитная лестница, с отм. ±0.000 на отм. +3.300,</text>
+    <text transform="translate(173 810) rotate(0) scale(0.76 1)" x="0" y="0" font-size="13.5" font-family="Arial, Liberation Sans, sans-serif" textLength="216.646" lengthAdjust="spacingAndGlyphs">20 ст. 300х165 мм, см. раздел КЖ.</text>
+  </g>
+  <g data-source-region="Пересчёт по грани выступа и линии крыльца">
+    <text x="580" y="572" fill="#006757" font-size="14" font-family="Arial, sans-serif">№ 12 у главного входа — 6,39535 м² в плане.</text>
+    <text x="580" y="590" fill="#006757" font-size="14" font-family="Arial, sans-serif">№ 13 у ОК-7 снята. 14,144 м² — прежняя проекция, край Фм 1 сохранён.</text>
+    <text x="580" y="608" fill="#006757" font-size="14" font-family="Arial, sans-serif">В исходной АР-7 № 12 подписан «Терраса», № 13 — «Крыльцо».</text>
+    <text x="580" y="626" fill="#006757" font-size="14" font-family="Arial, sans-serif">Помещения и входная площадка вместе — 151,60535 м².</text>
+  </g>
+  <g data-source-region="Первый этаж · решения владельца по гаражу, постирочной зоне и кухне">
+    <text x="580" y="660" fill="#006757" font-size="14" font-family="Arial, sans-serif">Гараж № 11 сохранить по проекту. Проверить парковку Volkswagen Tiguan.</text>
+    <text x="580" y="678" fill="#006757" font-size="14" font-family="Arial, sans-serif">Зимой гараж используется преимущественно для парковки.</text>
+    <text x="580" y="705" fill="#006757" font-size="14" font-family="Arial, sans-serif">На первом этаже у мокрых помещений установить машины в колонну:</text>
+    <text x="580" y="723" fill="#006757" font-size="14" font-family="Arial, sans-serif">стиральная снизу, сушильная сверху. Место установки уточнить при компоновке.</text>
+    <text x="580" y="750" fill="#006757" font-size="14" font-family="Arial, sans-serif">Хранение продуктов и запасов — в шкафах кухни № 2. Отдельной кладовой нет.</text>
+  </g>
+<text x="40.254464285714285" y="933.2232142857142" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.205357142857142" data-print-folio="true">8 / 48</text></svg>

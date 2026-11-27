@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1350 954.6429" data-source-pdf="дом-2 A3.pdf" data-source-page="6" data-source-sha256="e8639d00b1b2a862bf58c810c3158b170445cd161224c78af929f22ccc099556" data-project-sheet="КЖ-1" data-edition="source">
+  <title>КЖ-1 · Общие данные</title>
+  <rect width="100%" height="100%" fill="white" />
+  <g data-source-region="КЖ-1 · рамка, обозначение комплекта и листа">
+    <path d="M68 23 L1308 23 L1308 911 L68 911 Z" stroke="#000000" fill="none" stroke-width="1.1" />
+    <text transform="translate(1291 846) rotate(0) scale(0.76 1)" x="-105.9141" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="105.9141" lengthAdjust="spacingAndGlyphs">62-47AFL*-КЖ</text>
+    <text transform="translate(1291 867) rotate(0) scale(0.76 1)" x="-596.0391" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="596.0391" lengthAdjust="spacingAndGlyphs">Индивидуальный жилой дом. Конструкции железобетонные индивидуального жилого дома</text>
+    <text transform="translate(1291 894) rotate(0) scale(0.76 1)" x="-176.2671" y="0" font-size="17" font-family="Arial, Liberation Sans, sans-serif" textLength="176.2671" lengthAdjust="spacingAndGlyphs">КЖ-1 · Общие данные</text>
+  </g>
+  <g data-source-region="КЖ-1 · ведомость чертежей, левая колонка">
+    <text transform="translate(389.5 59) rotate(0) scale(0.76 1)" x="-197.9727" y="0" font-size="16" font-family="Arial, Liberation Sans, sans-serif" textLength="395.9453" lengthAdjust="spacingAndGlyphs">Ведомость чертежей основного комплекта марки КЖ</text>
+    <path d="M100 69 L100 865" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M148 69 L148 865" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M587 69 L587 865" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M679 69 L679 865" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M100 69 L679 69" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M100 115 L679 115" stroke="#000000" fill="none" stroke-width="1.05" />
+    <path d="M100 865 L679 865" stroke="#000000" fill="none" stroke-width="1.05" />
+    <text transform="translate(124 96.48) rotate(0) scale(0.76 1)" x="-15.21" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="30.4199" lengthAdjust="spacingAndGlyphs">Лист</text>
+    <text transform="translate(367.5 96.48) rotate(0) scale(0.76 1)" x="-48.6035" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="97.207" lengthAdjust="spacingAndGlyphs">Наименование</text>
+    <text transform="translate(633 96.48) rotate(0) scale(0.76 1)" x="-40.749" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="81.498" lengthAdjust="spacingAndGlyphs">Примечание</text>
+    <text transform="translate(124 131.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">1</text>
+    <text transform="translate(154 131.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="99.1895" lengthAdjust="spacingAndGlyphs">Общие данные</text>
+    <path d="M100 140 L679 140" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 156.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">2</text>
+    <text transform="translate(154 156.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="407.5791" lengthAdjust="spacingAndGlyphs">Схема расположения монолитной фундаментной плиты Фм 1.</text>
+    <path d="M100 165 L679 165" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(154 181.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="159.8379" lengthAdjust="spacingAndGlyphs">Опалубка. Армирование</text>
+    <path d="M100 190 L679 190" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 206.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">3</text>
+    <text transform="translate(154 206.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="284.8672" lengthAdjust="spacingAndGlyphs">Фундамент Фм 1. Сечение 1-1, 2-2, 3-3, 4-4.</text>
+    <path d="M100 215 L679 215" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 231.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">4</text>
+    <text transform="translate(154 231.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="285.9746" lengthAdjust="spacingAndGlyphs">Фундамент Фм 1. Ведомость расхода стали</text>
+    <path d="M100 240 L679 240" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 256.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">5</text>
+    <text transform="translate(154 256.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="448.3145" lengthAdjust="spacingAndGlyphs">Схема расположения монолитного крыльца Крм 1, Крм 2. Опалубка.</text>
+    <path d="M100 265 L679 265" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 281.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">6</text>
+    <text transform="translate(154 281.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="483.9434" lengthAdjust="spacingAndGlyphs">Крыльцо Крм 1, Крм 2. Спецификация арматурных изделий и материалов</text>
+    <path d="M100 290 L679 290" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 306.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">7</text>
+    <text transform="translate(154 306.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="294.5879" lengthAdjust="spacingAndGlyphs">Схема расположения плиты Пм 1. Опалубка.</text>
+    <path d="M100 315 L679 315" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 331.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">8</text>
+    <text transform="translate(154 331.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="416.0215" lengthAdjust="spacingAndGlyphs">Плита Пм 1. Спецификация арматурных изделий и материалов</text>
+    <path d="M100 340 L679 340" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 356.98) rotate(0) scale(0.76 1)" x="-3.8931" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="7.7861" lengthAdjust="spacingAndGlyphs">9</text>
+    <text transform="translate(154 356.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="375.5732" lengthAdjust="spacingAndGlyphs">Схема расположения монолитного пояса Мп 1. Опалубка</text>
+    <path d="M100 365 L679 365" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 381.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">10</text>
+    <text transform="translate(154 381.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="375.5732" lengthAdjust="spacingAndGlyphs">Схема расположения монолитного пояса Мп 2. Опалубка</text>
+    <path d="M100 390 L679 390" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 406.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">11</text>
+    <text transform="translate(154 406.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="287.7109" lengthAdjust="spacingAndGlyphs">Схема расположения перемычек 1-го этажа</text>
+    <path d="M100 415 L679 415" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 431.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">12</text>
+    <text transform="translate(154 431.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="287.7109" lengthAdjust="spacingAndGlyphs">Схема расположения перемычек 2-го этажа</text>
+    <path d="M100 440 L679 440" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 456.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">13</text>
+    <text transform="translate(154 456.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="149.7139" lengthAdjust="spacingAndGlyphs">Перемычки ПР-4, ПР-5</text>
+    <path d="M100 465 L679 465" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 481.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">14</text>
+    <text transform="translate(154 481.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="414.8662" lengthAdjust="spacingAndGlyphs">Перемычки. Спецификация арматурных изделий и материалов</text>
+    <path d="M100 490 L679 490" stroke="#000000" fill="none" stroke-width="0.55" />
+    <text transform="translate(124 506.98) rotate(0) scale(0.76 1)" x="-7.7861" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="15.5723" lengthAdjust="spacingAndGlyphs">15</text>
+    <text transform="translate(154 506.98) rotate(0) scale(0.76 1)" x="0" y="0" font-size="14" font-family="Arial, Liberation Sans, sans-serif" textLength="312.7783" lengthAdjust="spacingAndGlyphs">Схема расположения лестницы Лм 1. Опалубка</text>
+    <path d="M100 515 L679 515" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 540 L679 540" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 565 L679 565" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 590 L679 590" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 615 L679 615" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 640 L679 640" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 665 L679 665" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 690 L679 690" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 715 L679 715" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 740 L679 740" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 765 L679 765" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 790 L679 790" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 815 L679 815" stroke="#000000" fill="none" stroke-width="0.55" />
+    <path d="M100 840 L679 840" stroke="#000000" fill="none" stroke-width="0.55" />
+  </g>
+  <g data-source-region="КЖ-1 · общие указания, правая колонка">
+    <text transform="translate(723 68) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="489.7153" lengthAdjust="spacingAndGlyphs">1. Рабочая документация выполнена на основании чертежей марки АР, а также:</text>
+    <text transform="translate(723 83) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="261.8853" lengthAdjust="spacingAndGlyphs">техническим заданием на проектирование;</text>
+    <text transform="translate(723 98) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="613.8691" lengthAdjust="spacingAndGlyphs">национальными стандартами и сводами правил, в результате применения которых на обязательной</text>
+    <text transform="translate(723 113) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="655.3257" lengthAdjust="spacingAndGlyphs">основе обеспечивается соблюдение требований Федерального закона №384-ФЗ ”Технический регламент о</text>
+    <text transform="translate(723 128) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="511.1831" lengthAdjust="spacingAndGlyphs">безопасности зданий и сооружений”, иной нормативно-технической документацией:</text>
+    <text transform="translate(723 143) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="490.5913" lengthAdjust="spacingAndGlyphs">–       №123-ФЗ ”Технический регламент о требованиях пожарной безопасности”;</text>
+    <text transform="translate(723 158) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="604.3667" lengthAdjust="spacingAndGlyphs">–       ГОСТ 27751-2014 Надежность строительных конструкций и оснований. Основные положения;</text>
+    <text transform="translate(723 173) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="293.1538" lengthAdjust="spacingAndGlyphs">–       СП 20.13330.2016 Нагрузки и воздействия;</text>
+    <text transform="translate(723 188) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="348.3657" lengthAdjust="spacingAndGlyphs">–       СП 22.13330.2016 Основания зданий и сооружений;</text>
+    <text transform="translate(723 203) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="432.8467" lengthAdjust="spacingAndGlyphs">–       СП 28.13330.2017 Защита строительных конструкций от коррозии</text>
+    <text transform="translate(723 218) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="542.4771" lengthAdjust="spacingAndGlyphs">–       СП 63.13330.2018 Бетонные и железобетонные конструкции. Основные положения;</text>
+    <text transform="translate(723 233) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="329.4751" lengthAdjust="spacingAndGlyphs">–       СП 131.13330.2025 Строительная климатология;</text>
+    <text transform="translate(723 248) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="444.2217" lengthAdjust="spacingAndGlyphs">–       СП 52-103-2007 Железобетонные монолитные конструкции зданий;</text>
+    <text transform="translate(723 263) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="545.8667" lengthAdjust="spacingAndGlyphs">–       СТО 36554501-006-2006 Правила по обеспечению огнестойкости и огнесохранности</text>
+    <text transform="translate(723 278) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="183.1553" lengthAdjust="spacingAndGlyphs">железобетонных конструкций.</text>
+    <text transform="translate(723 293) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="643.5508" lengthAdjust="spacingAndGlyphs">2. Проектом принят фундамент плитный монолитный из бетона В25 W6 F150, устраиваемый по бетонной</text>
+    <text transform="translate(723 308) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="159.9038" lengthAdjust="spacingAndGlyphs">подготовке из бетона В10.</text>
+    <text transform="translate(723 323) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="190.5693" lengthAdjust="spacingAndGlyphs">3. Гидроизоляция фундамента:</text>
+    <text transform="translate(723 338) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="189.1221" lengthAdjust="spacingAndGlyphs">–       горизонтальная рулонная</text>
+    <text transform="translate(723 353) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="682.2842" lengthAdjust="spacingAndGlyphs">–       вертикальная (всех поверхностей, соприкасающихся с грунтом) обмазочная горячим битумом за два раза,</text>
+    <text transform="translate(723 368) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="351.5269" lengthAdjust="spacingAndGlyphs">либо любым аналогичным гидроизоляционным составом.</text>
+    <text transform="translate(723 383) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="669.1509" lengthAdjust="spacingAndGlyphs">4. По периметру дома устраивается утепленная отмостка с асфальтобетонным покрытием шириной 1000 мм.</text>
+    <text transform="translate(723 398) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="683.3633" lengthAdjust="spacingAndGlyphs">5. Армирование фундаментной плиты ведется сетками из отдельных арматурных стержней Ø12 А500С с шагом</text>
+    <text transform="translate(723 413) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="633.1025" lengthAdjust="spacingAndGlyphs">200 мм в обоих направлениях. Сетка устанавливаются в верхней и нижней зонах фундаментной плиты.</text>
+    <text transform="translate(723 428) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="688.689" lengthAdjust="spacingAndGlyphs">Арматурные стержни объединяются в сетки при помощи вязальной проволоки. Перехлест арматурных стержней</text>
+    <text transform="translate(723 443) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="350.9619" lengthAdjust="spacingAndGlyphs">выполнять в соответствии с деталью стыковки арматуры.</text>
+    <text transform="translate(723 458) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="617.8237" lengthAdjust="spacingAndGlyphs">6. Установка арматуры, расположенной в верхней зоне фундаментной плиты в проектное положение</text>
+    <text transform="translate(723 473) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="446.7163" lengthAdjust="spacingAndGlyphs">осуществляется при помощи стальных фиксаторов типа ”лягушка” поз. 3.</text>
+    <text transform="translate(723 488) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="621.334" lengthAdjust="spacingAndGlyphs">7. Производство опалубочных, арматурных и бетонных работ выполняется согласно требованиям СП</text>
+    <text transform="translate(723 503) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="362.4194" lengthAdjust="spacingAndGlyphs">70.13330.2012 актуализированная версия СНиП 3.03.01-87.</text>
+    <text transform="translate(723 518) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="525.897" lengthAdjust="spacingAndGlyphs">8. Производство земляных и бетонных работ в зимний период осуществлять согласно</text>
+    <text transform="translate(723 533) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="588.8721" lengthAdjust="spacingAndGlyphs">СП 45.13330.2012 актуализированная версия СНиП 3.02.01-97 с учетом следующих требований:</text>
+    <text transform="translate(723 548) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="683.0776" lengthAdjust="spacingAndGlyphs">–       исключить промораживание грунта путем проведения работ заходками (одна заходка равна одной смене),</text>
+    <text transform="translate(723 563) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="508.1235" lengthAdjust="spacingAndGlyphs">после чего укрыть место работ слоем утеплителя (утепляющие засыпки или маты).</text>
+    <text transform="translate(723 578) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="623.416" lengthAdjust="spacingAndGlyphs">–       до температуры -10С бетонирование производить бетоном с противоморозными добавками, при</text>
+    <text transform="translate(723 593) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="452.5244" lengthAdjust="spacingAndGlyphs">температуре ниже 10С бетонирование осуществлять с электропрогревом.</text>
+    <text transform="translate(723 608) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="669.208" lengthAdjust="spacingAndGlyphs">9. Производство земляных работ вести в соответствии с требованиями СП 70.13330.2012 актуализированная</text>
+    <text transform="translate(723 623) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="150.5474" lengthAdjust="spacingAndGlyphs">версия СНиП 3.03.01-87.</text>
+    <text transform="translate(723 638) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="465.4292" lengthAdjust="spacingAndGlyphs">10. Фундамент запроектирован для непучинистых и непросадочных грунтов.</text>
+    <text transform="translate(723 653) rotate(0) scale(0.81 1)" x="0" y="0" font-size="13" font-family="Arial, Liberation Sans, sans-serif" textLength="246.981" lengthAdjust="spacingAndGlyphs">11. Данный лист см. совместно с л.2...15</text>
+  </g>
+<text x="40.254464285714285" y="933.2232142857142" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.205357142857142" data-print-folio="true">29 / 48</text></svg>

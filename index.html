@@ -6,17 +6,27 @@
 <meta name="color-scheme" content="light">
 <title>Дом по слоям · 62–47AFL</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M3 14 16 4l13 10v14H3z' fill='%23243f34'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="./assets/viewer-7f5afb390d2a1327.css">
+<link rel="stylesheet" href="./assets/viewer-2864b7a692f53d4c.css">
 <body class="construction-viewer">
-<header class="topbar"><a href="#model" class="brand"><b>Дом по слоям</b><small>62–47AFL</small></a></header>
-<nav class="tabs" aria-label="Этапы строительства">
- <a href="#model" data-tab="model">Дом в 3D</a>
- <a href="#foundation" data-tab="foundation">Фундамент</a>
- <a href="#masonry" data-tab="masonry">Кладка</a>
- <a href="#slab" data-tab="slab">Перекрытие</a>
- <a href="#roof" data-tab="roof">Крыша</a>
-</nav>
+<header class="workbar">
+ <a class="brand" href="#model"><b>Дом по слоям</b><small>62–47AFL</small></a>
+ <nav aria-label="Этапы строительства" class="stage-nav">
+  <button id="stage-picker" popovertarget="stage-menu"><small>Этап строительства</small><strong id="stage-name">Дом целиком</strong></button>
+  <div id="stage-menu" popover></div>
+ </nav>
+ <div class="work-actions">
+  <div id="home-actions"><button id="home-tour">Румтур</button><button id="home-flight">Свободный полёт</button></div>
+  <a id="back-to-stage" href="#model" hidden>К модели</a>
+  <button id="open-stage-files" hidden>Чертежи и материалы</button>
+  <button popovertarget="catalog-menu" id="catalog-picker">Каталоги</button>
+  <nav id="catalog-menu" popover aria-label="Каталоги проекта">
+   <button id="stage-ledger-entry" hidden>Материалы этапа</button><a href="#sheets">Все чертежи</a><button data-material-ledger="">Все материалы</button>
+   <a href="#materials">Проектные ведомости</a><a href="#services">Закладные</a><a href="#audit">Проверка проекта</a>
+   <button data-print-foundation>Комплект Фм 1 · PDF</button>
+  </nav>
+ </div>
+</header>
 <div id="pages-mount" aria-busy="true"><p class="workspace-loading" role="status">Загрузка просмотрщика…</p></div>
-<script type="module" src="./assets/boot-0ecd4340628d246b.js"></script>
+<script type="module" src="./assets/boot-7002a5085fce3f7c.js"></script>
 </body>
 </html>
